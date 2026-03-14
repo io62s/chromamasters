@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { toast } from "sonner";
 import { ColorSwatch } from "@/components/color-swatch";
@@ -25,6 +25,48 @@ import { paintings } from "@/lib/data";
 import type { Color, Painting } from "@/lib/types";
 
 type RefineState = "off" | "selecting" | "done";
+
+const SK_IMAGE = "chromamasters-extract-image";
+const SK_PALETTE = "chromamasters-extract-palette";
+const SK_COLORS = "chromamasters-extract-colorcount";
+
+function saveToSession(imageDataUrl: string, palette: Color[], colorCount: number) {
+  try {
+    sessionStorage.setItem(SK_IMAGE, imageDataUrl);
+    sessionStorage.setItem(SK_PALETTE, JSON.stringify(palette));
+    sessionStorage.setItem(SK_COLORS, String(colorCount));
+  } catch {
+    // storage full or disabled — silently ignore
+  }
+}
+
+function clearSession() {
+  try {
+    sessionStorage.removeItem(SK_IMAGE);
+    sessionStorage.removeItem(SK_PALETTE);
+    sessionStorage.removeItem(SK_COLORS);
+  } catch {
+    // ignore
+  }
+}
+
+function loadFromSession(): { image: string; palette: Color[]; colorCount: number } | null {
+  try {
+    const image = sessionStorage.getItem(SK_IMAGE);
+    const palette = sessionStorage.getItem(SK_PALETTE);
+    const colorCount = sessionStorage.getItem(SK_COLORS);
+    if (image && palette) {
+      return {
+        image,
+        palette: JSON.parse(palette),
+        colorCount: colorCount ? parseInt(colorCount) : 8,
+      };
+    }
+  } catch {
+    // ignore
+  }
+  return null;
+}
 
 export function ExtractView() {
   // Image state
@@ -58,6 +100,32 @@ export function ExtractView() {
   // Export dropdown
   const [exportOpen, setExportOpen] = useState(false);
 
+  // ── Restore from sessionStorage on mount ────────────────────────
+
+  useEffect(() => {
+    const saved = loadFromSession();
+    if (!saved) return;
+
+    setImageUrl(saved.image);
+    setExtractedColors(saved.palette);
+    setNumColors(saved.colorCount);
+
+    // Rebuild canvas from the saved data URL so exports/refine still work
+    const img = new window.Image();
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = img.width;
+      canvas.height = img.height;
+      canvas.getContext("2d")!.drawImage(img, 0, 0);
+      canvasRef.current = canvas;
+    };
+    img.src = saved.image;
+
+    // Recompute similar paintings
+    const matches = findSimilarPalettes(saved.palette, paintings, 5);
+    setSimilarPaintings(matches);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   // ── File handling ─────────────────────────────────────────────────
 
   const processFile = useCallback(
@@ -80,7 +148,8 @@ export function ExtractView() {
         canvasRef.current = canvas;
 
         // Display preview
-        setImageUrl(URL.createObjectURL(file));
+        const dataUrl = canvas.toDataURL("image/jpeg", 0.8);
+        setImageUrl(dataUrl);
 
         // Run extraction (defer to next frame so loading indicator shows)
         await new Promise((r) => setTimeout(r, 50));
@@ -90,6 +159,9 @@ export function ExtractView() {
         // Find similar paintings
         const matches = findSimilarPalettes(colors, paintings, 5);
         setSimilarPaintings(matches);
+
+        // Persist to sessionStorage
+        saveToSession(dataUrl, colors, numColors);
       } catch {
         toast.error("Failed to process image. Please try another file.");
       } finally {
@@ -130,6 +202,9 @@ export function ExtractView() {
       const matches = findSimilarPalettes(colors, paintings, 5);
       setSimilarPaintings(matches);
       setProcessing(false);
+
+      // Update sessionStorage with new palette/count
+      if (imageUrl) saveToSession(imageUrl, colors, count);
     });
   }
 
@@ -372,6 +447,7 @@ export function ExtractView() {
                 canvasRef.current = null;
                 setRefineState("off");
                 setRegionRect(null);
+                clearSession();
               }}
               className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
             >
