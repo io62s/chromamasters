@@ -42,7 +42,7 @@
     "period": "19th Century",
     "yearStart": 1840,
     "yearEnd": 1900,
-    "description": "Realism rejected the idealization and drama of Romanticism in favor of depicting ordinary life with unflinching honesty. Realist painters portrayed peasants, laborers, and everyday scenes with the same gravity previously reserved for history painting. Their palettes were often muted and earthy, grounded in the actual colors of the natural and social world they documented."
+    "description": "Realism rejected the idealization and drama of Romanticism in favor of depicting ordinary life with unflinching honesty. Realist painters portrayed peasants, laborers, and everyday scenes with the same gravity previously reserved for history painting. As the movement matured, its scope broadened to include social portraiture — artists like Sargent and Zorn brought Realist observation to the drawing rooms and stages of the upper classes, documenting society with the same directness Courbet brought to stone breakers. Their palettes ranged from muted earth tones to the luminous flesh tones of portraiture, always grounded in the actual colors of the world they observed."
   },
   {
     "id": "impressionism",
@@ -70,5 +70,32 @@
     "yearStart": 1890,
     "yearEnd": 1910,
     "description": "Art Nouveau dissolved the boundary between fine and decorative art, creating a total aesthetic characterized by sinuous organic lines, floral motifs, and an embrace of new materials and techniques. Its painters and illustrators used flowing contours, flat areas of saturated color, and ornamental patterns inspired by Japanese prints, Celtic art, and the natural world to create images of dreamlike beauty."
+  },
+  {
+    "id": "symbolism",
+    "slug": "symbolism",
+    "name": "Symbolism",
+    "period": "19th Century",
+    "yearStart": 1880,
+    "yearEnd": 1910,
+    "description": "Symbolism arose as a revolt against Naturalism and Realism, seeking to express the inner life of the mind through myth, dreams, and allegory. Symbolist painters rejected the visible world in favor of visions conjured from imagination and literature, using rich, often mysterious palettes — deep jewel tones, iridescent lusters, and shadowy half-lights — to evoke states of ecstasy, melancholy, and spiritual longing."
+  },
+  {
+    "id": "expressionism",
+    "slug": "expressionism",
+    "name": "Expressionism",
+    "period": "Modern",
+    "yearStart": 1905,
+    "yearEnd": 1930,
+    "description": "Expressionism prioritized raw emotional intensity over faithful representation, distorting form and color to externalize inner psychological states. Artists used jagged lines, flattened perspectives, and violently clashing hues to convey anxiety, alienation, and ecstatic experience. Their palettes were deliberately anti-naturalistic — acid greens, livid reds, and searing yellows deployed not to describe what things looked like, but how they felt."
+  },
+  {
+    "id": "fauvism",
+    "slug": "fauvism",
+    "name": "Fauvism",
+    "period": "Modern",
+    "yearStart": 1904,
+    "yearEnd": 1908,
+    "description": "Fauvism, named after critics called its practitioners 'les fauves' (wild beasts), was the first major avant-garde movement of the twentieth century. The Fauves liberated color entirely from its descriptive function, painting trees in orange, skies in green, and faces in vermilion. Their palettes were explosively saturated, using pure pigments straight from the tube in bold, flat patches that prioritized chromatic harmony and emotional impact over naturalistic accuracy."
   }
 ]

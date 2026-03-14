@@ -5,6 +5,9 @@ import realismData from "@/data/paintings-realism.json";
 import postImpData from "@/data/paintings-post-impressionism.json";
 import artNouveauData from "@/data/paintings-art-nouveau.json";
 import preRaphData from "@/data/paintings-pre-raphaelite.json";
+import symbolismData from "@/data/paintings-symbolism.json";
+import expressionismData from "@/data/paintings-expressionism.json";
+import fauvismData from "@/data/paintings-fauvism.json";
 import type { Movement, Painting, Period } from "./types";
 
 export const movements: Movement[] = movementsData as Movement[];
@@ -15,6 +18,9 @@ export const paintings: Painting[] = [
   ...postImpData,
   ...artNouveauData,
   ...preRaphData,
+  ...symbolismData,
+  ...expressionismData,
+  ...fauvismData,
 ] as Painting[];
 
 export function getMovement(slug: string): Movement | undefined {

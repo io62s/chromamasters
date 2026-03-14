@@ -23,6 +23,121 @@
     ]
   },
   {
+    "id": "titian-bacchus-and-ariadne",
+    "title": "Bacchus and Ariadne",
+    "artist": "Titian",
+    "year": 1523,
+    "medium": "Oil on canvas",
+    "dimensions": "176.5 cm × 191 cm",
+    "location": "National Gallery, London",
+    "description": "Titian's exuberant mythological painting captures the moment Bacchus leaps from his chariot toward the startled Ariadne, who has been abandoned on Naxos by Theseus. The composition explodes with movement and color — Bacchus's billowing crimson cloak, the brilliant ultramarine sky, and the riotous procession of satyrs and maenads create one of the most chromatically daring works of the Renaissance.",
+    "image": "/paintings/titian-bacchus-and-ariadne.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "renaissance",
+    "colors": [
+      { "hex": "#2A5FAA", "name": "Ultramarine Sky", "role": "dominant" },
+      { "hex": "#C83828", "name": "Bacchus Crimson", "role": "accent" },
+      { "hex": "#5A8A3A", "name": "Naxos Green", "role": "midtone" },
+      { "hex": "#E8D0A0", "name": "Sunlit Flesh", "role": "highlight" },
+      { "hex": "#D4A050", "name": "Chariot Gold", "role": "accent" },
+      { "hex": "#3A5A2A", "name": "Vine Shadow", "role": "shadow" },
+      { "hex": "#8A7A5A", "name": "Sandy Earth", "role": "midtone" },
+      { "hex": "#F0E0C8", "name": "Ariadne's Veil", "role": "highlight" }
+    ]
+  },
+  {
+    "id": "titian-venus-of-urbino",
+    "title": "Venus of Urbino",
+    "artist": "Titian",
+    "year": 1538,
+    "medium": "Oil on canvas",
+    "dimensions": "119.2 cm × 165.5 cm",
+    "location": "Uffizi Gallery, Florence",
+    "description": "Titian's sensuous reclining nude gazes directly at the viewer with confident self-possession, holding a posy of roses in one hand. The warm, luminous flesh tones are set against rich fabrics — rumpled white sheets, a deep green curtain, and a rose-patterned couch. The domestic background with servants searching a cassone grounds the mythological subject in the intimacy of a Venetian palazzo.",
+    "image": "/paintings/titian-venus-of-urbino.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "renaissance",
+    "colors": [
+      { "hex": "#E8C8A0", "name": "Venus Flesh", "role": "dominant" },
+      { "hex": "#3A5A3A", "name": "Curtain Emerald", "role": "accent" },
+      { "hex": "#8B2A1A", "name": "Damask Red", "role": "accent" },
+      { "hex": "#F0E4D0", "name": "Sheet White", "role": "highlight" },
+      { "hex": "#4A3A2A", "name": "Chamber Shadow", "role": "shadow" },
+      { "hex": "#C4A478", "name": "Golden Skin", "role": "midtone" },
+      { "hex": "#6A5A4A", "name": "Palazzo Umber", "role": "midtone" },
+      { "hex": "#D4A88A", "name": "Rose Warmth", "role": "highlight" }
+    ]
+  },
+  {
+    "id": "giorgione-the-tempest",
+    "title": "The Tempest",
+    "artist": "Giorgione",
+    "year": 1508,
+    "medium": "Oil on canvas",
+    "dimensions": "82 cm × 73 cm",
+    "location": "Gallerie dell'Accademia, Venice",
+    "description": "One of the most enigmatic paintings in Western art, The Tempest depicts a soldier and a nursing woman in a lush landscape as a bolt of lightning splits a stormy sky above a distant town. No convincing interpretation of the subject has ever been agreed upon, yet the painting's atmospheric unity — the way light, color, and mood merge into a single poetic vision — marks it as a revolutionary moment in the history of landscape painting.",
+    "image": "/paintings/giorgione-the-tempest.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "renaissance",
+    "colors": [
+      { "hex": "#4A6A3A", "name": "Storm Foliage", "role": "dominant" },
+      { "hex": "#6A8A7A", "name": "Venetian Green", "role": "midtone" },
+      { "hex": "#2A3A2A", "name": "Deep Canopy", "role": "shadow" },
+      { "hex": "#C8B888", "name": "Lightning Glow", "role": "highlight" },
+      { "hex": "#5A7AAA", "name": "Stormy Blue", "role": "accent" },
+      { "hex": "#8A7A5A", "name": "River Bank", "role": "midtone" },
+      { "hex": "#D4C4A0", "name": "Distant Town", "role": "highlight" },
+      { "hex": "#8A4A3A", "name": "Soldier's Cloak", "role": "accent" }
+    ]
+  },
+  {
+    "id": "tintoretto-last-supper",
+    "title": "The Last Supper",
+    "artist": "Tintoretto",
+    "year": 1594,
+    "medium": "Oil on canvas",
+    "dimensions": "365 cm × 568 cm",
+    "location": "San Giorgio Maggiore, Venice",
+    "description": "Tintoretto's visionary reimagining of the Last Supper transforms the traditional scene into a supernatural drama. The table recedes diagonally into deep space, lit by a single oil lamp whose smoke erupts into luminous angels. Christ distributes communion at the center while servants bustle in the foreground, blending the mundane with the miraculous in a composition of extraordinary dynamic energy.",
+    "image": "/paintings/tintoretto-last-supper.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "renaissance",
+    "colors": [
+      { "hex": "#1A1A0E", "name": "Sacred Darkness", "role": "shadow" },
+      { "hex": "#D4A840", "name": "Lamplight Gold", "role": "highlight" },
+      { "hex": "#4A3A1A", "name": "Tavern Shadow", "role": "dominant" },
+      { "hex": "#E8C870", "name": "Halo Glow", "role": "highlight" },
+      { "hex": "#8A3A2A", "name": "Apostle Red", "role": "accent" },
+      { "hex": "#6A5A3A", "name": "Table Wood", "role": "midtone" },
+      { "hex": "#3A6A5A", "name": "Deep Teal", "role": "accent" },
+      { "hex": "#A88A5A", "name": "Warm Ochre", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "veronese-wedding-at-cana",
+    "title": "The Wedding at Cana",
+    "artist": "Paolo Veronese",
+    "year": 1563,
+    "medium": "Oil on canvas",
+    "dimensions": "677 cm × 994 cm",
+    "location": "Musée du Louvre, Paris",
+    "description": "The largest painting in the Louvre, Veronese's monumental canvas depicts the biblical miracle of Christ turning water into wine at a lavish Venetian-style feast. Over 130 figures populate the scene, including portraits of contemporary artists and monarchs dressed in sumptuous silks and brocades. The architectural grandeur, brilliant color harmonies, and festive atmosphere make it a celebration of Venetian splendor.",
+    "image": "/paintings/veronese-wedding-at-cana.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "renaissance",
+    "colors": [
+      { "hex": "#88AAC8", "name": "Venetian Sky", "role": "highlight" },
+      { "hex": "#C83828", "name": "Brocade Crimson", "role": "accent" },
+      { "hex": "#D4B888", "name": "Marble Column", "role": "dominant" },
+      { "hex": "#2A5A3A", "name": "Silk Emerald", "role": "accent" },
+      { "hex": "#E8D4B0", "name": "Feast Light", "role": "highlight" },
+      { "hex": "#6A5A4A", "name": "Palazzo Stone", "role": "midtone" },
+      { "hex": "#4A3A5A", "name": "Royal Purple", "role": "shadow" },
+      { "hex": "#A8946A", "name": "Golden Damask", "role": "midtone" }
+    ]
+  },
+  {
     "id": "birth-of-venus",
     "title": "The Birth of Venus",
     "artist": "Sandro Botticelli",
@@ -66,29 +181,6 @@
       { "hex": "#9A8A6A", "name": "Sandstone", "role": "midtone" },
       { "hex": "#6A8A5A", "name": "Laurel Olive", "role": "midtone" },
       { "hex": "#D4A04A", "name": "Ochre Sunlight", "role": "highlight" }
-    ]
-  },
-  {
-    "id": "girl-with-pearl-earring",
-    "title": "Girl with a Pearl Earring",
-    "artist": "Johannes Vermeer",
-    "year": 1665,
-    "medium": "Oil on canvas",
-    "dimensions": "44.5 cm × 39 cm",
-    "location": "Mauritshuis, The Hague",
-    "description": "Often called the 'Mona Lisa of the North,' Vermeer's intimate portrait captures a young woman in a moment of turning, her luminous pearl earring catching the light. The painting's power lies in its simplicity — a dark background, a striking blue and gold turban, and the girl's captivating, ambiguous gaze.",
-    "image": "/paintings/girl-with-pearl-earring.jpg",
-    "imageCredit": "Wikimedia Commons, Public Domain",
-    "movementId": "renaissance",
-    "colors": [
-      { "hex": "#1A1A1E", "name": "Velvet Night", "role": "shadow" },
-      { "hex": "#2E5B88", "name": "Delft Blue", "role": "accent" },
-      { "hex": "#D4B896", "name": "Pearl Lustre", "role": "highlight" },
-      { "hex": "#C8A43E", "name": "Earring Gold", "role": "accent" },
-      { "hex": "#8B7B6B", "name": "Dutch Umber", "role": "midtone" },
-      { "hex": "#4A4A48", "name": "Charcoal Depth", "role": "dominant" },
-      { "hex": "#E8D4B8", "name": "Skin Glow", "role": "highlight" },
-      { "hex": "#6B5B4A", "name": "Warm Shadow", "role": "midtone" }
     ]
   },
   {
@@ -342,6 +434,121 @@
       { "hex": "#6A7A5A", "name": "Riverside Olive", "role": "midtone" },
       { "hex": "#A88A6A", "name": "Straw Weave", "role": "midtone" },
       { "hex": "#F0E0C8", "name": "Tablecloth Cream", "role": "highlight" }
+    ]
+  },
+  {
+    "id": "monet-rouen-cathedral",
+    "title": "Rouen Cathedral, West Façade, Sunlight",
+    "artist": "Claude Monet",
+    "year": 1894,
+    "medium": "Oil on canvas",
+    "dimensions": "100.1 cm × 65.8 cm",
+    "location": "National Gallery of Art, Washington, D.C.",
+    "description": "Part of Monet's extraordinary series of over thirty paintings of Rouen Cathedral, this canvas captures the west façade dissolved in afternoon sunlight. The Gothic architecture becomes almost abstract, its stone surface transformed into a shimmering mosaic of warm golds, blues, and violets. The thick impasto surface seems to vibrate with light, demonstrating Monet's conviction that the true subject of painting is light itself.",
+    "image": "/paintings/monet-rouen-cathedral.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "impressionism",
+    "colors": [
+      { "hex": "#C8A868", "name": "Sunlit Stone", "role": "dominant" },
+      { "hex": "#8A8AAA", "name": "Cathedral Blue", "role": "midtone" },
+      { "hex": "#E8D498", "name": "Afternoon Gold", "role": "highlight" },
+      { "hex": "#6A6A8A", "name": "Gothic Shadow", "role": "shadow" },
+      { "hex": "#D4B880", "name": "Warm Façade", "role": "midtone" },
+      { "hex": "#9A7A5A", "name": "Carved Ochre", "role": "accent" },
+      { "hex": "#7A7AA0", "name": "Violet Haze", "role": "accent" },
+      { "hex": "#F0E0B8", "name": "Buttress Light", "role": "highlight" }
+    ]
+  },
+  {
+    "id": "monet-haystacks",
+    "title": "Haystacks (End of Summer)",
+    "artist": "Claude Monet",
+    "year": 1891,
+    "medium": "Oil on canvas",
+    "dimensions": "60 cm × 100 cm",
+    "location": "Musée d'Orsay, Paris",
+    "description": "Monet's Haystacks series marked a turning point in modern art — the same humble subject painted over and over in different light and weather conditions. This late-summer version glows with warm oranges and deep violets as the setting sun saturates the conical stacks and their long shadows. The painting proved that subject matter was secondary to the act of seeing.",
+    "image": "/paintings/monet-haystacks.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "impressionism",
+    "colors": [
+      { "hex": "#C87830", "name": "Haystack Amber", "role": "dominant" },
+      { "hex": "#6A5A8A", "name": "Twilight Violet", "role": "accent" },
+      { "hex": "#E8A848", "name": "Sunset Gold", "role": "highlight" },
+      { "hex": "#4A6A3A", "name": "Field Green", "role": "midtone" },
+      { "hex": "#8A6A3A", "name": "Warm Earth", "role": "midtone" },
+      { "hex": "#3A3A5A", "name": "Long Shadow", "role": "shadow" },
+      { "hex": "#D4A060", "name": "Straw Light", "role": "highlight" },
+      { "hex": "#5A8A6A", "name": "Distant Meadow", "role": "accent" }
+    ]
+  },
+  {
+    "id": "degas-dance-class",
+    "title": "The Dance Class",
+    "artist": "Edgar Degas",
+    "year": 1874,
+    "medium": "Oil on canvas",
+    "dimensions": "85 cm × 75 cm",
+    "location": "Musée d'Orsay, Paris",
+    "description": "Degas's intimate glimpse into a ballet rehearsal at the Paris Opéra shows young dancers practicing under the watchful eye of the elderly ballet master Jules Perrot. The off-center composition, cropped figures, and elevated viewpoint reveal Degas's fascination with Japanese prints and photography. The soft greens and warm wood tones of the studio contrast with the bright whites of the dancers' tutus.",
+    "image": "/paintings/degas-dance-class.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "impressionism",
+    "colors": [
+      { "hex": "#C8B898", "name": "Studio Wall", "role": "dominant" },
+      { "hex": "#5A8A6A", "name": "Rehearsal Green", "role": "accent" },
+      { "hex": "#F0E8D8", "name": "Tutu White", "role": "highlight" },
+      { "hex": "#8A6A4A", "name": "Parquet Floor", "role": "midtone" },
+      { "hex": "#4A4A3A", "name": "Perrot's Coat", "role": "shadow" },
+      { "hex": "#D4C4A8", "name": "Daylight Warm", "role": "highlight" },
+      { "hex": "#A89878", "name": "Rosin Dust", "role": "midtone" },
+      { "hex": "#6A5A4A", "name": "Barre Shadow", "role": "accent" }
+    ]
+  },
+  {
+    "id": "morisot-the-cradle",
+    "title": "The Cradle",
+    "artist": "Berthe Morisot",
+    "year": 1872,
+    "medium": "Oil on canvas",
+    "dimensions": "56 cm × 46 cm",
+    "location": "Musée d'Orsay, Paris",
+    "description": "Exhibited at the first Impressionist exhibition in 1874, Morisot's tender painting shows her sister Edma watching over her sleeping infant through a translucent curtain. The delicate interplay of whites — the gauze veil, the baby's dress, the pillow — against the dark dress and hair of the mother creates a study in intimacy and maternal devotion. It was the first painting by a woman shown in an Impressionist exhibition.",
+    "image": "/paintings/morisot-the-cradle.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "impressionism",
+    "colors": [
+      { "hex": "#2A2A2A", "name": "Mother's Dress", "role": "dominant" },
+      { "hex": "#E8E0D8", "name": "Gauze Veil", "role": "highlight" },
+      { "hex": "#8A7A6A", "name": "Warm Shadow", "role": "midtone" },
+      { "hex": "#C4B8A8", "name": "Linen Soft", "role": "midtone" },
+      { "hex": "#5A7A8A", "name": "Quiet Blue", "role": "accent" },
+      { "hex": "#F0EAE0", "name": "Infant White", "role": "highlight" },
+      { "hex": "#4A3A3A", "name": "Hair Dark", "role": "shadow" },
+      { "hex": "#A08A7A", "name": "Cradle Wood", "role": "accent" }
+    ]
+  },
+  {
+    "id": "sisley-snow-louveciennes",
+    "title": "Snow at Louveciennes",
+    "artist": "Alfred Sisley",
+    "year": 1878,
+    "medium": "Oil on canvas",
+    "dimensions": "61 cm × 50.5 cm",
+    "location": "Musée d'Orsay, Paris",
+    "description": "Sisley was the purest landscape painter among the Impressionists, and his snow scenes are among his finest achievements. This view of a quiet road in Louveciennes captures the muffled stillness of a winter day, with soft blues and lavenders in the snow shadows contrasting with the warm ochres of the stone walls. A solitary figure walks toward us, adding a note of human scale to the hushed landscape.",
+    "image": "/paintings/sisley-snow-louveciennes.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "impressionism",
+    "colors": [
+      { "hex": "#D8D8E0", "name": "Fresh Snow", "role": "dominant" },
+      { "hex": "#8A8AAA", "name": "Snow Shadow", "role": "midtone" },
+      { "hex": "#A89868", "name": "Stone Wall", "role": "accent" },
+      { "hex": "#6A7A8A", "name": "Winter Sky", "role": "midtone" },
+      { "hex": "#4A4A5A", "name": "Bare Branch", "role": "shadow" },
+      { "hex": "#E8E0D0", "name": "Overcast Light", "role": "highlight" },
+      { "hex": "#7A6A5A", "name": "Frozen Earth", "role": "accent" },
+      { "hex": "#C0C8D8", "name": "Lavender Ice", "role": "highlight" }
     ]
   }
 ]

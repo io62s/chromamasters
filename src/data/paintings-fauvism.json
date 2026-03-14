@@ -1,0 +1,163 @@
+[
+  {
+    "id": "matisse-woman-with-a-hat",
+    "title": "Woman with a Hat",
+    "artist": "Henri Matisse",
+    "year": 1905,
+    "medium": "Oil on canvas",
+    "dimensions": "80.6 cm × 59.7 cm",
+    "location": "San Francisco Museum of Modern Art",
+    "description": "The painting that launched Fauvism and scandalized the 1905 Salon d'Automne, this portrait of Matisse's wife Amélie uses seemingly arbitrary patches of vivid green, violet, and orange across her face and hat. The canvas is a manifesto of pure color freed from descriptive duty — the green shadow on her nose and red streak across her forehead declaring that color could express light and form without imitating nature.",
+    "image": "/paintings/matisse-woman-with-a-hat.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "fauvism",
+    "colors": [
+      { "hex": "#3A8A5A", "name": "Fauvist Green", "role": "accent" },
+      { "hex": "#C84838", "name": "Vermilion Stroke", "role": "dominant" },
+      { "hex": "#E8C870", "name": "Hat Gold", "role": "highlight" },
+      { "hex": "#6A4A8A", "name": "Wild Violet", "role": "accent" },
+      { "hex": "#D4A070", "name": "Flesh Ochre", "role": "midtone" },
+      { "hex": "#2A3A5A", "name": "Dress Navy", "role": "shadow" },
+      { "hex": "#E8A868", "name": "Orange Glow", "role": "highlight" },
+      { "hex": "#5A6A4A", "name": "Olive Shadow", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "matisse-joy-of-life",
+    "title": "The Joy of Life",
+    "artist": "Henri Matisse",
+    "year": 1906,
+    "medium": "Oil on canvas",
+    "dimensions": "176.5 cm × 240.7 cm",
+    "location": "Barnes Foundation, Philadelphia",
+    "description": "Matisse's monumental pastoral depicts nude figures lounging, dancing, and making music in an Arcadian landscape of impossible colors — pink trees, yellow grass, lavender sky. The sinuous contours and flat, saturated color planes anticipate his later paper cut-outs. Picasso was so provoked by this painting that he responded with Les Demoiselles d'Avignon, making it arguably the most consequential canvas of the early twentieth century.",
+    "image": "/paintings/matisse-joy-of-life.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "fauvism",
+    "colors": [
+      { "hex": "#E8C848", "name": "Golden Meadow", "role": "dominant" },
+      { "hex": "#D86848", "name": "Flesh Pink", "role": "accent" },
+      { "hex": "#4A8A6A", "name": "Arcadian Green", "role": "midtone" },
+      { "hex": "#8A7AAA", "name": "Lavender Sky", "role": "highlight" },
+      { "hex": "#C87A9A", "name": "Rose Tree", "role": "accent" },
+      { "hex": "#6AA848", "name": "Vivid Leaf", "role": "midtone" },
+      { "hex": "#F0E0A8", "name": "Warm Light", "role": "highlight" },
+      { "hex": "#3A5A4A", "name": "Deep Shade", "role": "shadow" }
+    ]
+  },
+  {
+    "id": "matisse-harmony-in-red",
+    "title": "Harmony in Red",
+    "artist": "Henri Matisse",
+    "year": 1908,
+    "medium": "Oil on canvas",
+    "dimensions": "180 cm × 220 cm",
+    "location": "Hermitage Museum, Saint Petersburg",
+    "description": "Originally painted as 'Harmony in Blue' and then repainted, this monumental canvas dissolves the distinction between wall and table into a single saturated red field animated by blue arabesque patterns. A window at the left reveals a green and yellow landscape, but the real subject is the sheer enveloping power of a single color. It remains one of the most radical demonstrations of color as spatial experience.",
+    "image": "/paintings/matisse-harmony-in-red.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "fauvism",
+    "colors": [
+      { "hex": "#C82828", "name": "Total Red", "role": "dominant" },
+      { "hex": "#2848A8", "name": "Arabesque Blue", "role": "accent" },
+      { "hex": "#4A8A3A", "name": "Window Green", "role": "accent" },
+      { "hex": "#E8C848", "name": "Landscape Gold", "role": "highlight" },
+      { "hex": "#F0E0B0", "name": "Fruit Light", "role": "highlight" },
+      { "hex": "#8A2020", "name": "Deep Crimson", "role": "shadow" },
+      { "hex": "#6A3A1A", "name": "Table Umber", "role": "midtone" },
+      { "hex": "#A84040", "name": "Warm Scarlet", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "derain-the-turning-road",
+    "title": "The Turning Road, L'Estaque",
+    "artist": "André Derain",
+    "year": 1906,
+    "medium": "Oil on canvas",
+    "dimensions": "129.5 cm × 195 cm",
+    "location": "Museum of Fine Arts, Houston",
+    "description": "A winding road curves through a sun-drenched Provençal landscape rendered in bold, flat patches of unmixed pigment. Trees explode in vivid reds and oranges, the road glows with lavender and pink, and the sky is a mosaic of blue and green strokes. Small figures walk along the path, dwarfed by the sheer chromatic energy of the landscape around them. It is one of the largest and most ambitious Fauvist canvases ever painted.",
+    "image": "/paintings/derain-the-turning-road.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "fauvism",
+    "colors": [
+      { "hex": "#D85828", "name": "Flame Tree", "role": "dominant" },
+      { "hex": "#3A8ACA", "name": "Provençal Blue", "role": "accent" },
+      { "hex": "#E8C838", "name": "Sunlit Road", "role": "highlight" },
+      { "hex": "#4AA84A", "name": "Vivid Foliage", "role": "accent" },
+      { "hex": "#C87AA0", "name": "Lavender Path", "role": "midtone" },
+      { "hex": "#2A5A3A", "name": "Deep Shade", "role": "shadow" },
+      { "hex": "#F0D868", "name": "Warm Glow", "role": "highlight" },
+      { "hex": "#8A6A4A", "name": "Earth Ochre", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "derain-mountains-at-collioure",
+    "title": "Mountains at Collioure",
+    "artist": "André Derain",
+    "year": 1905,
+    "medium": "Oil on canvas",
+    "dimensions": "81.3 cm × 100.3 cm",
+    "location": "National Gallery of Art, Washington, D.C.",
+    "description": "Painted during the legendary summer Derain spent with Matisse at the Mediterranean fishing village of Collioure, this landscape dissolves the hills into bold patches of unmixed color — violet shadows, orange earth, turquoise sky. Each brushstroke is a separate declaration of pure pigment, creating a mosaic of color that vibrates with the blinding light of the Midi.",
+    "image": "/paintings/derain-mountains-collioure.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "fauvism",
+    "colors": [
+      { "hex": "#7B48C8", "name": "Mountain Violet", "role": "dominant" },
+      { "hex": "#E86820", "name": "Midi Orange", "role": "accent" },
+      { "hex": "#18A8D8", "name": "Turquoise Sky", "role": "accent" },
+      { "hex": "#48B838", "name": "Vivid Hill", "role": "midtone" },
+      { "hex": "#F0D030", "name": "Sunbaked Yellow", "role": "highlight" },
+      { "hex": "#3828A0", "name": "Indigo Shadow", "role": "shadow" },
+      { "hex": "#E85040", "name": "Hot Terracotta", "role": "midtone" },
+      { "hex": "#F8E878", "name": "Blazing Light", "role": "highlight" }
+    ]
+  },
+  {
+    "id": "matisse-goldfish",
+    "title": "Goldfish",
+    "artist": "Henri Matisse",
+    "year": 1912,
+    "medium": "Oil on canvas",
+    "dimensions": "146 cm × 97 cm",
+    "location": "Pushkin Museum, Moscow",
+    "description": "A glass bowl of bright orange goldfish sits at the center of a lush, densely patterned interior garden scene. The fish glow like embers against the surrounding greens, pinks, and purples of trailing plants and flowers. Matisse was fascinated by goldfish after seeing them in Morocco, finding in their languid circling a model for the contemplative calm he sought in his art. The painting is a masterclass in complementary color — the orange fish electrified by the surrounding greens.",
+    "image": "/paintings/matisse-goldfish.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "fauvism",
+    "colors": [
+      { "hex": "#E86828", "name": "Goldfish Orange", "role": "dominant" },
+      { "hex": "#2A8A48", "name": "Garden Green", "role": "accent" },
+      { "hex": "#D85878", "name": "Flower Pink", "role": "accent" },
+      { "hex": "#3A6A3A", "name": "Deep Foliage", "role": "shadow" },
+      { "hex": "#F0C848", "name": "Warm Glow", "role": "highlight" },
+      { "hex": "#7A5A9A", "name": "Violet Leaf", "role": "midtone" },
+      { "hex": "#88C0A0", "name": "Water Green", "role": "midtone" },
+      { "hex": "#F0E8D0", "name": "Table Light", "role": "highlight" }
+    ]
+  },
+  {
+    "id": "matisse-open-window-collioure",
+    "title": "Open Window, Collioure",
+    "artist": "Henri Matisse",
+    "year": 1905,
+    "medium": "Oil on canvas",
+    "dimensions": "55.3 cm × 46 cm",
+    "location": "National Gallery of Art, Washington, D.C.",
+    "description": "One of the key paintings of the Fauvist revolution, this small canvas frames the view from Matisse's hotel room through an open window onto the harbor of Collioure. The window frame, walls, and flower pots are rendered in vivid pinks, greens, and violets, while the boats and water beyond shimmer with broken strokes of pure color. The painting is a doorway between the interior world of the artist and the blazing Mediterranean light outside.",
+    "image": "/paintings/matisse-open-window-collioure.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "fauvism",
+    "colors": [
+      { "hex": "#D87878", "name": "Wall Pink", "role": "dominant" },
+      { "hex": "#4A9A5A", "name": "Shutter Green", "role": "accent" },
+      { "hex": "#5A7AAA", "name": "Harbor Blue", "role": "midtone" },
+      { "hex": "#E8A868", "name": "Warm Terracotta", "role": "highlight" },
+      { "hex": "#8A5A8A", "name": "Violet Frame", "role": "accent" },
+      { "hex": "#3A5A5A", "name": "Sea Deep", "role": "shadow" },
+      { "hex": "#C8C858", "name": "Boat Yellow", "role": "highlight" },
+      { "hex": "#7A6A4A", "name": "Flower Pot", "role": "midtone" }
+    ]
+  }
+]

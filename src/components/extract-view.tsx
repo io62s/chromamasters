@@ -597,7 +597,13 @@ export function ExtractView() {
 
                 {/* Match score */}
                 <p className="mt-1.5 text-[10px] text-muted-foreground/60">
-                  Color distance: {distance.toFixed(1)}
+                  {distance < 10
+                    ? "Very close match"
+                    : distance < 18
+                      ? "Close match"
+                      : distance < 28
+                        ? "Moderate match"
+                        : "Loose match"}
                 </p>
               </button>
             ))}

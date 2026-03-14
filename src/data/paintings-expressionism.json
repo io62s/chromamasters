@@ -1,0 +1,163 @@
+[
+  {
+    "id": "munch-the-scream",
+    "title": "The Scream",
+    "artist": "Edvard Munch",
+    "year": 1893,
+    "medium": "Oil, tempera, pastel and crayon on cardboard",
+    "dimensions": "91 cm × 73.5 cm",
+    "location": "National Gallery, Oslo",
+    "description": "The most famous image of existential dread in all of art, The Scream depicts a figure on a bridge clutching its face as the sky behind erupts in swirling bands of blood-red and sickly orange. Munch described the inspiration: 'I felt a great, unending scream piercing through nature.' The painting's power comes from its radical simplification — the undulating lines of sky, water, and landscape merge into a single visual shriek.",
+    "image": "/paintings/munch-the-scream.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "expressionism",
+    "colors": [
+      { "hex": "#C84828", "name": "Scream Orange", "role": "dominant" },
+      { "hex": "#E8A048", "name": "Burning Sky", "role": "highlight" },
+      { "hex": "#2A3A6A", "name": "Fjord Indigo", "role": "accent" },
+      { "hex": "#4A4A3A", "name": "Bridge Dark", "role": "shadow" },
+      { "hex": "#D4783A", "name": "Dread Amber", "role": "midtone" },
+      { "hex": "#8A3A2A", "name": "Blood Streak", "role": "accent" },
+      { "hex": "#6A8AAA", "name": "Water Steel", "role": "midtone" },
+      { "hex": "#F0C870", "name": "Sick Yellow", "role": "highlight" }
+    ]
+  },
+  {
+    "id": "munch-madonna",
+    "title": "Madonna",
+    "artist": "Edvard Munch",
+    "year": 1894,
+    "medium": "Oil on canvas",
+    "dimensions": "91 cm × 70.5 cm",
+    "location": "Munch Museum, Oslo",
+    "description": "Munch's Madonna is no sacred icon but a sensuous woman caught in a moment of ecstatic abandon, her dark hair flowing around her naked body in sinuous Art Nouveau curves. The blood-red halo and swirling dark background transform the subject into a primal vision of desire, conception, and mortality. The lithographic border of the later prints added sperm and a fetal figure, making the life-death cycle explicit.",
+    "image": "/paintings/munch-madonna.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "expressionism",
+    "colors": [
+      { "hex": "#1A1A2A", "name": "Void Dark", "role": "shadow" },
+      { "hex": "#8A1A1A", "name": "Sacred Red", "role": "dominant" },
+      { "hex": "#D4A080", "name": "Flesh Warmth", "role": "highlight" },
+      { "hex": "#C83030", "name": "Halo Crimson", "role": "accent" },
+      { "hex": "#3A2A4A", "name": "Purple Depth", "role": "shadow" },
+      { "hex": "#E8C8A8", "name": "Skin Glow", "role": "highlight" },
+      { "hex": "#6A4A3A", "name": "Hair Umber", "role": "midtone" },
+      { "hex": "#4A6A7A", "name": "Blue Undertone", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "munch-dance-of-life",
+    "title": "The Dance of Life",
+    "artist": "Edvard Munch",
+    "year": 1899,
+    "medium": "Oil on canvas",
+    "dimensions": "125.5 cm × 190.5 cm",
+    "location": "National Gallery, Oslo",
+    "description": "Three versions of the same woman — in white innocence, red passion, and black mourning — frame this allegorical dance on a midsummer night by the fjord. Couples swirl across the moonlit grass in a primal ritual, while the column of moonlight on the water pulses like a living thing. Munch distills the entire arc of romantic love into a single frozen moment.",
+    "image": "/paintings/munch-dance-of-life.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "expressionism",
+    "colors": [
+      { "hex": "#2A4A3A", "name": "Midsummer Dark", "role": "dominant" },
+      { "hex": "#C82828", "name": "Passion Red", "role": "accent" },
+      { "hex": "#E8E0D0", "name": "Innocence White", "role": "highlight" },
+      { "hex": "#1A2A3A", "name": "Fjord Night", "role": "shadow" },
+      { "hex": "#D4C878", "name": "Moonlight Column", "role": "highlight" },
+      { "hex": "#5A7A5A", "name": "Midnight Grass", "role": "midtone" },
+      { "hex": "#8A6A5A", "name": "Dancer Skin", "role": "midtone" },
+      { "hex": "#1A1A2A", "name": "Mourning Black", "role": "accent" }
+    ]
+  },
+  {
+    "id": "kirchner-street-berlin",
+    "title": "Street, Berlin",
+    "artist": "Ernst Ludwig Kirchner",
+    "year": 1913,
+    "medium": "Oil on canvas",
+    "dimensions": "120.6 cm × 91.1 cm",
+    "location": "Museum of Modern Art, New York",
+    "description": "Kirchner's jagged, angular vision of Berlin street life captures the nerve-jangling energy of the modern city. Elegantly dressed women — their features reduced to sharp, mask-like planes — stride through a compressed urban space rendered in clashing pinks, blacks, and acid greens. The painting vibrates with metropolitan anxiety and sexual tension, its fractured forms owing as much to African sculpture as to Cubism.",
+    "image": "/paintings/kirchner-street-berlin.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "expressionism",
+    "colors": [
+      { "hex": "#1A1A2A", "name": "Urban Night", "role": "shadow" },
+      { "hex": "#D878A0", "name": "Electric Pink", "role": "dominant" },
+      { "hex": "#4A8A3A", "name": "Acid Green", "role": "accent" },
+      { "hex": "#2A2A4A", "name": "Coat Navy", "role": "midtone" },
+      { "hex": "#E8A8B8", "name": "Flesh Pink", "role": "highlight" },
+      { "hex": "#6A4A6A", "name": "Mauve Shadow", "role": "midtone" },
+      { "hex": "#C8C848", "name": "Streetlight Yellow", "role": "highlight" },
+      { "hex": "#8A2A4A", "name": "Lipstick Dark", "role": "accent" }
+    ]
+  },
+  {
+    "id": "marc-large-blue-horses",
+    "title": "The Large Blue Horses",
+    "artist": "Franz Marc",
+    "year": 1911,
+    "medium": "Oil on canvas",
+    "dimensions": "105.7 cm × 181.1 cm",
+    "location": "Walker Art Center, Minneapolis",
+    "description": "Three monumental horses curve together in a rhythmic arc, their bodies rendered in a deep, saturated blue that Marc associated with spirituality and masculinity. The rolling hills behind them pulse with complementary yellows, reds, and greens, creating a landscape of pure emotional color. Marc believed animals possessed an innocence that granted them a deeper connection to the spiritual essence of nature than humans could achieve.",
+    "image": "/paintings/marc-large-blue-horses.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "expressionism",
+    "colors": [
+      { "hex": "#2A4A8A", "name": "Spiritual Blue", "role": "dominant" },
+      { "hex": "#D4A030", "name": "Hill Gold", "role": "highlight" },
+      { "hex": "#C83838", "name": "Earth Red", "role": "accent" },
+      { "hex": "#4A8A4A", "name": "Meadow Green", "role": "accent" },
+      { "hex": "#1A2A5A", "name": "Deep Indigo", "role": "shadow" },
+      { "hex": "#E8C858", "name": "Warm Horizon", "role": "highlight" },
+      { "hex": "#6A5A3A", "name": "Mane Umber", "role": "midtone" },
+      { "hex": "#5A7AAA", "name": "Flank Blue", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "kandinsky-composition-vii",
+    "title": "Composition VII",
+    "artist": "Wassily Kandinsky",
+    "year": 1913,
+    "medium": "Oil on canvas",
+    "dimensions": "200 cm × 300 cm",
+    "location": "Tretyakov Gallery, Moscow",
+    "description": "Kandinsky's monumental Composition VII is widely considered his masterpiece and one of the first truly abstract paintings. A maelstrom of color and form erupts across the enormous canvas — swirling lines, radiating circles, and jagged shards of vivid pigment collide in a visual symphony that the artist compared to a flood, a resurrection, and the Last Judgment simultaneously. Kandinsky completed the final canvas in just four days after months of preparatory studies.",
+    "image": "/paintings/kandinsky-composition-vii.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "expressionism",
+    "colors": [
+      { "hex": "#D84838", "name": "Eruption Red", "role": "dominant" },
+      { "hex": "#E8C848", "name": "Radiant Yellow", "role": "highlight" },
+      { "hex": "#2A5AAA", "name": "Cosmic Blue", "role": "accent" },
+      { "hex": "#4A8A5A", "name": "Verdant Sweep", "role": "accent" },
+      { "hex": "#8A4A8A", "name": "Violet Surge", "role": "midtone" },
+      { "hex": "#1A1A2A", "name": "Vortex Dark", "role": "shadow" },
+      { "hex": "#F0D070", "name": "Light Burst", "role": "highlight" },
+      { "hex": "#C88A5A", "name": "Warm Ochre", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "schiele-the-embrace",
+    "title": "The Embrace",
+    "artist": "Egon Schiele",
+    "year": 1917,
+    "medium": "Oil on canvas",
+    "dimensions": "100 cm × 170.2 cm",
+    "location": "Österreichische Galerie Belvedere, Vienna",
+    "description": "Two intertwined figures cling to each other on crumpled white sheets, their bodies rendered with Schiele's characteristic angular intensity and raw, exposed vulnerability. The tangled limbs and grasping hands convey desperate intimacy, while the rumpled fabric surrounding them creates a nest-like cocoon. This late work shows Schiele's line becoming more fluid and his palette warmer, even as the emotional intensity remains undiminished.",
+    "image": "/paintings/schiele-the-embrace.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "expressionism",
+    "colors": [
+      { "hex": "#E8D8C0", "name": "Crumpled Sheet", "role": "dominant" },
+      { "hex": "#C88A60", "name": "Warm Flesh", "role": "midtone" },
+      { "hex": "#4A3A2A", "name": "Hair Dark", "role": "shadow" },
+      { "hex": "#D4A478", "name": "Skin Glow", "role": "highlight" },
+      { "hex": "#8A6A5A", "name": "Shadow Limb", "role": "midtone" },
+      { "hex": "#2A2A2A", "name": "Contour Line", "role": "shadow" },
+      { "hex": "#A87A5A", "name": "Amber Body", "role": "accent" },
+      { "hex": "#F0E8D8", "name": "Linen Light", "role": "highlight" }
+    ]
+  }
+]

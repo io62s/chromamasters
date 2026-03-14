@@ -12,14 +12,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#2B1D0E", "name": "Umber Darkness", "role": "shadow" },
-      { "hex": "#D4A857", "name": "Candlelight Gold", "role": "highlight" },
-      { "hex": "#E8D5B7", "name": "Pallid Flesh", "role": "dominant" },
-      { "hex": "#8B4513", "name": "Autumn Vine", "role": "midtone" },
-      { "hex": "#F5ECD7", "name": "Linen White", "role": "highlight" },
-      { "hex": "#6B8E3A", "name": "Grapevine Green", "role": "accent" },
-      { "hex": "#722F37", "name": "Burgundy Wine", "role": "accent" },
-      { "hex": "#A67B5B", "name": "Warm Terracotta", "role": "midtone" }
+      {
+        "hex": "#2B1D0E",
+        "name": "Umber Darkness",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4A857",
+        "name": "Candlelight Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#E8D5B7",
+        "name": "Pallid Flesh",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8B4513",
+        "name": "Autumn Vine",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F5ECD7",
+        "name": "Linen White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B8E3A",
+        "name": "Grapevine Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#722F37",
+        "name": "Burgundy Wine",
+        "role": "accent"
+      },
+      {
+        "hex": "#A67B5B",
+        "name": "Warm Terracotta",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -35,14 +67,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#0D0906", "name": "Abyssal Black", "role": "shadow" },
-      { "hex": "#8B0000", "name": "Arterial Crimson", "role": "accent" },
-      { "hex": "#E8D0B3", "name": "Lamplight Skin", "role": "dominant" },
-      { "hex": "#F5F0E0", "name": "Bleached Linen", "role": "highlight" },
-      { "hex": "#4A3728", "name": "Scorched Umber", "role": "shadow" },
-      { "hex": "#C9A96E", "name": "Tallow Glow", "role": "midtone" },
-      { "hex": "#1E3A5F", "name": "Midnight Indigo", "role": "accent" },
-      { "hex": "#B8906F", "name": "Warm Ochre", "role": "midtone" }
+      {
+        "hex": "#0D0906",
+        "name": "Abyssal Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8B0000",
+        "name": "Arterial Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D0B3",
+        "name": "Lamplight Skin",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F5F0E0",
+        "name": "Bleached Linen",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3728",
+        "name": "Scorched Umber",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C9A96E",
+        "name": "Tallow Glow",
+        "role": "midtone"
+      },
+      {
+        "hex": "#1E3A5F",
+        "name": "Midnight Indigo",
+        "role": "accent"
+      },
+      {
+        "hex": "#B8906F",
+        "name": "Warm Ochre",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -58,60 +122,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#1A1008", "name": "Cavern Shadow", "role": "shadow" },
-      { "hex": "#D4B896", "name": "Dusty Sunbeam", "role": "highlight" },
-      { "hex": "#5C3A1E", "name": "Tobacco Brown", "role": "dominant" },
-      { "hex": "#E8C97A", "name": "Golden Ray", "role": "highlight" },
-      { "hex": "#3D5C3A", "name": "Velvet Moss", "role": "accent" },
-      { "hex": "#8E6B3E", "name": "Aged Timber", "role": "midtone" },
-      { "hex": "#C44B28", "name": "Venetian Red", "role": "accent" },
-      { "hex": "#6E5842", "name": "Shadowed Walnut", "role": "midtone" }
-    ]
-  },
-  {
-    "id": "caravaggio-supper-at-emmaus",
-    "title": "Supper at Emmaus",
-    "artist": "Caravaggio",
-    "year": 1601,
-    "medium": "Oil on canvas",
-    "dimensions": "141 cm x 196.2 cm",
-    "location": "National Gallery, London, United Kingdom",
-    "description": "Caravaggio captures the electrifying moment when the resurrected Christ reveals his identity to two disciples at an inn in Emmaus. The apostles recoil in astonishment, one gripping the arms of his chair while the other flings his arms wide. A meticulously rendered still life of fruit and bread occupies the foreground, teetering on the edge of the table toward the viewer.",
-    "image": "/paintings/caravaggio-supper-at-emmaus.jpg",
-    "imageCredit": "Wikimedia Commons, Public Domain",
-    "movementId": "baroque",
-    "colors": [
-      { "hex": "#1C1209", "name": "Deep Tavern Shadow", "role": "shadow" },
-      { "hex": "#E4D3B8", "name": "Warm Candlelight", "role": "highlight" },
-      { "hex": "#8B5E3C", "name": "Rustic Oak", "role": "dominant" },
-      { "hex": "#F0E4CC", "name": "Ivory Cloth", "role": "highlight" },
-      { "hex": "#4A6B3A", "name": "Orchard Green", "role": "accent" },
-      { "hex": "#A0522D", "name": "Sienna Earth", "role": "midtone" },
-      { "hex": "#C41E3A", "name": "Cardinal Crimson", "role": "accent" },
-      { "hex": "#3A2A1A", "name": "Charred Mahogany", "role": "shadow" }
-    ]
-  },
-  {
-    "id": "caravaggio-narcissus",
-    "title": "Narcissus",
-    "artist": "Caravaggio",
-    "year": 1599,
-    "medium": "Oil on canvas",
-    "dimensions": "113 cm x 94 cm",
-    "location": "Galleria Nazionale d'Arte Antica, Rome, Italy",
-    "description": "This intimate painting depicts the mythological youth Narcissus gazing at his own reflection in a dark pool of water. The composition is strikingly symmetrical, with the figure and his watery mirror image forming a near-perfect circle. Caravaggio uses his signature tenebrism to dissolve all background context, leaving only the youth suspended in an eternal moment of self-absorption.",
-    "image": "/paintings/caravaggio-narcissus.jpg",
-    "imageCredit": "Wikimedia Commons, Public Domain",
-    "movementId": "baroque",
-    "colors": [
-      { "hex": "#0E0A06", "name": "Obsidian Void", "role": "shadow" },
-      { "hex": "#D8C4A0", "name": "Reflected Glow", "role": "highlight" },
-      { "hex": "#5A3D20", "name": "Burnt Umber", "role": "dominant" },
-      { "hex": "#2E2218", "name": "Pool Darkness", "role": "shadow" },
-      { "hex": "#E8D4B5", "name": "Youth's Skin", "role": "highlight" },
-      { "hex": "#9E7E55", "name": "Amber Dusk", "role": "midtone" },
-      { "hex": "#C8A882", "name": "Sunlit Knee", "role": "midtone" },
-      { "hex": "#6B553A", "name": "Earthen Sleeve", "role": "accent" }
+      {
+        "hex": "#1A1008",
+        "name": "Cavern Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4B896",
+        "name": "Dusty Sunbeam",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5C3A1E",
+        "name": "Tobacco Brown",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8C97A",
+        "name": "Golden Ray",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3D5C3A",
+        "name": "Velvet Moss",
+        "role": "accent"
+      },
+      {
+        "hex": "#8E6B3E",
+        "name": "Aged Timber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C44B28",
+        "name": "Venetian Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#6E5842",
+        "name": "Shadowed Walnut",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -127,14 +177,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#1A150D", "name": "Midnight Varnish", "role": "shadow" },
-      { "hex": "#D4A017", "name": "Lieutenant's Gold", "role": "highlight" },
-      { "hex": "#3A2F1F", "name": "Musket Smoke", "role": "dominant" },
-      { "hex": "#F2D98C", "name": "Luminous Girl", "role": "highlight" },
-      { "hex": "#8B0000", "name": "Captain's Sash", "role": "accent" },
-      { "hex": "#2C3E28", "name": "Military Olive", "role": "midtone" },
-      { "hex": "#6B5B3E", "name": "Aged Bronze", "role": "midtone" },
-      { "hex": "#1A1A2E", "name": "Civic Guard Black", "role": "shadow" }
+      {
+        "hex": "#1A150D",
+        "name": "Midnight Varnish",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4A017",
+        "name": "Lieutenant's Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A2F1F",
+        "name": "Musket Smoke",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F2D98C",
+        "name": "Luminous Girl",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B0000",
+        "name": "Captain's Sash",
+        "role": "accent"
+      },
+      {
+        "hex": "#2C3E28",
+        "name": "Military Olive",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6B5B3E",
+        "name": "Aged Bronze",
+        "role": "midtone"
+      },
+      {
+        "hex": "#1A1A2E",
+        "name": "Civic Guard Black",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -150,14 +232,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#0d0f0c", "name": "Studio Darkness", "role": "shadow" },
-      { "hex": "#D4B088", "name": "Aged Flesh", "role": "dominant" },
-      { "hex": "#5e1b12", "name": "Blood Red", "role": "accent" },
-      { "hex": "#4A3828", "name": "Tobacco Shadow", "role": "shadow" },
-      { "hex": "#8B7355", "name": "Weathered Canvas", "role": "midtone" },
-      { "hex": "#F5E6CE", "name": "White Cap", "role": "highlight" },
-      { "hex": "#6E4B2A", "name": "Smock Brown", "role": "midtone" },
-      { "hex": "#C4956A", "name": "Ruddy Cheek", "role": "accent" }
+      {
+        "hex": "#0d0f0c",
+        "name": "Studio Darkness",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4B088",
+        "name": "Aged Flesh",
+        "role": "dominant"
+      },
+      {
+        "hex": "#5e1b12",
+        "name": "Blood Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A3828",
+        "name": "Tobacco Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8B7355",
+        "name": "Weathered Canvas",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F5E6CE",
+        "name": "White Cap",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6E4B2A",
+        "name": "Smock Brown",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C4956A",
+        "name": "Ruddy Cheek",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -173,14 +287,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#1A1610", "name": "Lecture Hall Shadow", "role": "shadow" },
-      { "hex": "#E8DBC8", "name": "Cadaver Pallor", "role": "highlight" },
-      { "hex": "#2E2824", "name": "Scholar's Black", "role": "dominant" },
-      { "hex": "#F5EFE0", "name": "Starched Collar", "role": "highlight" },
-      { "hex": "#8B7D6B", "name": "Parchment Dust", "role": "midtone" },
-      { "hex": "#C19A6B", "name": "Warm Complexion", "role": "midtone" },
-      { "hex": "#A04040", "name": "Exposed Sinew", "role": "accent" },
-      { "hex": "#4A4238", "name": "Velvet Coat", "role": "shadow" }
+      {
+        "hex": "#1A1610",
+        "name": "Lecture Hall Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8DBC8",
+        "name": "Cadaver Pallor",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2E2824",
+        "name": "Scholar's Black",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F5EFE0",
+        "name": "Starched Collar",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B7D6B",
+        "name": "Parchment Dust",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C19A6B",
+        "name": "Warm Complexion",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A04040",
+        "name": "Exposed Sinew",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A4238",
+        "name": "Velvet Coat",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -196,37 +342,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#2A1E10", "name": "Velvet Dusk", "role": "shadow" },
-      { "hex": "#C8902A", "name": "Hammered Gold", "role": "dominant" },
-      { "hex": "#F2D68A", "name": "Gilded Light", "role": "highlight" },
-      { "hex": "#8B1A1A", "name": "Bridal Crimson", "role": "accent" },
-      { "hex": "#E8C888", "name": "Brocade Shimmer", "role": "highlight" },
-      { "hex": "#5A3E20", "name": "Warm Umber", "role": "shadow" },
-      { "hex": "#A07840", "name": "Amber Embrace", "role": "midtone" },
-      { "hex": "#D4A060", "name": "Sleeve Gold", "role": "midtone" }
-    ]
-  },
-  {
-    "id": "rembrandt-bathsheba-at-her-bath",
-    "title": "Bathsheba at Her Bath",
-    "artist": "Rembrandt van Rijn",
-    "year": 1654,
-    "medium": "Oil on canvas",
-    "dimensions": "142 cm x 142 cm",
-    "location": "Louvre Museum, Paris, France",
-    "description": "Rembrandt depicts the biblical Bathsheba holding King David's letter, her expression suffused with quiet melancholy as she contemplates the summons that will alter her fate. The nude figure, modeled by Rembrandt's companion Hendrickje Stoffels, is rendered with extraordinary warmth and empathy. A servant at her feet tends to her toilette, grounding the mythological scene in intimate domesticity.",
-    "image": "/paintings/rembrandt-bathsheba-at-her-bath.jpg",
-    "imageCredit": "Wikimedia Commons, Public Domain",
-    "movementId": "baroque",
-    "colors": [
-      { "hex": "#1E1610", "name": "Chamber Darkness", "role": "shadow" },
-      { "hex": "#E8CCAA", "name": "Bathing Flesh", "role": "dominant" },
-      { "hex": "#F5E4CC", "name": "Illuminated Skin", "role": "highlight" },
-      { "hex": "#4A3222", "name": "Deepened Umber", "role": "shadow" },
-      { "hex": "#C4A278", "name": "Linen Warmth", "role": "midtone" },
-      { "hex": "#8B6E50", "name": "Servant's Robe", "role": "midtone" },
-      { "hex": "#F0DFC4", "name": "Letter Parchment", "role": "highlight" },
-      { "hex": "#9B2335", "name": "Draped Velvet", "role": "accent" }
+      {
+        "hex": "#2A1E10",
+        "name": "Velvet Dusk",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C8902A",
+        "name": "Hammered Gold",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F2D68A",
+        "name": "Gilded Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B1A1A",
+        "name": "Bridal Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8C888",
+        "name": "Brocade Shimmer",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A3E20",
+        "name": "Warm Umber",
+        "role": "shadow"
+      },
+      {
+        "hex": "#A07840",
+        "name": "Amber Embrace",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4A060",
+        "name": "Sleeve Gold",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -242,14 +397,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#2C2620", "name": "Palace Shadow", "role": "shadow" },
-      { "hex": "#C4B090", "name": "Courtly Beige", "role": "dominant" },
-      { "hex": "#F0E8D8", "name": "Infanta's Silver", "role": "highlight" },
-      { "hex": "#4A4238", "name": "Velazquez's Black", "role": "shadow" },
-      { "hex": "#8B7D68", "name": "Chamber Dust", "role": "midtone" },
-      { "hex": "#D4C4A8", "name": "Sunlit Wall", "role": "highlight" },
-      { "hex": "#A0383C", "name": "Royal Crimson", "role": "accent" },
-      { "hex": "#6B6050", "name": "Stone Floor", "role": "midtone" }
+      {
+        "hex": "#2C2620",
+        "name": "Palace Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4B090",
+        "name": "Courtly Beige",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F0E8D8",
+        "name": "Infanta's Silver",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A4238",
+        "name": "Velazquez's Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8B7D68",
+        "name": "Chamber Dust",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4C4A8",
+        "name": "Sunlit Wall",
+        "role": "highlight"
+      },
+      {
+        "hex": "#A0383C",
+        "name": "Royal Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#6B6050",
+        "name": "Stone Floor",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -265,14 +452,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#3A3530", "name": "Battlefield Smoke", "role": "shadow" },
-      { "hex": "#A8C4D8", "name": "Flemish Sky", "role": "highlight" },
-      { "hex": "#6B6355", "name": "Armor Steel", "role": "dominant" },
-      { "hex": "#D4C8B0", "name": "Surrender Light", "role": "highlight" },
-      { "hex": "#4A5638", "name": "Military Green", "role": "midtone" },
-      { "hex": "#C89040", "name": "Sash Gold", "role": "accent" },
-      { "hex": "#2E3848", "name": "Lance Shadow", "role": "shadow" },
-      { "hex": "#8B7E6E", "name": "Dusty Terrain", "role": "midtone" }
+      {
+        "hex": "#3A3530",
+        "name": "Battlefield Smoke",
+        "role": "shadow"
+      },
+      {
+        "hex": "#A8C4D8",
+        "name": "Flemish Sky",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B6355",
+        "name": "Armor Steel",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4C8B0",
+        "name": "Surrender Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A5638",
+        "name": "Military Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C89040",
+        "name": "Sash Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#2E3848",
+        "name": "Lance Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8B7E6E",
+        "name": "Dusty Terrain",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -288,14 +507,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#8B1020", "name": "Papal Crimson", "role": "dominant" },
-      { "hex": "#C41030", "name": "Vestment Scarlet", "role": "accent" },
-      { "hex": "#E8D0B0", "name": "Pontiff's Flesh", "role": "highlight" },
-      { "hex": "#F5EEE0", "name": "Papal Lace", "role": "highlight" },
-      { "hex": "#3A1018", "name": "Crimson Shadow", "role": "shadow" },
-      { "hex": "#5A2028", "name": "Deepened Cardinal", "role": "shadow" },
-      { "hex": "#D08888", "name": "Flushed Silk", "role": "midtone" },
-      { "hex": "#A86868", "name": "Muted Damask", "role": "midtone" }
+      {
+        "hex": "#8B1020",
+        "name": "Papal Crimson",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C41030",
+        "name": "Vestment Scarlet",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D0B0",
+        "name": "Pontiff's Flesh",
+        "role": "highlight"
+      },
+      {
+        "hex": "#F5EEE0",
+        "name": "Papal Lace",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A1018",
+        "name": "Crimson Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#5A2028",
+        "name": "Deepened Cardinal",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D08888",
+        "name": "Flushed Silk",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A86868",
+        "name": "Muted Damask",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -311,14 +562,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#1A180E", "name": "Golgotha Night", "role": "shadow" },
-      { "hex": "#F0E8D8", "name": "Holy Shroud", "role": "highlight" },
-      { "hex": "#C41828", "name": "Passion Red", "role": "accent" },
-      { "hex": "#D8C8A8", "name": "Christ's Pallor", "role": "dominant" },
-      { "hex": "#4A3020", "name": "Cross Timber", "role": "shadow" },
-      { "hex": "#2848A0", "name": "Mary's Blue", "role": "accent" },
-      { "hex": "#8B7B60", "name": "Mourner's Skin", "role": "midtone" },
-      { "hex": "#B8A888", "name": "Warm Stone", "role": "midtone" }
+      {
+        "hex": "#1A180E",
+        "name": "Golgotha Night",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0E8D8",
+        "name": "Holy Shroud",
+        "role": "highlight"
+      },
+      {
+        "hex": "#C41828",
+        "name": "Passion Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#D8C8A8",
+        "name": "Christ's Pallor",
+        "role": "dominant"
+      },
+      {
+        "hex": "#4A3020",
+        "name": "Cross Timber",
+        "role": "shadow"
+      },
+      {
+        "hex": "#2848A0",
+        "name": "Mary's Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B7B60",
+        "name": "Mourner's Skin",
+        "role": "midtone"
+      },
+      {
+        "hex": "#B8A888",
+        "name": "Warm Stone",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -334,14 +617,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#1A1008", "name": "Betrayal Shadow", "role": "shadow" },
-      { "hex": "#C83030", "name": "Delilah's Gown", "role": "dominant" },
-      { "hex": "#E8C8A0", "name": "Candlelit Flesh", "role": "highlight" },
-      { "hex": "#D4A848", "name": "Flame Gold", "role": "highlight" },
-      { "hex": "#4A2818", "name": "Mahogany Depth", "role": "shadow" },
-      { "hex": "#8B6840", "name": "Samson's Bronze", "role": "midtone" },
-      { "hex": "#A0885C", "name": "Column Stone", "role": "midtone" },
-      { "hex": "#2050A8", "name": "Soldier's Armor", "role": "accent" }
+      {
+        "hex": "#1A1008",
+        "name": "Betrayal Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C83030",
+        "name": "Delilah's Gown",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8C8A0",
+        "name": "Candlelit Flesh",
+        "role": "highlight"
+      },
+      {
+        "hex": "#D4A848",
+        "name": "Flame Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A2818",
+        "name": "Mahogany Depth",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8B6840",
+        "name": "Samson's Bronze",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A0885C",
+        "name": "Column Stone",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2050A8",
+        "name": "Soldier's Armor",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -357,14 +672,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#E8D4C0", "name": "Pearlescent Flesh", "role": "dominant" },
-      { "hex": "#4A6838", "name": "Arcadian Green", "role": "accent" },
-      { "hex": "#F5E8D4", "name": "Luminous Skin", "role": "highlight" },
-      { "hex": "#88A8C8", "name": "Pastoral Sky", "role": "highlight" },
-      { "hex": "#C49880", "name": "Rose Blush", "role": "midtone" },
-      { "hex": "#6E5838", "name": "Garden Earth", "role": "shadow" },
-      { "hex": "#B8A088", "name": "Warm Limb", "role": "midtone" },
-      { "hex": "#3A3828", "name": "Foliage Shadow", "role": "shadow" }
+      {
+        "hex": "#E8D4C0",
+        "name": "Pearlescent Flesh",
+        "role": "dominant"
+      },
+      {
+        "hex": "#4A6838",
+        "name": "Arcadian Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#F5E8D4",
+        "name": "Luminous Skin",
+        "role": "highlight"
+      },
+      {
+        "hex": "#88A8C8",
+        "name": "Pastoral Sky",
+        "role": "highlight"
+      },
+      {
+        "hex": "#C49880",
+        "name": "Rose Blush",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6E5838",
+        "name": "Garden Earth",
+        "role": "shadow"
+      },
+      {
+        "hex": "#B8A088",
+        "name": "Warm Limb",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A3828",
+        "name": "Foliage Shadow",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -380,14 +727,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#3A5030", "name": "Garden Bower", "role": "shadow" },
-      { "hex": "#C83838", "name": "Courtesan's Crimson", "role": "dominant" },
-      { "hex": "#D4B888", "name": "Golden Satin", "role": "highlight" },
-      { "hex": "#88B0D0", "name": "Summer Sky", "role": "highlight" },
-      { "hex": "#E8C8A8", "name": "Aristocratic Skin", "role": "midtone" },
-      { "hex": "#2A3820", "name": "Deep Topiary", "role": "shadow" },
-      { "hex": "#C4A468", "name": "Brocade Gold", "role": "accent" },
-      { "hex": "#8B7868", "name": "Sandstone Column", "role": "midtone" }
+      {
+        "hex": "#3A5030",
+        "name": "Garden Bower",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C83838",
+        "name": "Courtesan's Crimson",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4B888",
+        "name": "Golden Satin",
+        "role": "highlight"
+      },
+      {
+        "hex": "#88B0D0",
+        "name": "Summer Sky",
+        "role": "highlight"
+      },
+      {
+        "hex": "#E8C8A8",
+        "name": "Aristocratic Skin",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2A3820",
+        "name": "Deep Topiary",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4A468",
+        "name": "Brocade Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B7868",
+        "name": "Sandstone Column",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -403,37 +782,101 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#D4C8A0", "name": "Plaster Light", "role": "dominant" },
-      { "hex": "#2858A0", "name": "Delft Blue", "role": "accent" },
-      { "hex": "#C8A830", "name": "Bodice Yellow", "role": "accent" },
-      { "hex": "#F0E8D0", "name": "Morning Glow", "role": "highlight" },
-      { "hex": "#6B6050", "name": "Bread Crust", "role": "midtone" },
-      { "hex": "#3A3428", "name": "Kitchen Shadow", "role": "shadow" },
-      { "hex": "#A89878", "name": "Earthenware", "role": "midtone" },
-      { "hex": "#F5F0E4", "name": "Poured Milk", "role": "highlight" }
+      {
+        "hex": "#D4C8A0",
+        "name": "Plaster Light",
+        "role": "dominant"
+      },
+      {
+        "hex": "#2858A0",
+        "name": "Delft Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#C8A830",
+        "name": "Bodice Yellow",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E8D0",
+        "name": "Morning Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B6050",
+        "name": "Bread Crust",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A3428",
+        "name": "Kitchen Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#A89878",
+        "name": "Earthenware",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F5F0E4",
+        "name": "Poured Milk",
+        "role": "highlight"
+      }
     ]
   },
   {
-    "id": "vermeer-girl-reading-letter-open-window",
-    "title": "Girl Reading a Letter at an Open Window",
+    "id": "girl-with-pearl-earring",
+    "title": "Girl with a Pearl Earring",
     "artist": "Johannes Vermeer",
-    "year": 1657,
+    "year": 1665,
     "medium": "Oil on canvas",
-    "dimensions": "83 cm x 64.5 cm",
-    "location": "Gemaldegalerie Alte Meister, Dresden, Germany",
-    "description": "A young woman stands absorbed in reading a letter by the light of an open window, her face reflected in the leaded glass panes. A heavy green curtain has been drawn back to reveal the scene, creating a theatrical framing device. Recent restoration has uncovered a large painting of Cupid on the wall behind her, confirming the letter's romantic content and adding a new layer of meaning to this intimate scene.",
-    "image": "/paintings/vermeer-girl-reading-letter-open-window.jpg",
+    "dimensions": "44.5 cm × 39 cm",
+    "location": "Mauritshuis, The Hague",
+    "description": "Often called the 'Mona Lisa of the North,' Vermeer's intimate portrait captures a young woman in a moment of turning, her luminous pearl earring catching the light. The painting's power lies in its simplicity — a dark background, a striking blue and gold turban, and the girl's captivating, ambiguous gaze.",
+    "image": "/paintings/girl-with-pearl-earring.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#4A6838", "name": "Curtain Green", "role": "accent" },
-      { "hex": "#D8C8A8", "name": "Window Light", "role": "dominant" },
-      { "hex": "#F0E4CC", "name": "Diffused Glow", "role": "highlight" },
-      { "hex": "#8B3020", "name": "Turkish Carpet", "role": "accent" },
-      { "hex": "#3A3228", "name": "Chamber Corner", "role": "shadow" },
-      { "hex": "#C4B898", "name": "Reflected Cheek", "role": "midtone" },
-      { "hex": "#6B6050", "name": "Fruit Bowl", "role": "midtone" },
-      { "hex": "#2A2820", "name": "Deep Recess", "role": "shadow" }
+      {
+        "hex": "#1A1A1E",
+        "name": "Velvet Night",
+        "role": "shadow"
+      },
+      {
+        "hex": "#2E5B88",
+        "name": "Delft Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4B896",
+        "name": "Pearl Lustre",
+        "role": "highlight"
+      },
+      {
+        "hex": "#C8A43E",
+        "name": "Earring Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B7B6B",
+        "name": "Dutch Umber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A4A48",
+        "name": "Charcoal Depth",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8D4B8",
+        "name": "Skin Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B5B4A",
+        "name": "Warm Shadow",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -449,37 +892,46 @@
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "baroque",
     "colors": [
-      { "hex": "#2A2820", "name": "Studio Depth", "role": "shadow" },
-      { "hex": "#D8C8A0", "name": "Map Parchment", "role": "dominant" },
-      { "hex": "#2858A8", "name": "Clio's Silk", "role": "accent" },
-      { "hex": "#F0E8D0", "name": "Chandelier Light", "role": "highlight" },
-      { "hex": "#1A1A18", "name": "Artist's Costume", "role": "shadow" },
-      { "hex": "#C8B888", "name": "Marble Tile", "role": "midtone" },
-      { "hex": "#8B7848", "name": "Tapestry Gold", "role": "midtone" },
-      { "hex": "#E8D888", "name": "Laurel Crown", "role": "highlight" }
-    ]
-  },
-  {
-    "id": "vermeer-music-lesson",
-    "title": "The Music Lesson",
-    "artist": "Johannes Vermeer",
-    "year": 1665,
-    "medium": "Oil on canvas",
-    "dimensions": "74.6 cm x 64.1 cm",
-    "location": "Royal Collection, Buckingham Palace, London, United Kingdom",
-    "description": "A young woman stands at a virginal with her back to the viewer while a man listens attentively beside her, his bass viol resting on the floor. The mirror above the instrument reveals the woman's face turned slightly toward her companion, hinting at an emotional connection beyond the music lesson. Vermeer's characteristic luminous daylight floods in from the left, casting precise geometric patterns across the tiled floor and white-washed walls.",
-    "image": "/paintings/vermeer-music-lesson.jpg",
-    "imageCredit": "Wikimedia Commons, Public Domain",
-    "movementId": "baroque",
-    "colors": [
-      { "hex": "#C8D0D8", "name": "Delft Daylight", "role": "highlight" },
-      { "hex": "#8B3028", "name": "Persian Carpet", "role": "accent" },
-      { "hex": "#D4C4A0", "name": "Plaster Warmth", "role": "dominant" },
-      { "hex": "#2A3848", "name": "Virginal Shadow", "role": "shadow" },
-      { "hex": "#F0E8DC", "name": "White Wall", "role": "highlight" },
-      { "hex": "#3A3830", "name": "Floor Tile Dark", "role": "shadow" },
-      { "hex": "#A8A088", "name": "Marble Pattern", "role": "midtone" },
-      { "hex": "#4870A0", "name": "Stained Glass Blue", "role": "accent" }
+      {
+        "hex": "#2A2820",
+        "name": "Studio Depth",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D8C8A0",
+        "name": "Map Parchment",
+        "role": "dominant"
+      },
+      {
+        "hex": "#2858A8",
+        "name": "Clio's Silk",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E8D0",
+        "name": "Chandelier Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1A1A18",
+        "name": "Artist's Costume",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C8B888",
+        "name": "Marble Tile",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8B7848",
+        "name": "Tapestry Gold",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D888",
+        "name": "Laurel Crown",
+        "role": "highlight"
+      }
     ]
   }
 ]

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "moreau-jupiter-and-semele",
+    "title": "Jupiter and Semele",
+    "artist": "Gustave Moreau",
+    "year": 1895,
+    "medium": "Oil on canvas",
+    "dimensions": "213 cm × 118 cm",
+    "location": "Musée Gustave Moreau, Paris",
+    "description": "Moreau's monumental vision of the myth in which the mortal Semele is consumed by the unveiled radiance of Jupiter is an overwhelming accumulation of jewel-like detail. The god sits enthroned amid a phantasmagoric architecture of encrusted ornament, while Semele swoons at the moment of her transfiguration. The painting is a cathedral of color — deep blues, burnished golds, and flickering reds layered into an almost hallucinatory density.",
+    "image": "/paintings/moreau-jupiter-and-semele.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "symbolism",
+    "colors": [
+      { "hex": "#1A2A5A", "name": "Celestial Indigo", "role": "shadow" },
+      { "hex": "#D4A030", "name": "Divine Gold", "role": "highlight" },
+      { "hex": "#4A2A1A", "name": "Temple Umber", "role": "dominant" },
+      { "hex": "#E8C870", "name": "Radiant Aureole", "role": "highlight" },
+      { "hex": "#8A2A2A", "name": "Sacred Crimson", "role": "accent" },
+      { "hex": "#6A5A3A", "name": "Encrusted Bronze", "role": "midtone" },
+      { "hex": "#3A6A8A", "name": "Mystic Blue", "role": "accent" },
+      { "hex": "#A88A50", "name": "Burnished Ochre", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "moreau-the-apparition",
+    "title": "The Apparition",
+    "artist": "Gustave Moreau",
+    "year": 1876,
+    "medium": "Watercolor on paper",
+    "dimensions": "106 cm × 72.2 cm",
+    "location": "Musée d'Orsay, Paris",
+    "description": "In this haunting watercolor, the severed head of John the Baptist appears floating in a halo of light before a dancing Salome, who points at it in fascinated horror. The architecture of Herod's palace dissolves into an ornate fantasy of Moorish arches and incense-laden atmosphere. Moreau creates a dreamworld where the sacred and the sensual merge in shimmering, translucent washes of color.",
+    "image": "/paintings/moreau-the-apparition.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "symbolism",
+    "colors": [
+      { "hex": "#C8A050", "name": "Halo Gold", "role": "highlight" },
+      { "hex": "#3A2A1A", "name": "Palace Shadow", "role": "shadow" },
+      { "hex": "#8A6A3A", "name": "Incense Amber", "role": "dominant" },
+      { "hex": "#E8D088", "name": "Vision Light", "role": "highlight" },
+      { "hex": "#5A3A2A", "name": "Moorish Arch", "role": "midtone" },
+      { "hex": "#2A4A6A", "name": "Midnight Veil", "role": "accent" },
+      { "hex": "#C8483A", "name": "Blood Trace", "role": "accent" },
+      { "hex": "#7A6A4A", "name": "Sandstone Warm", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "redon-cyclops",
+    "title": "The Cyclops",
+    "artist": "Odilon Redon",
+    "year": 1914,
+    "medium": "Oil on cardboard mounted on panel",
+    "dimensions": "64 cm × 51 cm",
+    "location": "Kröller-Müller Museum, Otterlo",
+    "description": "Redon transforms the myth of Polyphemus and Galatea into a tender, dreamlike vision. The enormous one-eyed giant peers over a ridge of wildflowers at the sleeping nymph below, his expression more wistful than threatening. The landscape blooms with iridescent color — violet rocks, emerald slopes, and flowers in impossible hues — creating a world governed entirely by the logic of dreams.",
+    "image": "/paintings/redon-cyclops.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "symbolism",
+    "colors": [
+      { "hex": "#4A8A3A", "name": "Dream Meadow", "role": "dominant" },
+      { "hex": "#8A6AAA", "name": "Violet Rock", "role": "accent" },
+      { "hex": "#D4A878", "name": "Nymph Flesh", "role": "highlight" },
+      { "hex": "#2A4A2A", "name": "Deep Slope", "role": "shadow" },
+      { "hex": "#C87A50", "name": "Giant's Skin", "role": "midtone" },
+      { "hex": "#E8D8A8", "name": "Sunlit Petal", "role": "highlight" },
+      { "hex": "#5A7A5A", "name": "Emerald Hill", "role": "midtone" },
+      { "hex": "#3A3A6A", "name": "Twilight Depth", "role": "accent" }
+    ]
+  },
+  {
+    "id": "redon-ophelia-among-flowers",
+    "title": "Ophelia Among the Flowers",
+    "artist": "Odilon Redon",
+    "year": 1905,
+    "medium": "Pastel on paper",
+    "dimensions": "64 cm × 91 cm",
+    "location": "National Gallery, London",
+    "description": "Redon's Ophelia is not Shakespeare's drowned maiden but a luminous presence dissolved into a field of radiant wildflowers. Her profile emerges from a cascade of blossoms rendered in Redon's extraordinary pastel technique — soft, glowing colors that seem lit from within. The boundary between figure and garden dissolves, suggesting the continuity between consciousness and nature that fascinated the Symbolists.",
+    "image": "/paintings/redon-ophelia-flowers.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "symbolism",
+    "colors": [
+      { "hex": "#D4A848", "name": "Pollen Gold", "role": "highlight" },
+      { "hex": "#6A9A5A", "name": "Garden Glow", "role": "dominant" },
+      { "hex": "#C85A4A", "name": "Poppy Red", "role": "accent" },
+      { "hex": "#4A6A8A", "name": "Pastel Blue", "role": "accent" },
+      { "hex": "#E8D8B0", "name": "Ophelia's Light", "role": "highlight" },
+      { "hex": "#8A7A4A", "name": "Wild Stem", "role": "midtone" },
+      { "hex": "#3A5A3A", "name": "Leaf Shadow", "role": "shadow" },
+      { "hex": "#B89A6A", "name": "Warm Haze", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "bocklin-isle-of-the-dead",
+    "title": "Isle of the Dead",
+    "artist": "Arnold Böcklin",
+    "year": 1880,
+    "medium": "Oil on canvas",
+    "dimensions": "111 cm × 155 cm",
+    "location": "Kunstmuseum Basel, Basel",
+    "description": "The most reproduced painting of the late nineteenth century, Böcklin's vision of a rocky island tomb rising from dark, still waters struck a universal chord of melancholy. A white-shrouded figure stands in a small boat being rowed toward the island's cypress-guarded entrance. The oppressive silence of the scene is conveyed through the painting's muted, funereal palette and the absolute stillness of the glassy water.",
+    "image": "/paintings/bocklin-isle-of-the-dead.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "symbolism",
+    "colors": [
+      { "hex": "#2A3A3A", "name": "Stygian Water", "role": "dominant" },
+      { "hex": "#4A6A5A", "name": "Cypress Dark", "role": "midtone" },
+      { "hex": "#8A7A5A", "name": "Cliff Stone", "role": "midtone" },
+      { "hex": "#1A2A2A", "name": "Abyss Deep", "role": "shadow" },
+      { "hex": "#D4C8A8", "name": "Tomb Marble", "role": "highlight" },
+      { "hex": "#E8E0D0", "name": "Shroud White", "role": "highlight" },
+      { "hex": "#3A5A4A", "name": "Dead Calm", "role": "accent" },
+      { "hex": "#6A5A4A", "name": "Funereal Umber", "role": "accent" }
+    ]
+  },
+  {
+    "id": "bocklin-war",
+    "title": "War",
+    "artist": "Arnold Böcklin",
+    "year": 1896,
+    "medium": "Tempera on wood",
+    "dimensions": "100 cm × 69 cm",
+    "location": "Kunsthaus Zürich, Zürich",
+    "description": "Four apocalyptic horsemen thunder through a burning landscape on monstrous steeds, trampling the dead beneath them. Böcklin's nightmarish allegory of war anticipates the catastrophes of the twentieth century with terrifying prescience. The palette is dominated by sulphurous yellows, blood reds, and the black smoke of devastation, creating an image of almost medieval ferocity.",
+    "image": "/paintings/bocklin-war.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "symbolism",
+    "colors": [
+      { "hex": "#8A2A1A", "name": "Blood Field", "role": "dominant" },
+      { "hex": "#D4A030", "name": "Sulphur Fire", "role": "highlight" },
+      { "hex": "#1A1A1A", "name": "Death's Smoke", "role": "shadow" },
+      { "hex": "#C85030", "name": "Burning Earth", "role": "accent" },
+      { "hex": "#E8C868", "name": "Hellfire Glow", "role": "highlight" },
+      { "hex": "#4A3A2A", "name": "Scorched Ground", "role": "shadow" },
+      { "hex": "#6A4A2A", "name": "Steed Bronze", "role": "midtone" },
+      { "hex": "#A87A4A", "name": "Ash Ochre", "role": "midtone" }
+    ]
+  },
+  {
+    "id": "khnopff-the-caress",
+    "title": "The Caress",
+    "artist": "Fernand Khnopff",
+    "year": 1896,
+    "medium": "Oil on canvas",
+    "dimensions": "50.5 cm × 150 cm",
+    "location": "Royal Museums of Fine Arts of Belgium, Brussels",
+    "description": "A leopard-bodied sphinx with the head of a beautiful woman presses her cheek against the face of a young androgynous figure in this enigmatic allegory of desire and danger. Khnopff's hyper-refined technique renders every detail with photographic precision yet the effect is profoundly dreamlike. The cool, muted palette of sand, blue, and spotted fur creates an atmosphere of frozen, dangerous intimacy.",
+    "image": "/paintings/khnopff-the-caress.jpg",
+    "imageCredit": "Wikimedia Commons, Public Domain",
+    "movementId": "symbolism",
+    "colors": [
+      { "hex": "#C8B890", "name": "Desert Sand", "role": "dominant" },
+      { "hex": "#6A8AAA", "name": "Sphinx Blue", "role": "accent" },
+      { "hex": "#D4A868", "name": "Leopard Gold", "role": "midtone" },
+      { "hex": "#E8D8C0", "name": "Pale Flesh", "role": "highlight" },
+      { "hex": "#4A4A3A", "name": "Spotted Shadow", "role": "shadow" },
+      { "hex": "#8A7A5A", "name": "Ancient Stone", "role": "midtone" },
+      { "hex": "#3A5A7A", "name": "Cool Distance", "role": "accent" },
+      { "hex": "#F0E8D8", "name": "Veil Light", "role": "highlight" }
+    ]
+  }
+]
