@@ -1,0 +1,74 @@
+[
+  {
+    "id": "renaissance",
+    "slug": "renaissance",
+    "name": "Renaissance",
+    "period": "Renaissance",
+    "yearStart": 1400,
+    "yearEnd": 1600,
+    "description": "The Renaissance marked a profound cultural rebirth across Europe, reviving classical ideals of beauty, proportion, and humanism. Artists mastered perspective, chiaroscuro, and anatomical precision, creating works of extraordinary depth and realism. The palette favored rich earth tones, luminous blues from costly lapis lazuli, and warm flesh tones achieved through layered glazes."
+  },
+  {
+    "id": "baroque",
+    "slug": "baroque",
+    "name": "Baroque",
+    "period": "Baroque",
+    "yearStart": 1600,
+    "yearEnd": 1750,
+    "description": "Baroque art embraced dramatic intensity, rich color, and deep contrasts of light and shadow known as chiaroscuro. Artists sought to evoke emotional states through dynamic compositions, theatrical lighting, and a heightened sense of movement. The palette was characterized by deep blacks, luminous highlights, warm golden tones, and rich jewel colors that gave paintings an almost three-dimensional presence."
+  },
+  {
+    "id": "romanticism",
+    "slug": "romanticism",
+    "name": "Romanticism",
+    "period": "19th Century",
+    "yearStart": 1770,
+    "yearEnd": 1850,
+    "description": "Romanticism emerged as a reaction against the rationalism of the Enlightenment, championing emotion, individualism, and the sublime power of nature. Romantic painters employed dramatic contrasts of light and shadow, turbulent skies, and vivid, emotionally charged color palettes to evoke awe, terror, and transcendence in the viewer."
+  },
+  {
+    "id": "pre-raphaelite",
+    "slug": "pre-raphaelite",
+    "name": "Pre-Raphaelite Brotherhood",
+    "period": "19th Century",
+    "yearStart": 1848,
+    "yearEnd": 1900,
+    "description": "The Pre-Raphaelite Brotherhood rejected the mechanistic conventions of post-Raphael academic art, seeking instead the vivid color, intricate detail, and emotional sincerity of medieval and early Renaissance painting. Their works featured jewel-like colors applied over a wet white ground for luminosity, meticulous botanical and textile detail, and subjects drawn from literature, mythology, and the Bible."
+  },
+  {
+    "id": "realism",
+    "slug": "realism",
+    "name": "Realism",
+    "period": "19th Century",
+    "yearStart": 1840,
+    "yearEnd": 1900,
+    "description": "Realism rejected the idealization and drama of Romanticism in favor of depicting ordinary life with unflinching honesty. Realist painters portrayed peasants, laborers, and everyday scenes with the same gravity previously reserved for history painting. Their palettes were often muted and earthy, grounded in the actual colors of the natural and social world they documented."
+  },
+  {
+    "id": "impressionism",
+    "slug": "impressionism",
+    "name": "Impressionism",
+    "period": "19th Century",
+    "yearStart": 1860,
+    "yearEnd": 1890,
+    "description": "Impressionism revolutionized painting by prioritizing the direct observation of light, color, and atmosphere over academic precision. Working en plein air, the Impressionists used broken brushwork and pure, unmixed pigments to capture fleeting moments — the shimmer of water, the glow of a sunset, the dappled light filtering through leaves. Their palettes were characteristically luminous and high-keyed."
+  },
+  {
+    "id": "post-impressionism",
+    "slug": "post-impressionism",
+    "name": "Post-Impressionism",
+    "period": "19th Century",
+    "yearStart": 1886,
+    "yearEnd": 1905,
+    "description": "Post-Impressionism encompassed diverse artists who extended Impressionism while rejecting its limitations. Where the Impressionists sought to capture fleeting appearances, Post-Impressionists pursued deeper structural order, symbolic meaning, and emotional expression. Their palettes ranged from Van Gogh's intensely saturated, emotionally charged colors to Cézanne's carefully modulated planes of warm and cool tones."
+  },
+  {
+    "id": "art-nouveau",
+    "slug": "art-nouveau",
+    "name": "Art Nouveau",
+    "period": "Modern",
+    "yearStart": 1890,
+    "yearEnd": 1910,
+    "description": "Art Nouveau dissolved the boundary between fine and decorative art, creating a total aesthetic characterized by sinuous organic lines, floral motifs, and an embrace of new materials and techniques. Its painters and illustrators used flowing contours, flat areas of saturated color, and ornamental patterns inspired by Japanese prints, Celtic art, and the natural world to create images of dreamlike beauty."
+  }
+]

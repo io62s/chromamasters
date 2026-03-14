@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Read(//c/Users/io/Desktop/**)",
+      "Bash(npx create-next-app@latest chroma-masters-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(npx create-next-app@latest chroma-masters-temp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(cp -r /c/Users/io/Desktop/chroma-masters-temp/* /c/Users/io/Desktop/ChromaMasters/)",
+      "Bash(cp /c/Users/io/Desktop/chroma-masters-temp/.* /c/Users/io/Desktop/ChromaMasters/)",
+      "Bash(rm -rf /c/Users/io/Desktop/chroma-masters-temp)"
+    ]
+  }
+}
