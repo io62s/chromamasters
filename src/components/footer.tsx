@@ -14,10 +14,13 @@ export function Footer() {
               ChromaMasters
             </span>
           </div>
-          <p className="text-center text-xs text-muted-foreground">
-            All painting images sourced from open-access museum collections.
-            Color palettes curated for digital artists.
-          </p>
+          <div className="text-center text-xs text-muted-foreground">
+            <p>
+              All painting images sourced from open-access museum collections.
+              Color palettes curated for digital artists.
+            </p>
+            <p className="mt-2">&copy; 2026 ChromaMasters</p>
+          </div>
         </div>
       </div>
     </footer>
