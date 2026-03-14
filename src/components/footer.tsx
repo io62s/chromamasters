@@ -19,7 +19,7 @@ export function Footer() {
               All painting images sourced from open-access museum collections.
               Color palettes curated for digital artists.
             </p>
-            <p className="mt-2">&copy; 2026 ChromaMasters</p>
+
           </div>
         </div>
       </div>
