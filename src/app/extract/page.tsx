@@ -3,7 +3,7 @@ import { Footer } from "@/components/footer";
 import { ExtractView } from "@/components/extract-view";
 
 export const metadata = {
-  title: "Extract Palette — ChromaMasters",
+  title: "Extract Palette - ChromaMasters",
   description:
     "Upload any image and extract its dominant color palette using k-means clustering. All processing happens in your browser.",
 };

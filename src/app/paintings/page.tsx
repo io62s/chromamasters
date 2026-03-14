@@ -7,7 +7,7 @@ import { paintings, movements } from "@/lib/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "All Paintings — ChromaMasters",
+  title: "All Paintings - ChromaMasters",
   description:
     "Browse all paintings and their color palettes across every art movement.",
 };

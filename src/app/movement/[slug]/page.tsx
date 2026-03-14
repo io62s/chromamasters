@@ -19,7 +19,7 @@ export async function generateMetadata({
   const movement = getMovement(slug);
   if (!movement) return {};
   return {
-    title: `${movement.name} — ChromaMasters`,
+    title: `${movement.name} - ChromaMasters`,
     description: movement.description,
   };
 }
