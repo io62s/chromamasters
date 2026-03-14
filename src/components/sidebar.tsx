@@ -42,11 +42,10 @@ export function Sidebar() {
                     <li key={movement.id}>
                       <Link
                         href={`/movement/${movement.slug}`}
-                        className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${
-                          isActive
+                        className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${isActive
                             ? "bg-accent text-accent-foreground font-medium"
                             : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
-                        }`}
+                          }`}
                       >
                         {movement.name}
                         <span className="ml-1 text-xs text-muted-foreground/50">
@@ -109,11 +108,10 @@ export function MobileNav() {
                         <Link
                           href={`/movement/${movement.slug}`}
                           onClick={() => setOpen(false)}
-                          className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${
-                            isActive
-                              ? "bg-accent text-accent-foreground font-medium"
-                              : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
-                          }`}
+                          className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${isActive
+                            ? "bg-accent text-accent-foreground font-medium"
+                            : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
+                            }`}
                         >
                           {movement.name}
                         </Link>
