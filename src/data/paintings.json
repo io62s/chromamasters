@@ -7,19 +7,50 @@
     "medium": "Oil on poplar panel",
     "dimensions": "77 cm × 53 cm",
     "location": "Musée du Louvre, Paris",
-    "description": "Perhaps the most famous painting in the world, the Mona Lisa captivates with her enigmatic smile and Leonardo's mastery of sfumato — the subtle blending of tones that gives the figure an almost living quality. The landscape behind her dissolves into a misty, dreamlike atmosphere.",
     "image": "/paintings/mona-lisa.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#5B4A3F", "name": "Umber Veil", "role": "dominant" },
-      { "hex": "#8B7D6B", "name": "Florentine Dust", "role": "midtone" },
-      { "hex": "#C4A882", "name": "Golden Sfumato", "role": "highlight" },
-      { "hex": "#3D3229", "name": "Shadow Walnut", "role": "shadow" },
-      { "hex": "#6B7F5E", "name": "Tuscan Sage", "role": "accent" },
-      { "hex": "#A69478", "name": "Parchment Glow", "role": "midtone" },
-      { "hex": "#4A5D4A", "name": "Distant Olive", "role": "accent" },
-      { "hex": "#D4C4A8", "name": "Veil of Light", "role": "highlight" }
+      {
+        "hex": "#5B4A3F",
+        "name": "Umber Veil",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8B7D6B",
+        "name": "Florentine Dust",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C4A882",
+        "name": "Golden Sfumato",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3D3229",
+        "name": "Shadow Walnut",
+        "role": "shadow"
+      },
+      {
+        "hex": "#6B7F5E",
+        "name": "Tuscan Sage",
+        "role": "accent"
+      },
+      {
+        "hex": "#A69478",
+        "name": "Parchment Glow",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A5D4A",
+        "name": "Distant Olive",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4C4A8",
+        "name": "Veil of Light",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -30,19 +61,50 @@
     "medium": "Oil on canvas",
     "dimensions": "176.5 cm × 191 cm",
     "location": "National Gallery, London",
-    "description": "Titian's exuberant mythological painting captures the moment Bacchus leaps from his chariot toward the startled Ariadne, who has been abandoned on Naxos by Theseus. The composition explodes with movement and color — Bacchus's billowing crimson cloak, the brilliant ultramarine sky, and the riotous procession of satyrs and maenads create one of the most chromatically daring works of the Renaissance.",
     "image": "/paintings/titian-bacchus-and-ariadne.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#2A5FAA", "name": "Ultramarine Sky", "role": "dominant" },
-      { "hex": "#C83828", "name": "Bacchus Crimson", "role": "accent" },
-      { "hex": "#5A8A3A", "name": "Naxos Green", "role": "midtone" },
-      { "hex": "#E8D0A0", "name": "Sunlit Flesh", "role": "highlight" },
-      { "hex": "#D4A050", "name": "Chariot Gold", "role": "accent" },
-      { "hex": "#3A5A2A", "name": "Vine Shadow", "role": "shadow" },
-      { "hex": "#8A7A5A", "name": "Sandy Earth", "role": "midtone" },
-      { "hex": "#F0E0C8", "name": "Ariadne's Veil", "role": "highlight" }
+      {
+        "hex": "#2A5FAA",
+        "name": "Ultramarine Sky",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C83828",
+        "name": "Bacchus Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#5A8A3A",
+        "name": "Naxos Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D0A0",
+        "name": "Sunlit Flesh",
+        "role": "highlight"
+      },
+      {
+        "hex": "#D4A050",
+        "name": "Chariot Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#3A5A2A",
+        "name": "Vine Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8A7A5A",
+        "name": "Sandy Earth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F0E0C8",
+        "name": "Ariadne's Veil",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -53,19 +115,50 @@
     "medium": "Oil on canvas",
     "dimensions": "119.2 cm × 165.5 cm",
     "location": "Uffizi Gallery, Florence",
-    "description": "Titian's sensuous reclining nude gazes directly at the viewer with confident self-possession, holding a posy of roses in one hand. The warm, luminous flesh tones are set against rich fabrics — rumpled white sheets, a deep green curtain, and a rose-patterned couch. The domestic background with servants searching a cassone grounds the mythological subject in the intimacy of a Venetian palazzo.",
     "image": "/paintings/titian-venus-of-urbino.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#E8C8A0", "name": "Venus Flesh", "role": "dominant" },
-      { "hex": "#3A5A3A", "name": "Curtain Emerald", "role": "accent" },
-      { "hex": "#8B2A1A", "name": "Damask Red", "role": "accent" },
-      { "hex": "#F0E4D0", "name": "Sheet White", "role": "highlight" },
-      { "hex": "#4A3A2A", "name": "Chamber Shadow", "role": "shadow" },
-      { "hex": "#C4A478", "name": "Golden Skin", "role": "midtone" },
-      { "hex": "#6A5A4A", "name": "Palazzo Umber", "role": "midtone" },
-      { "hex": "#D4A88A", "name": "Rose Warmth", "role": "highlight" }
+      {
+        "hex": "#E8C8A0",
+        "name": "Venus Flesh",
+        "role": "dominant"
+      },
+      {
+        "hex": "#3A5A3A",
+        "name": "Curtain Emerald",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B2A1A",
+        "name": "Damask Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E4D0",
+        "name": "Sheet White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3A2A",
+        "name": "Chamber Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4A478",
+        "name": "Golden Skin",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6A5A4A",
+        "name": "Palazzo Umber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4A88A",
+        "name": "Rose Warmth",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -76,19 +169,50 @@
     "medium": "Oil on canvas",
     "dimensions": "82 cm × 73 cm",
     "location": "Gallerie dell'Accademia, Venice",
-    "description": "One of the most enigmatic paintings in Western art, The Tempest depicts a soldier and a nursing woman in a lush landscape as a bolt of lightning splits a stormy sky above a distant town. No convincing interpretation of the subject has ever been agreed upon, yet the painting's atmospheric unity — the way light, color, and mood merge into a single poetic vision — marks it as a revolutionary moment in the history of landscape painting.",
     "image": "/paintings/giorgione-the-tempest.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#4A6A3A", "name": "Storm Foliage", "role": "dominant" },
-      { "hex": "#6A8A7A", "name": "Venetian Green", "role": "midtone" },
-      { "hex": "#2A3A2A", "name": "Deep Canopy", "role": "shadow" },
-      { "hex": "#C8B888", "name": "Lightning Glow", "role": "highlight" },
-      { "hex": "#5A7AAA", "name": "Stormy Blue", "role": "accent" },
-      { "hex": "#8A7A5A", "name": "River Bank", "role": "midtone" },
-      { "hex": "#D4C4A0", "name": "Distant Town", "role": "highlight" },
-      { "hex": "#8A4A3A", "name": "Soldier's Cloak", "role": "accent" }
+      {
+        "hex": "#4A6A3A",
+        "name": "Storm Foliage",
+        "role": "dominant"
+      },
+      {
+        "hex": "#6A8A7A",
+        "name": "Venetian Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2A3A2A",
+        "name": "Deep Canopy",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C8B888",
+        "name": "Lightning Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A7AAA",
+        "name": "Stormy Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#8A7A5A",
+        "name": "River Bank",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4C4A0",
+        "name": "Distant Town",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8A4A3A",
+        "name": "Soldier's Cloak",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -99,19 +223,50 @@
     "medium": "Oil on canvas",
     "dimensions": "365 cm × 568 cm",
     "location": "San Giorgio Maggiore, Venice",
-    "description": "Tintoretto's visionary reimagining of the Last Supper transforms the traditional scene into a supernatural drama. The table recedes diagonally into deep space, lit by a single oil lamp whose smoke erupts into luminous angels. Christ distributes communion at the center while servants bustle in the foreground, blending the mundane with the miraculous in a composition of extraordinary dynamic energy.",
     "image": "/paintings/tintoretto-last-supper.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#1A1A0E", "name": "Sacred Darkness", "role": "shadow" },
-      { "hex": "#D4A840", "name": "Lamplight Gold", "role": "highlight" },
-      { "hex": "#4A3A1A", "name": "Tavern Shadow", "role": "dominant" },
-      { "hex": "#E8C870", "name": "Halo Glow", "role": "highlight" },
-      { "hex": "#8A3A2A", "name": "Apostle Red", "role": "accent" },
-      { "hex": "#6A5A3A", "name": "Table Wood", "role": "midtone" },
-      { "hex": "#3A6A5A", "name": "Deep Teal", "role": "accent" },
-      { "hex": "#A88A5A", "name": "Warm Ochre", "role": "midtone" }
+      {
+        "hex": "#1A1A0E",
+        "name": "Sacred Darkness",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4A840",
+        "name": "Lamplight Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3A1A",
+        "name": "Tavern Shadow",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8C870",
+        "name": "Halo Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8A3A2A",
+        "name": "Apostle Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#6A5A3A",
+        "name": "Table Wood",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A6A5A",
+        "name": "Deep Teal",
+        "role": "accent"
+      },
+      {
+        "hex": "#A88A5A",
+        "name": "Warm Ochre",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -122,19 +277,50 @@
     "medium": "Oil on canvas",
     "dimensions": "677 cm × 994 cm",
     "location": "Musée du Louvre, Paris",
-    "description": "The largest painting in the Louvre, Veronese's monumental canvas depicts the biblical miracle of Christ turning water into wine at a lavish Venetian-style feast. Over 130 figures populate the scene, including portraits of contemporary artists and monarchs dressed in sumptuous silks and brocades. The architectural grandeur, brilliant color harmonies, and festive atmosphere make it a celebration of Venetian splendor.",
     "image": "/paintings/veronese-wedding-at-cana.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#88AAC8", "name": "Venetian Sky", "role": "highlight" },
-      { "hex": "#C83828", "name": "Brocade Crimson", "role": "accent" },
-      { "hex": "#D4B888", "name": "Marble Column", "role": "dominant" },
-      { "hex": "#2A5A3A", "name": "Silk Emerald", "role": "accent" },
-      { "hex": "#E8D4B0", "name": "Feast Light", "role": "highlight" },
-      { "hex": "#6A5A4A", "name": "Palazzo Stone", "role": "midtone" },
-      { "hex": "#4A3A5A", "name": "Royal Purple", "role": "shadow" },
-      { "hex": "#A8946A", "name": "Golden Damask", "role": "midtone" }
+      {
+        "hex": "#88AAC8",
+        "name": "Venetian Sky",
+        "role": "highlight"
+      },
+      {
+        "hex": "#C83828",
+        "name": "Brocade Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4B888",
+        "name": "Marble Column",
+        "role": "dominant"
+      },
+      {
+        "hex": "#2A5A3A",
+        "name": "Silk Emerald",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D4B0",
+        "name": "Feast Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6A5A4A",
+        "name": "Palazzo Stone",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A3A5A",
+        "name": "Royal Purple",
+        "role": "shadow"
+      },
+      {
+        "hex": "#A8946A",
+        "name": "Golden Damask",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -145,19 +331,50 @@
     "medium": "Tempera on canvas",
     "dimensions": "172.5 cm × 278.9 cm",
     "location": "Uffizi Gallery, Florence",
-    "description": "Botticelli's masterpiece depicts the goddess Venus emerging from the sea as a fully grown woman, arriving at the shore on a giant scallop shell. The painting embodies the Renaissance ideal of divine beauty, with its flowing lines, delicate colors, and graceful composition inspired by classical antiquity.",
     "image": "/paintings/birth-of-venus.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#7AACB4", "name": "Aegean Mist", "role": "dominant" },
-      { "hex": "#D4A574", "name": "Venus Gold", "role": "highlight" },
-      { "hex": "#5B8C6A", "name": "Zephyr Green", "role": "accent" },
-      { "hex": "#2C4A5A", "name": "Deep Cerulean", "role": "shadow" },
-      { "hex": "#E8D5B7", "name": "Shell Cream", "role": "highlight" },
-      { "hex": "#8B6B4A", "name": "Terra Warm", "role": "midtone" },
-      { "hex": "#C47A5A", "name": "Rose Carnation", "role": "accent" },
-      { "hex": "#9BBCB0", "name": "Foam Jade", "role": "midtone" }
+      {
+        "hex": "#7AACB4",
+        "name": "Aegean Mist",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4A574",
+        "name": "Venus Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5B8C6A",
+        "name": "Zephyr Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#2C4A5A",
+        "name": "Deep Cerulean",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8D5B7",
+        "name": "Shell Cream",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B6B4A",
+        "name": "Terra Warm",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C47A5A",
+        "name": "Rose Carnation",
+        "role": "accent"
+      },
+      {
+        "hex": "#9BBCB0",
+        "name": "Foam Jade",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -168,19 +385,50 @@
     "medium": "Fresco",
     "dimensions": "500 cm × 770 cm",
     "location": "Apostolic Palace, Vatican City",
-    "description": "Raphael's grand fresco brings together the greatest philosophers and scientists of antiquity beneath a magnificent vaulted architecture. Plato and Aristotle stand at the center, surrounded by figures representing the breadth of classical knowledge. The composition is a triumph of Renaissance perspective and idealized human form.",
     "image": "/paintings/school-of-athens.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#C4A67A", "name": "Marble Warmth", "role": "dominant" },
-      { "hex": "#4A6A8A", "name": "Philosopher Blue", "role": "accent" },
-      { "hex": "#8B4A3A", "name": "Terracotta Rose", "role": "accent" },
-      { "hex": "#E8D8BE", "name": "Vault Ivory", "role": "highlight" },
-      { "hex": "#3A3A3A", "name": "Athenian Shadow", "role": "shadow" },
-      { "hex": "#9A8A6A", "name": "Sandstone", "role": "midtone" },
-      { "hex": "#6A8A5A", "name": "Laurel Olive", "role": "midtone" },
-      { "hex": "#D4A04A", "name": "Ochre Sunlight", "role": "highlight" }
+      {
+        "hex": "#C4A67A",
+        "name": "Marble Warmth",
+        "role": "dominant"
+      },
+      {
+        "hex": "#4A6A8A",
+        "name": "Philosopher Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B4A3A",
+        "name": "Terracotta Rose",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D8BE",
+        "name": "Vault Ivory",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A3A3A",
+        "name": "Athenian Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#9A8A6A",
+        "name": "Sandstone",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6A8A5A",
+        "name": "Laurel Olive",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4A04A",
+        "name": "Ochre Sunlight",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -191,19 +439,50 @@
     "medium": "Fresco",
     "dimensions": "280 cm × 570 cm",
     "location": "Sistine Chapel, Vatican City",
-    "description": "The most iconic panel of the Sistine Chapel ceiling depicts the moment God gives life to Adam. The near-touching fingers of God and Adam have become one of the most replicated images in art history. Michelangelo's anatomical precision and dynamic composition create an unforgettable vision of divine creation.",
     "image": "/paintings/creation-of-adam.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "renaissance",
     "colors": [
-      { "hex": "#C4A882", "name": "Fresco Warm", "role": "dominant" },
-      { "hex": "#8B6B5A", "name": "Adam's Earth", "role": "midtone" },
-      { "hex": "#A87B6A", "name": "Living Flesh", "role": "midtone" },
-      { "hex": "#6A4A3A", "name": "Sienna Deep", "role": "shadow" },
-      { "hex": "#7A9AAA", "name": "Heaven's Mantle", "role": "accent" },
-      { "hex": "#D8C8A8", "name": "Divine Light", "role": "highlight" },
-      { "hex": "#9A5A4A", "name": "Rose Clay", "role": "accent" },
-      { "hex": "#E8DACA", "name": "Ceiling Glow", "role": "highlight" }
+      {
+        "hex": "#C4A882",
+        "name": "Fresco Warm",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8B6B5A",
+        "name": "Adam's Earth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A87B6A",
+        "name": "Living Flesh",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6A4A3A",
+        "name": "Sienna Deep",
+        "role": "shadow"
+      },
+      {
+        "hex": "#7A9AAA",
+        "name": "Heaven's Mantle",
+        "role": "accent"
+      },
+      {
+        "hex": "#D8C8A8",
+        "name": "Divine Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#9A5A4A",
+        "name": "Rose Clay",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8DACA",
+        "name": "Ceiling Glow",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -214,19 +493,50 @@
     "medium": "Oil on canvas",
     "dimensions": "94.8 cm × 74.8 cm",
     "location": "Hamburger Kunsthalle, Hamburg",
-    "description": "The quintessential Romantic painting shows a solitary figure standing atop a rocky precipice, gazing out over a vast landscape shrouded in mist. Friedrich captures the Romantic ideal of the sublime — the overwhelming power and beauty of nature that dwarfs human existence yet elevates the individual spirit.",
     "image": "/paintings/wanderer-above-sea-of-fog.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "romanticism",
     "colors": [
-      { "hex": "#8A9EAE", "name": "Mountain Mist", "role": "dominant" },
-      { "hex": "#3A4A4A", "name": "Crag Shadow", "role": "shadow" },
-      { "hex": "#C4D0D8", "name": "Fog Silver", "role": "highlight" },
-      { "hex": "#5A6A6A", "name": "Storm Slate", "role": "midtone" },
-      { "hex": "#2A3A3E", "name": "Abyss Green", "role": "shadow" },
-      { "hex": "#7A6A5A", "name": "Rock Umber", "role": "midtone" },
-      { "hex": "#B0BCC4", "name": "Alpine Haze", "role": "highlight" },
-      { "hex": "#4A5A3A", "name": "Pine Dark", "role": "accent" }
+      {
+        "hex": "#8A9EAE",
+        "name": "Mountain Mist",
+        "role": "dominant"
+      },
+      {
+        "hex": "#3A4A4A",
+        "name": "Crag Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4D0D8",
+        "name": "Fog Silver",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A6A6A",
+        "name": "Storm Slate",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2A3A3E",
+        "name": "Abyss Green",
+        "role": "shadow"
+      },
+      {
+        "hex": "#7A6A5A",
+        "name": "Rock Umber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#B0BCC4",
+        "name": "Alpine Haze",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A5A3A",
+        "name": "Pine Dark",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -237,19 +547,50 @@
     "medium": "Oil on canvas",
     "dimensions": "260 cm × 325 cm",
     "location": "Musée du Louvre, Paris",
-    "description": "Delacroix's iconic painting commemorates the July Revolution of 1830 with a powerful allegory of Liberty personified as a bare-breasted woman leading the people over the barricades. The painting's dramatic composition, smoky atmosphere, and bold use of the French tricolor make it one of the most recognizable political artworks ever created.",
     "image": "/paintings/liberty-leading-the-people.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "romanticism",
     "colors": [
-      { "hex": "#4A3A2A", "name": "Barricade Brown", "role": "dominant" },
-      { "hex": "#2A4A7A", "name": "Tricolor Blue", "role": "accent" },
-      { "hex": "#C43A2A", "name": "Revolution Red", "role": "accent" },
-      { "hex": "#D4C4A0", "name": "Smoke Cream", "role": "highlight" },
-      { "hex": "#1A1A1A", "name": "Gunpowder", "role": "shadow" },
-      { "hex": "#8A7A5A", "name": "Dust Gold", "role": "midtone" },
-      { "hex": "#6A5A4A", "name": "Rubble Umber", "role": "midtone" },
-      { "hex": "#E8D8B8", "name": "Banner White", "role": "highlight" }
+      {
+        "hex": "#4A3A2A",
+        "name": "Barricade Brown",
+        "role": "dominant"
+      },
+      {
+        "hex": "#2A4A7A",
+        "name": "Tricolor Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#C43A2A",
+        "name": "Revolution Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4C4A0",
+        "name": "Smoke Cream",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1A1A1A",
+        "name": "Gunpowder",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8A7A5A",
+        "name": "Dust Gold",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6A5A4A",
+        "name": "Rubble Umber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D8B8",
+        "name": "Banner White",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -260,19 +601,50 @@
     "medium": "Woodblock print (nishiki-e)",
     "dimensions": "25.7 cm × 37.9 cm",
     "location": "Metropolitan Museum of Art, New York",
-    "description": "Hokusai's iconic woodblock print depicts a towering wave threatening boats near the coast of Kanagawa, with Mount Fuji visible in the background. The dramatic composition, bold lines, and striking use of Prussian blue made this print a sensation that profoundly influenced Western Impressionist and Art Nouveau movements.",
     "image": "/paintings/great-wave.jpg",
     "imageCredit": "Metropolitan Museum of Art, Public Domain",
     "movementId": "romanticism",
     "colors": [
-      { "hex": "#2A4A7A", "name": "Prussian Tide", "role": "dominant" },
-      { "hex": "#E8E0C8", "name": "Foam White", "role": "highlight" },
-      { "hex": "#1A2A4A", "name": "Deep Current", "role": "shadow" },
-      { "hex": "#6A8AAA", "name": "Sky Indigo", "role": "midtone" },
-      { "hex": "#C4B890", "name": "Sand Pale", "role": "midtone" },
-      { "hex": "#3A5A8A", "name": "Wave Crest", "role": "accent" },
-      { "hex": "#8AAABE", "name": "Horizon Blue", "role": "accent" },
-      { "hex": "#4A3A2A", "name": "Boat Umber", "role": "shadow" }
+      {
+        "hex": "#2A4A7A",
+        "name": "Prussian Tide",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8E0C8",
+        "name": "Foam White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1A2A4A",
+        "name": "Deep Current",
+        "role": "shadow"
+      },
+      {
+        "hex": "#6A8AAA",
+        "name": "Sky Indigo",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C4B890",
+        "name": "Sand Pale",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A5A8A",
+        "name": "Wave Crest",
+        "role": "accent"
+      },
+      {
+        "hex": "#8AAABE",
+        "name": "Horizon Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A3A2A",
+        "name": "Boat Umber",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -283,19 +655,50 @@
     "medium": "Oil on canvas",
     "dimensions": "130.2 cm × 185.4 cm",
     "location": "National Gallery, London",
-    "description": "Constable's beloved painting depicts a rural scene near Flatford Mill in Suffolk, with a hay cart crossing a shallow river beneath a sky of luminous, ever-changing clouds. The painting's naturalistic treatment of light and atmosphere, painted partly outdoors, anticipated the Impressionist movement by half a century.",
     "image": "/paintings/the-hay-wain.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "romanticism",
     "colors": [
-      { "hex": "#4A6A3A", "name": "Suffolk Green", "role": "dominant" },
-      { "hex": "#8AAABE", "name": "Cloud Blue", "role": "highlight" },
-      { "hex": "#6A8A5A", "name": "Meadow Sage", "role": "midtone" },
-      { "hex": "#3A4A2A", "name": "Elm Shadow", "role": "shadow" },
-      { "hex": "#C4B890", "name": "Hay Gold", "role": "accent" },
-      { "hex": "#8A7A6A", "name": "River Mud", "role": "midtone" },
-      { "hex": "#D8D0C0", "name": "Sky Cream", "role": "highlight" },
-      { "hex": "#5A3A2A", "name": "Cottage Timber", "role": "accent" }
+      {
+        "hex": "#4A6A3A",
+        "name": "Suffolk Green",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8AAABE",
+        "name": "Cloud Blue",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6A8A5A",
+        "name": "Meadow Sage",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A4A2A",
+        "name": "Elm Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4B890",
+        "name": "Hay Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#8A7A6A",
+        "name": "River Mud",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D8D0C0",
+        "name": "Sky Cream",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A3A2A",
+        "name": "Cottage Timber",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -306,19 +709,50 @@
     "medium": "Oil on canvas",
     "dimensions": "221 cm × 332 cm",
     "location": "State Russian Museum, Saint Petersburg",
-    "description": "Aivazovsky's dramatic seascape captures survivors clinging to debris after a shipwreck as a massive wave bears down on them. Yet the warm golden light breaking through the storm suggests hope and survival. The painting is renowned for its luminous depiction of translucent water and the interplay of sunlight and storm.",
     "image": "/paintings/ninth-wave.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "romanticism",
     "colors": [
-      { "hex": "#D4842A", "name": "Storm Amber", "role": "highlight" },
-      { "hex": "#2A5A5A", "name": "Ocean Deep", "role": "dominant" },
-      { "hex": "#E8B860", "name": "Dawn Gold", "role": "accent" },
-      { "hex": "#1A3A4A", "name": "Abyss Teal", "role": "shadow" },
-      { "hex": "#6A9A8A", "name": "Sea Glass", "role": "midtone" },
-      { "hex": "#4A7A6A", "name": "Wave Jade", "role": "midtone" },
-      { "hex": "#8A4A2A", "name": "Wreck Bronze", "role": "accent" },
-      { "hex": "#F0D090", "name": "Horizon Glow", "role": "highlight" }
+      {
+        "hex": "#D4842A",
+        "name": "Storm Amber",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2A5A5A",
+        "name": "Ocean Deep",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8B860",
+        "name": "Dawn Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A3A4A",
+        "name": "Abyss Teal",
+        "role": "shadow"
+      },
+      {
+        "hex": "#6A9A8A",
+        "name": "Sea Glass",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A7A6A",
+        "name": "Wave Jade",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8A4A2A",
+        "name": "Wreck Bronze",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0D090",
+        "name": "Horizon Glow",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -329,19 +763,50 @@
     "medium": "Oil on canvas",
     "dimensions": "48 cm × 63 cm",
     "location": "Musée Marmottan Monet, Paris",
-    "description": "The painting that gave Impressionism its name captures the port of Le Havre at dawn. Monet's loose, rapid brushstrokes dissolve solid forms into shimmering reflections of light on water. The orange sun, barely brighter than the surrounding grey-blue atmosphere, creates a haunting study in atmospheric color.",
     "image": "/paintings/impression-sunrise.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#6A8A9A", "name": "Harbor Mist", "role": "dominant" },
-      { "hex": "#D4642A", "name": "Sunrise Orange", "role": "accent" },
-      { "hex": "#4A6A7A", "name": "Morning Slate", "role": "midtone" },
-      { "hex": "#2A4A5A", "name": "Water Shadow", "role": "shadow" },
-      { "hex": "#A8B8C0", "name": "Fog Pearl", "role": "highlight" },
-      { "hex": "#8A6A4A", "name": "Mast Umber", "role": "midtone" },
-      { "hex": "#E8A850", "name": "Sun Reflection", "role": "accent" },
-      { "hex": "#C0CCD0", "name": "Dawn Silver", "role": "highlight" }
+      {
+        "hex": "#6A8A9A",
+        "name": "Harbor Mist",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4642A",
+        "name": "Sunrise Orange",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A6A7A",
+        "name": "Morning Slate",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2A4A5A",
+        "name": "Water Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#A8B8C0",
+        "name": "Fog Pearl",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8A6A4A",
+        "name": "Mast Umber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8A850",
+        "name": "Sun Reflection",
+        "role": "accent"
+      },
+      {
+        "hex": "#C0CCD0",
+        "name": "Dawn Silver",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -352,19 +817,50 @@
     "medium": "Oil on canvas",
     "dimensions": "89.9 cm × 94.1 cm",
     "location": "Art Institute of Chicago",
-    "description": "Part of Monet's monumental series of approximately 250 paintings depicting his flower garden at Giverny, this canvas immerses the viewer in a world of reflected sky, floating lilies, and shimmering water. The absence of a horizon line creates an almost abstract field of pure color and light.",
     "image": "/paintings/water-lilies.jpg",
     "imageCredit": "Art Institute of Chicago, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#4A7A6A", "name": "Lily Pond", "role": "dominant" },
-      { "hex": "#6A9A7A", "name": "Giverny Green", "role": "midtone" },
-      { "hex": "#8AAABA", "name": "Reflected Sky", "role": "accent" },
-      { "hex": "#2A4A4A", "name": "Pond Shadow", "role": "shadow" },
-      { "hex": "#D4A8C0", "name": "Blossom Pink", "role": "accent" },
-      { "hex": "#A8C8A8", "name": "Leaf Soft", "role": "midtone" },
-      { "hex": "#E8D8C0", "name": "Petal Cream", "role": "highlight" },
-      { "hex": "#3A6A5A", "name": "Water Deep", "role": "shadow" }
+      {
+        "hex": "#4A7A6A",
+        "name": "Lily Pond",
+        "role": "dominant"
+      },
+      {
+        "hex": "#6A9A7A",
+        "name": "Giverny Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8AAABA",
+        "name": "Reflected Sky",
+        "role": "accent"
+      },
+      {
+        "hex": "#2A4A4A",
+        "name": "Pond Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4A8C0",
+        "name": "Blossom Pink",
+        "role": "accent"
+      },
+      {
+        "hex": "#A8C8A8",
+        "name": "Leaf Soft",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D8C0",
+        "name": "Petal Cream",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A6A5A",
+        "name": "Water Deep",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -375,19 +871,50 @@
     "medium": "Oil on canvas",
     "dimensions": "131 cm × 175 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Renoir's joyful masterpiece captures a Sunday afternoon dance at an open-air café in Montmartre. The dappled sunlight filtering through the trees creates a mosaic of warm and cool tones across the animated crowd, embodying the Impressionist ideal of capturing a fleeting moment of modern life in all its luminosity.",
     "image": "/paintings/dance-at-le-moulin.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#3A5A8A", "name": "Montmartre Blue", "role": "accent" },
-      { "hex": "#D4A878", "name": "Sunlit Skin", "role": "highlight" },
-      { "hex": "#2A3A5A", "name": "Evening Coat", "role": "shadow" },
-      { "hex": "#8A7A5A", "name": "Straw Hat", "role": "midtone" },
-      { "hex": "#5A7A4A", "name": "Garden Dapple", "role": "midtone" },
-      { "hex": "#E8D0B0", "name": "Linen Cream", "role": "highlight" },
-      { "hex": "#C47A6A", "name": "Flushed Cheek", "role": "accent" },
-      { "hex": "#4A4A4A", "name": "Crowd Shadow", "role": "dominant" }
+      {
+        "hex": "#3A5A8A",
+        "name": "Montmartre Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4A878",
+        "name": "Sunlit Skin",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2A3A5A",
+        "name": "Evening Coat",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8A7A5A",
+        "name": "Straw Hat",
+        "role": "midtone"
+      },
+      {
+        "hex": "#5A7A4A",
+        "name": "Garden Dapple",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D0B0",
+        "name": "Linen Cream",
+        "role": "highlight"
+      },
+      {
+        "hex": "#C47A6A",
+        "name": "Flushed Cheek",
+        "role": "accent"
+      },
+      {
+        "hex": "#4A4A4A",
+        "name": "Crowd Shadow",
+        "role": "dominant"
+      }
     ]
   },
   {
@@ -398,19 +925,50 @@
     "medium": "Oil on canvas",
     "dimensions": "72.5 cm × 92 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Painted on the bank of the Rhône in Arles, this nocturne captures the shimmering reflections of gaslight and starlight on the river's surface. Van Gogh's bold, expressive brushwork transforms the night sky into a swirling field of blues and golds, presaging his more famous Starry Night painted a year later.",
     "image": "/paintings/starry-night-rhone.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#1A2A4A", "name": "Rhône Midnight", "role": "dominant" },
-      { "hex": "#D4B44A", "name": "Gaslight Gold", "role": "accent" },
-      { "hex": "#2A4A6A", "name": "Night River", "role": "shadow" },
-      { "hex": "#6A8AAA", "name": "Starlit Blue", "role": "midtone" },
-      { "hex": "#E8C860", "name": "Star Gleam", "role": "highlight" },
-      { "hex": "#4A6A4A", "name": "Bank Green", "role": "midtone" },
-      { "hex": "#8AA0B8", "name": "Reflection Pool", "role": "accent" },
-      { "hex": "#F0E0A0", "name": "Lantern Glow", "role": "highlight" }
+      {
+        "hex": "#1A2A4A",
+        "name": "Rhône Midnight",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4B44A",
+        "name": "Gaslight Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#2A4A6A",
+        "name": "Night River",
+        "role": "shadow"
+      },
+      {
+        "hex": "#6A8AAA",
+        "name": "Starlit Blue",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8C860",
+        "name": "Star Gleam",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A6A4A",
+        "name": "Bank Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8AA0B8",
+        "name": "Reflection Pool",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E0A0",
+        "name": "Lantern Glow",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -421,19 +979,50 @@
     "medium": "Oil on canvas",
     "dimensions": "130.2 cm × 175.6 cm",
     "location": "The Phillips Collection, Washington, D.C.",
-    "description": "Renoir's vibrant composition depicts a group of his friends enjoying a leisurely lunch on the balcony of the Maison Fournaise restaurant along the Seine. The painting brilliantly balances intimate portraiture with a complex multi-figure composition, bathed in warm afternoon light that plays across skin, glass, and the striped awning overhead.",
     "image": "/paintings/luncheon-boating-party.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#D4A070", "name": "Afternoon Warmth", "role": "dominant" },
-      { "hex": "#2A3A5A", "name": "Boater's Navy", "role": "accent" },
-      { "hex": "#E8C8A0", "name": "Linen White", "role": "highlight" },
-      { "hex": "#8A4A3A", "name": "Wine Shadow", "role": "shadow" },
-      { "hex": "#C47A5A", "name": "Cheek Rouge", "role": "accent" },
-      { "hex": "#6A7A5A", "name": "Riverside Olive", "role": "midtone" },
-      { "hex": "#A88A6A", "name": "Straw Weave", "role": "midtone" },
-      { "hex": "#F0E0C8", "name": "Tablecloth Cream", "role": "highlight" }
+      {
+        "hex": "#D4A070",
+        "name": "Afternoon Warmth",
+        "role": "dominant"
+      },
+      {
+        "hex": "#2A3A5A",
+        "name": "Boater's Navy",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8C8A0",
+        "name": "Linen White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8A4A3A",
+        "name": "Wine Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C47A5A",
+        "name": "Cheek Rouge",
+        "role": "accent"
+      },
+      {
+        "hex": "#6A7A5A",
+        "name": "Riverside Olive",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A88A6A",
+        "name": "Straw Weave",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F0E0C8",
+        "name": "Tablecloth Cream",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -444,19 +1033,50 @@
     "medium": "Oil on canvas",
     "dimensions": "100.1 cm × 65.8 cm",
     "location": "National Gallery of Art, Washington, D.C.",
-    "description": "Part of Monet's extraordinary series of over thirty paintings of Rouen Cathedral, this canvas captures the west façade dissolved in afternoon sunlight. The Gothic architecture becomes almost abstract, its stone surface transformed into a shimmering mosaic of warm golds, blues, and violets. The thick impasto surface seems to vibrate with light, demonstrating Monet's conviction that the true subject of painting is light itself.",
     "image": "/paintings/monet-rouen-cathedral.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#C8A868", "name": "Sunlit Stone", "role": "dominant" },
-      { "hex": "#8A8AAA", "name": "Cathedral Blue", "role": "midtone" },
-      { "hex": "#E8D498", "name": "Afternoon Gold", "role": "highlight" },
-      { "hex": "#6A6A8A", "name": "Gothic Shadow", "role": "shadow" },
-      { "hex": "#D4B880", "name": "Warm Façade", "role": "midtone" },
-      { "hex": "#9A7A5A", "name": "Carved Ochre", "role": "accent" },
-      { "hex": "#7A7AA0", "name": "Violet Haze", "role": "accent" },
-      { "hex": "#F0E0B8", "name": "Buttress Light", "role": "highlight" }
+      {
+        "hex": "#C8A868",
+        "name": "Sunlit Stone",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8A8AAA",
+        "name": "Cathedral Blue",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D498",
+        "name": "Afternoon Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6A6A8A",
+        "name": "Gothic Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4B880",
+        "name": "Warm Façade",
+        "role": "midtone"
+      },
+      {
+        "hex": "#9A7A5A",
+        "name": "Carved Ochre",
+        "role": "accent"
+      },
+      {
+        "hex": "#7A7AA0",
+        "name": "Violet Haze",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E0B8",
+        "name": "Buttress Light",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -467,19 +1087,50 @@
     "medium": "Oil on canvas",
     "dimensions": "60 cm × 100 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Monet's Haystacks series marked a turning point in modern art — the same humble subject painted over and over in different light and weather conditions. This late-summer version glows with warm oranges and deep violets as the setting sun saturates the conical stacks and their long shadows. The painting proved that subject matter was secondary to the act of seeing.",
     "image": "/paintings/monet-haystacks.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#C87830", "name": "Haystack Amber", "role": "dominant" },
-      { "hex": "#6A5A8A", "name": "Twilight Violet", "role": "accent" },
-      { "hex": "#E8A848", "name": "Sunset Gold", "role": "highlight" },
-      { "hex": "#4A6A3A", "name": "Field Green", "role": "midtone" },
-      { "hex": "#8A6A3A", "name": "Warm Earth", "role": "midtone" },
-      { "hex": "#3A3A5A", "name": "Long Shadow", "role": "shadow" },
-      { "hex": "#D4A060", "name": "Straw Light", "role": "highlight" },
-      { "hex": "#5A8A6A", "name": "Distant Meadow", "role": "accent" }
+      {
+        "hex": "#C87830",
+        "name": "Haystack Amber",
+        "role": "dominant"
+      },
+      {
+        "hex": "#6A5A8A",
+        "name": "Twilight Violet",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8A848",
+        "name": "Sunset Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A6A3A",
+        "name": "Field Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8A6A3A",
+        "name": "Warm Earth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A3A5A",
+        "name": "Long Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4A060",
+        "name": "Straw Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A8A6A",
+        "name": "Distant Meadow",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -490,19 +1141,50 @@
     "medium": "Oil on canvas",
     "dimensions": "85 cm × 75 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Degas's intimate glimpse into a ballet rehearsal at the Paris Opéra shows young dancers practicing under the watchful eye of the elderly ballet master Jules Perrot. The off-center composition, cropped figures, and elevated viewpoint reveal Degas's fascination with Japanese prints and photography. The soft greens and warm wood tones of the studio contrast with the bright whites of the dancers' tutus.",
     "image": "/paintings/degas-dance-class.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#C8B898", "name": "Studio Wall", "role": "dominant" },
-      { "hex": "#5A8A6A", "name": "Rehearsal Green", "role": "accent" },
-      { "hex": "#F0E8D8", "name": "Tutu White", "role": "highlight" },
-      { "hex": "#8A6A4A", "name": "Parquet Floor", "role": "midtone" },
-      { "hex": "#4A4A3A", "name": "Perrot's Coat", "role": "shadow" },
-      { "hex": "#D4C4A8", "name": "Daylight Warm", "role": "highlight" },
-      { "hex": "#A89878", "name": "Rosin Dust", "role": "midtone" },
-      { "hex": "#6A5A4A", "name": "Barre Shadow", "role": "accent" }
+      {
+        "hex": "#C8B898",
+        "name": "Studio Wall",
+        "role": "dominant"
+      },
+      {
+        "hex": "#5A8A6A",
+        "name": "Rehearsal Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E8D8",
+        "name": "Tutu White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8A6A4A",
+        "name": "Parquet Floor",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A4A3A",
+        "name": "Perrot's Coat",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4C4A8",
+        "name": "Daylight Warm",
+        "role": "highlight"
+      },
+      {
+        "hex": "#A89878",
+        "name": "Rosin Dust",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6A5A4A",
+        "name": "Barre Shadow",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -513,19 +1195,50 @@
     "medium": "Oil on canvas",
     "dimensions": "56 cm × 46 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Exhibited at the first Impressionist exhibition in 1874, Morisot's tender painting shows her sister Edma watching over her sleeping infant through a translucent curtain. The delicate interplay of whites — the gauze veil, the baby's dress, the pillow — against the dark dress and hair of the mother creates a study in intimacy and maternal devotion. It was the first painting by a woman shown in an Impressionist exhibition.",
     "image": "/paintings/morisot-the-cradle.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#2A2A2A", "name": "Mother's Dress", "role": "dominant" },
-      { "hex": "#E8E0D8", "name": "Gauze Veil", "role": "highlight" },
-      { "hex": "#8A7A6A", "name": "Warm Shadow", "role": "midtone" },
-      { "hex": "#C4B8A8", "name": "Linen Soft", "role": "midtone" },
-      { "hex": "#5A7A8A", "name": "Quiet Blue", "role": "accent" },
-      { "hex": "#F0EAE0", "name": "Infant White", "role": "highlight" },
-      { "hex": "#4A3A3A", "name": "Hair Dark", "role": "shadow" },
-      { "hex": "#A08A7A", "name": "Cradle Wood", "role": "accent" }
+      {
+        "hex": "#2A2A2A",
+        "name": "Mother's Dress",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8E0D8",
+        "name": "Gauze Veil",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8A7A6A",
+        "name": "Warm Shadow",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C4B8A8",
+        "name": "Linen Soft",
+        "role": "midtone"
+      },
+      {
+        "hex": "#5A7A8A",
+        "name": "Quiet Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0EAE0",
+        "name": "Infant White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3A3A",
+        "name": "Hair Dark",
+        "role": "shadow"
+      },
+      {
+        "hex": "#A08A7A",
+        "name": "Cradle Wood",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -536,19 +1249,50 @@
     "medium": "Oil on canvas",
     "dimensions": "61 cm × 50.5 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Sisley was the purest landscape painter among the Impressionists, and his snow scenes are among his finest achievements. This view of a quiet road in Louveciennes captures the muffled stillness of a winter day, with soft blues and lavenders in the snow shadows contrasting with the warm ochres of the stone walls. A solitary figure walks toward us, adding a note of human scale to the hushed landscape.",
     "image": "/paintings/sisley-snow-louveciennes.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "impressionism",
     "colors": [
-      { "hex": "#D8D8E0", "name": "Fresh Snow", "role": "dominant" },
-      { "hex": "#8A8AAA", "name": "Snow Shadow", "role": "midtone" },
-      { "hex": "#A89868", "name": "Stone Wall", "role": "accent" },
-      { "hex": "#6A7A8A", "name": "Winter Sky", "role": "midtone" },
-      { "hex": "#4A4A5A", "name": "Bare Branch", "role": "shadow" },
-      { "hex": "#E8E0D0", "name": "Overcast Light", "role": "highlight" },
-      { "hex": "#7A6A5A", "name": "Frozen Earth", "role": "accent" },
-      { "hex": "#C0C8D8", "name": "Lavender Ice", "role": "highlight" }
+      {
+        "hex": "#D8D8E0",
+        "name": "Fresh Snow",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8A8AAA",
+        "name": "Snow Shadow",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A89868",
+        "name": "Stone Wall",
+        "role": "accent"
+      },
+      {
+        "hex": "#6A7A8A",
+        "name": "Winter Sky",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A4A5A",
+        "name": "Bare Branch",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8E0D0",
+        "name": "Overcast Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#7A6A5A",
+        "name": "Frozen Earth",
+        "role": "accent"
+      },
+      {
+        "hex": "#C0C8D8",
+        "name": "Lavender Ice",
+        "role": "highlight"
+      }
     ]
   }
 ]

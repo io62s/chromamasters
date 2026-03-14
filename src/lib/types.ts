@@ -12,7 +12,6 @@ export interface Painting {
   medium: string;
   dimensions: string;
   location: string;
-  description: string;
   image: string;
   imageCredit: string;
   movementId: string;

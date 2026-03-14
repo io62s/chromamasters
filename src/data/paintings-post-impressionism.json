@@ -7,19 +7,50 @@
     "medium": "Oil on canvas",
     "dimensions": "73.7 cm × 92.1 cm",
     "location": "Museum of Modern Art, New York",
-    "description": "Painted from memory during Van Gogh's stay at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence, the swirling night sky dominates a quiet village below. The luminous stars and crescent moon radiate with turbulent energy, while a towering cypress tree connects earth to the heavens. It is among the most recognized works in Western art, embodying Van Gogh's emotional intensity and visionary imagination.",
     "image": "/paintings/starry-night.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#1B3A6B", "name": "Midnight Cobalt", "role": "dominant" },
-      { "hex": "#4A90D9", "name": "Swirling Firmament", "role": "midtone" },
-      { "hex": "#F5D742", "name": "Celestial Gold", "role": "accent" },
-      { "hex": "#0D1F3C", "name": "Abyssal Night", "role": "shadow" },
-      { "hex": "#2E6B4F", "name": "Cypress Evergreen", "role": "midtone" },
-      { "hex": "#FEFEFD", "name": "Starfire White", "role": "highlight" },
-      { "hex": "#6BAED6", "name": "Provençal Breeze", "role": "midtone" },
-      { "hex": "#1A1A2E", "name": "Village Shadow", "role": "shadow" }
+      {
+        "hex": "#1B3A6B",
+        "name": "Midnight Cobalt",
+        "role": "dominant"
+      },
+      {
+        "hex": "#4A90D9",
+        "name": "Swirling Firmament",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F5D742",
+        "name": "Celestial Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#0D1F3C",
+        "name": "Abyssal Night",
+        "role": "shadow"
+      },
+      {
+        "hex": "#2E6B4F",
+        "name": "Cypress Evergreen",
+        "role": "midtone"
+      },
+      {
+        "hex": "#FEFEFD",
+        "name": "Starfire White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6BAED6",
+        "name": "Provençal Breeze",
+        "role": "midtone"
+      },
+      {
+        "hex": "#1A1A2E",
+        "name": "Village Shadow",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -30,19 +61,50 @@
     "medium": "Oil on canvas",
     "dimensions": "92.1 cm × 73 cm",
     "location": "National Gallery, London",
-    "description": "One of a series of still life paintings depicting sunflowers in various stages of bloom and decay, this work radiates warmth through its extraordinary range of yellows. Van Gogh painted it to decorate the room of his friend Paul Gauguin in the Yellow House in Arles. The thick impasto technique gives the petals a sculptural, almost tactile quality.",
     "image": "/paintings/sunflowers.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#E8C520", "name": "Provençal Sun", "role": "dominant" },
-      { "hex": "#D4A017", "name": "Ripe Petal Gold", "role": "midtone" },
-      { "hex": "#F0DC5A", "name": "Lemon Haze", "role": "highlight" },
-      { "hex": "#8B6914", "name": "Dried Stalk Umber", "role": "shadow" },
-      { "hex": "#5C7A3D", "name": "Stem Green", "role": "accent" },
-      { "hex": "#C9A84C", "name": "Ochre Warmth", "role": "midtone" },
-      { "hex": "#3D2B1F", "name": "Seed Core Brown", "role": "shadow" },
-      { "hex": "#F5E6A3", "name": "Butter Cream", "role": "highlight" }
+      {
+        "hex": "#E8C520",
+        "name": "Provençal Sun",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4A017",
+        "name": "Ripe Petal Gold",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F0DC5A",
+        "name": "Lemon Haze",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B6914",
+        "name": "Dried Stalk Umber",
+        "role": "shadow"
+      },
+      {
+        "hex": "#5C7A3D",
+        "name": "Stem Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#C9A84C",
+        "name": "Ochre Warmth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3D2B1F",
+        "name": "Seed Core Brown",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F5E6A3",
+        "name": "Butter Cream",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -53,19 +115,50 @@
     "medium": "Oil on canvas",
     "dimensions": "72 cm × 90 cm",
     "location": "Van Gogh Museum, Amsterdam",
-    "description": "Van Gogh depicted his own bedroom in the Yellow House in Arles, using bold flat areas of color to convey rest and tranquility. The exaggerated perspective and tilted floor lend the scene a dreamlike quality despite its humble domestic subject. He considered this painting one of his best, finding comfort in its simplicity and color harmonies.",
     "image": "/paintings/bedroom-in-arles.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#5B8DB8", "name": "Restful Blue", "role": "dominant" },
-      { "hex": "#C4A44A", "name": "Wooden Floor Ochre", "role": "midtone" },
-      { "hex": "#E85D3A", "name": "Bedspread Vermilion", "role": "accent" },
-      { "hex": "#7CAE58", "name": "Shutter Green", "role": "accent" },
-      { "hex": "#D2B896", "name": "Pale Plaster", "role": "highlight" },
-      { "hex": "#4A3728", "name": "Furniture Walnut", "role": "shadow" },
-      { "hex": "#A68BBE", "name": "Lilac Wall", "role": "midtone" },
-      { "hex": "#F4E8C1", "name": "Pillow Cream", "role": "highlight" }
+      {
+        "hex": "#5B8DB8",
+        "name": "Restful Blue",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C4A44A",
+        "name": "Wooden Floor Ochre",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E85D3A",
+        "name": "Bedspread Vermilion",
+        "role": "accent"
+      },
+      {
+        "hex": "#7CAE58",
+        "name": "Shutter Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#D2B896",
+        "name": "Pale Plaster",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3728",
+        "name": "Furniture Walnut",
+        "role": "shadow"
+      },
+      {
+        "hex": "#A68BBE",
+        "name": "Lilac Wall",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F4E8C1",
+        "name": "Pillow Cream",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -76,19 +169,50 @@
     "medium": "Oil on canvas",
     "dimensions": "80.7 cm × 65.3 cm",
     "location": "Kröller-Müller Museum, Otterlo",
-    "description": "This vibrant nocturnal scene captures the warm glow of a café terrace on the Place du Forum in Arles under a deep blue star-filled sky. Van Gogh pioneered the use of contrasting warm yellows and cool blues to render an outdoor night scene without relying on black. The composition draws the viewer's eye down the cobblestone street into the infinite starry distance.",
     "image": "/paintings/cafe-terrace-at-night.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#D4A824", "name": "Gaslight Gold", "role": "dominant" },
-      { "hex": "#1E2D5B", "name": "Evening Cobalt", "role": "dominant" },
-      { "hex": "#F5E27A", "name": "Awning Glow", "role": "highlight" },
-      { "hex": "#6A5D4D", "name": "Cobblestone Dusk", "role": "midtone" },
-      { "hex": "#0F1A36", "name": "Deep Night", "role": "shadow" },
-      { "hex": "#FEFCE8", "name": "Star Glimmer", "role": "highlight" },
-      { "hex": "#8B7A5E", "name": "Warm Sandstone", "role": "midtone" },
-      { "hex": "#3B4F2A", "name": "Foliage Dark", "role": "shadow" }
+      {
+        "hex": "#D4A824",
+        "name": "Gaslight Gold",
+        "role": "dominant"
+      },
+      {
+        "hex": "#1E2D5B",
+        "name": "Evening Cobalt",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F5E27A",
+        "name": "Awning Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6A5D4D",
+        "name": "Cobblestone Dusk",
+        "role": "midtone"
+      },
+      {
+        "hex": "#0F1A36",
+        "name": "Deep Night",
+        "role": "shadow"
+      },
+      {
+        "hex": "#FEFCE8",
+        "name": "Star Glimmer",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B7A5E",
+        "name": "Warm Sandstone",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3B4F2A",
+        "name": "Foliage Dark",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -99,19 +223,50 @@
     "medium": "Oil on canvas",
     "dimensions": "50.5 cm × 103 cm",
     "location": "Van Gogh Museum, Amsterdam",
-    "description": "Painted in the final weeks of Van Gogh's life in Auvers-sur-Oise, this double-square canvas shows a turbulent sky over a vast wheatfield with crows rising above diverging paths. The dramatic contrast between the golden wheat and the threatening dark sky creates an atmosphere of profound unease. Its raw, agitated brushwork is often read as an expression of the artist's inner turmoil.",
     "image": "/paintings/wheatfield-with-crows.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#D4A620", "name": "Ripe Wheat Gold", "role": "dominant" },
-      { "hex": "#1A2744", "name": "Threatening Indigo", "role": "dominant" },
-      { "hex": "#4682B4", "name": "Troubled Sky Blue", "role": "midtone" },
-      { "hex": "#1C1C1C", "name": "Crow Black", "role": "shadow" },
-      { "hex": "#6B8E23", "name": "Field Path Green", "role": "midtone" },
-      { "hex": "#E8D05A", "name": "Sunlit Grain", "role": "highlight" },
-      { "hex": "#8B4513", "name": "Earth Track Sienna", "role": "shadow" },
-      { "hex": "#F0E68C", "name": "Harvest Light", "role": "highlight" }
+      {
+        "hex": "#D4A620",
+        "name": "Ripe Wheat Gold",
+        "role": "dominant"
+      },
+      {
+        "hex": "#1A2744",
+        "name": "Threatening Indigo",
+        "role": "dominant"
+      },
+      {
+        "hex": "#4682B4",
+        "name": "Troubled Sky Blue",
+        "role": "midtone"
+      },
+      {
+        "hex": "#1C1C1C",
+        "name": "Crow Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#6B8E23",
+        "name": "Field Path Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D05A",
+        "name": "Sunlit Grain",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B4513",
+        "name": "Earth Track Sienna",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0E68C",
+        "name": "Harvest Light",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -122,19 +277,50 @@
     "medium": "Oil on canvas",
     "dimensions": "67 cm × 92 cm",
     "location": "Courtauld Gallery, London",
-    "description": "Cézanne painted Mont Sainte-Victoire near his home in Aix-en-Provence over sixty times throughout his career, seeking to capture its essential geometric structure. In this version, the mountain rises serenely above the Arc River valley, rendered through methodical parallel brushstrokes. The painting exemplifies his revolutionary approach of building form through modulated patches of color rather than traditional chiaroscuro.",
     "image": "/paintings/mont-sainte-victoire.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#7BA3C9", "name": "Provençal Sky", "role": "dominant" },
-      { "hex": "#5A7F4E", "name": "Pine Valley Green", "role": "midtone" },
-      { "hex": "#C8B88A", "name": "Limestone Warmth", "role": "midtone" },
-      { "hex": "#8E9FBB", "name": "Mountain Haze", "role": "midtone" },
-      { "hex": "#3D5A2E", "name": "Deep Foliage", "role": "shadow" },
-      { "hex": "#E6D8B5", "name": "Aix Sunlight", "role": "highlight" },
-      { "hex": "#9B7653", "name": "Terracotta Earth", "role": "accent" },
-      { "hex": "#D4E3F0", "name": "Distant Mist", "role": "highlight" }
+      {
+        "hex": "#7BA3C9",
+        "name": "Provençal Sky",
+        "role": "dominant"
+      },
+      {
+        "hex": "#5A7F4E",
+        "name": "Pine Valley Green",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C8B88A",
+        "name": "Limestone Warmth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8E9FBB",
+        "name": "Mountain Haze",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3D5A2E",
+        "name": "Deep Foliage",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E6D8B5",
+        "name": "Aix Sunlight",
+        "role": "highlight"
+      },
+      {
+        "hex": "#9B7653",
+        "name": "Terracotta Earth",
+        "role": "accent"
+      },
+      {
+        "hex": "#D4E3F0",
+        "name": "Distant Mist",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -145,19 +331,50 @@
     "medium": "Oil on canvas",
     "dimensions": "68.6 cm × 92.7 cm",
     "location": "Metropolitan Museum of Art, New York",
-    "description": "Cézanne's patient study of apples arranged on rumpled cloth demonstrates his conviction that the simplest objects could become vehicles for profound pictorial investigation. The fruit is rendered through carefully modulated planes of color that suggest volume without conventional modeling. Deliberate distortions in perspective give the composition a tension between flatness and depth that would later inspire the Cubists.",
     "image": "/paintings/still-life-with-apples-cezanne.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#C43C2E", "name": "Orchard Red", "role": "accent" },
-      { "hex": "#E8D9B8", "name": "Linen Fold Cream", "role": "dominant" },
-      { "hex": "#7A9E4C", "name": "Unripe Apple Green", "role": "accent" },
-      { "hex": "#F2E5C0", "name": "Tablecloth White", "role": "highlight" },
-      { "hex": "#5C4030", "name": "Sideboard Walnut", "role": "shadow" },
-      { "hex": "#D4A040", "name": "Golden Delicious", "role": "midtone" },
-      { "hex": "#8C7A5C", "name": "Wicker Basket", "role": "midtone" },
-      { "hex": "#3A2A1A", "name": "Background Umber", "role": "shadow" }
+      {
+        "hex": "#C43C2E",
+        "name": "Orchard Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D9B8",
+        "name": "Linen Fold Cream",
+        "role": "dominant"
+      },
+      {
+        "hex": "#7A9E4C",
+        "name": "Unripe Apple Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#F2E5C0",
+        "name": "Tablecloth White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5C4030",
+        "name": "Sideboard Walnut",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D4A040",
+        "name": "Golden Delicious",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8C7A5C",
+        "name": "Wicker Basket",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A2A1A",
+        "name": "Background Umber",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -168,19 +385,50 @@
     "medium": "Oil on canvas",
     "dimensions": "65 cm × 80 cm",
     "location": "Art Institute of Chicago",
-    "description": "This celebrated still life features a tilted basket of apples, a wine bottle, and biscuits arranged on a cloth-draped table with intentionally inconsistent perspectives. The table edge does not align on either side, and the basket seems to defy gravity, reflecting Cézanne's willingness to sacrifice conventional accuracy for pictorial truth. It is among the most influential still life paintings of the modern era.",
     "image": "/paintings/the-basket-of-apples.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#B83A28", "name": "Apple Crimson", "role": "accent" },
-      { "hex": "#E0D0A8", "name": "Rumpled Linen", "role": "dominant" },
-      { "hex": "#6B8C40", "name": "Cézanne Green", "role": "accent" },
-      { "hex": "#8B6C3E", "name": "Woven Basket", "role": "midtone" },
-      { "hex": "#F0E2C0", "name": "Biscuit Pale", "role": "highlight" },
-      { "hex": "#4A2D1A", "name": "Wine Bottle Brown", "role": "shadow" },
-      { "hex": "#C8A850", "name": "Ripe Pear Gold", "role": "midtone" },
-      { "hex": "#3C3020", "name": "Background Depth", "role": "shadow" }
+      {
+        "hex": "#B83A28",
+        "name": "Apple Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#E0D0A8",
+        "name": "Rumpled Linen",
+        "role": "dominant"
+      },
+      {
+        "hex": "#6B8C40",
+        "name": "Cézanne Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B6C3E",
+        "name": "Woven Basket",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F0E2C0",
+        "name": "Biscuit Pale",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A2D1A",
+        "name": "Wine Bottle Brown",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C8A850",
+        "name": "Ripe Pear Gold",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3C3020",
+        "name": "Background Depth",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -191,19 +439,50 @@
     "medium": "Oil on canvas",
     "dimensions": "73 cm × 92 cm",
     "location": "Scottish National Gallery, Edinburgh",
-    "description": "In this breakthrough painting, Breton women in white bonnets witness a vision of Jacob wrestling with the angel against a flat, blazing red ground. The bold diagonal tree trunk divides the earthly realm of the praying women from their shared spiritual vision. It was a radical departure from Impressionism, using flat color, dark outlines, and symbolic content inspired by Japanese prints and medieval enamels.",
     "image": "/paintings/vision-after-the-sermon.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#C42A1E", "name": "Sermon Vermilion", "role": "dominant" },
-      { "hex": "#F0E8D8", "name": "Bonnet White", "role": "highlight" },
-      { "hex": "#1A1A1A", "name": "Cloisonné Outline", "role": "shadow" },
-      { "hex": "#3E6B2A", "name": "Breton Field", "role": "accent" },
-      { "hex": "#D49830", "name": "Angel Wing Gold", "role": "accent" },
-      { "hex": "#5C3A24", "name": "Tree Trunk Umber", "role": "midtone" },
-      { "hex": "#8B2010", "name": "Deep Vision Red", "role": "shadow" },
-      { "hex": "#E0C890", "name": "Peasant Skin", "role": "midtone" }
+      {
+        "hex": "#C42A1E",
+        "name": "Sermon Vermilion",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F0E8D8",
+        "name": "Bonnet White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1A1A1A",
+        "name": "Cloisonné Outline",
+        "role": "shadow"
+      },
+      {
+        "hex": "#3E6B2A",
+        "name": "Breton Field",
+        "role": "accent"
+      },
+      {
+        "hex": "#D49830",
+        "name": "Angel Wing Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#5C3A24",
+        "name": "Tree Trunk Umber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8B2010",
+        "name": "Deep Vision Red",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E0C890",
+        "name": "Peasant Skin",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -214,19 +493,50 @@
     "medium": "Oil on canvas",
     "dimensions": "75 cm × 94 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Meaning 'Joyousness' in Tahitian, this painting shows two seated women and a red dog in a vivid tropical landscape with worshippers gathered around an idol in the background. Gauguin flattened the space and intensified the colors far beyond naturalistic observation, creating an imagined paradise. The bold red dog and exaggerated greens and yellows give the scene a dreamlike, decorative quality.",
     "image": "/paintings/arearea.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#4A8C30", "name": "Paradise Green", "role": "dominant" },
-      { "hex": "#C84420", "name": "Sacred Dog Red", "role": "accent" },
-      { "hex": "#E8C040", "name": "Tropical Saffron", "role": "midtone" },
-      { "hex": "#A06830", "name": "Polynesian Skin", "role": "midtone" },
-      { "hex": "#2E5420", "name": "Jungle Floor", "role": "shadow" },
-      { "hex": "#F0E0A0", "name": "Warm Sand", "role": "highlight" },
-      { "hex": "#6B9BD2", "name": "Lagoon Blue", "role": "accent" },
-      { "hex": "#1A2E14", "name": "Deep Shade", "role": "shadow" }
+      {
+        "hex": "#4A8C30",
+        "name": "Paradise Green",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C84420",
+        "name": "Sacred Dog Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8C040",
+        "name": "Tropical Saffron",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A06830",
+        "name": "Polynesian Skin",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2E5420",
+        "name": "Jungle Floor",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0E0A0",
+        "name": "Warm Sand",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B9BD2",
+        "name": "Lagoon Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A2E14",
+        "name": "Deep Shade",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -237,19 +547,50 @@
     "medium": "Oil on canvas",
     "dimensions": "92.1 cm × 73.4 cm",
     "location": "Albright-Knox Art Gallery, Buffalo",
-    "description": "Inspired by a crude wooden crucifix in a chapel near Pont-Aven, Gauguin placed a bright yellow Christ figure in an autumnal Breton landscape with peasant women kneeling in devotion. The flattened forms, heavy outlines, and anti-naturalistic color reflect his Synthetist style, merging observation, emotion, and symbolism. The painting became an icon of the Symbolist movement and a manifesto against Impressionist naturalism.",
     "image": "/paintings/the-yellow-christ.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#D4A820", "name": "Christ Gold", "role": "dominant" },
-      { "hex": "#C85A20", "name": "Autumn Hillside", "role": "midtone" },
-      { "hex": "#4A7A2E", "name": "Breton Meadow", "role": "midtone" },
-      { "hex": "#1A1818", "name": "Bonnet Black", "role": "shadow" },
-      { "hex": "#F0D870", "name": "Sacred Aureole", "role": "highlight" },
-      { "hex": "#8B4C1A", "name": "Harvest Amber", "role": "shadow" },
-      { "hex": "#E0C088", "name": "Peasant Linen", "role": "highlight" },
-      { "hex": "#6B8444", "name": "Hedgerow Green", "role": "accent" }
+      {
+        "hex": "#D4A820",
+        "name": "Christ Gold",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C85A20",
+        "name": "Autumn Hillside",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A7A2E",
+        "name": "Breton Meadow",
+        "role": "midtone"
+      },
+      {
+        "hex": "#1A1818",
+        "name": "Bonnet Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0D870",
+        "name": "Sacred Aureole",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B4C1A",
+        "name": "Harvest Amber",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E0C088",
+        "name": "Peasant Linen",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B8444",
+        "name": "Hedgerow Green",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -260,19 +601,50 @@
     "medium": "Oil on canvas",
     "dimensions": "94 cm × 72.4 cm",
     "location": "Metropolitan Museum of Art, New York",
-    "description": "Two Tahitian women present a tray of mangoes in a scene of serene tropical abundance, one bare-chested and the other wearing a floral pareo. Gauguin rendered their warm brown skin with subtle tonal shifts against a background of rich red and pink flowers. The painting embodies his idealized vision of Polynesian life as a natural paradise untouched by European civilization.",
     "image": "/paintings/two-tahitian-women.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#A06030", "name": "Polynesian Bronze", "role": "dominant" },
-      { "hex": "#C83850", "name": "Hibiscus Pink", "role": "accent" },
-      { "hex": "#E8B848", "name": "Mango Gold", "role": "accent" },
-      { "hex": "#F0D8A0", "name": "Warm Blossom", "role": "highlight" },
-      { "hex": "#5A3820", "name": "Teak Shadow", "role": "shadow" },
-      { "hex": "#8CAA50", "name": "Banana Leaf", "role": "midtone" },
-      { "hex": "#D09870", "name": "Island Clay", "role": "midtone" },
-      { "hex": "#152242", "name": "Dark Blue", "role": "shadow" }
+      {
+        "hex": "#A06030",
+        "name": "Polynesian Bronze",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C83850",
+        "name": "Hibiscus Pink",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8B848",
+        "name": "Mango Gold",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0D8A0",
+        "name": "Warm Blossom",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A3820",
+        "name": "Teak Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8CAA50",
+        "name": "Banana Leaf",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D09870",
+        "name": "Island Clay",
+        "role": "midtone"
+      },
+      {
+        "hex": "#152242",
+        "name": "Dark Blue",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -283,19 +655,50 @@
     "medium": "Oil on canvas",
     "dimensions": "207.6 cm × 308 cm",
     "location": "Art Institute of Chicago",
-    "description": "Seurat's monumental masterpiece and the defining work of Neo-Impressionism depicts Parisians relaxing on a sunlit island in the Seine, composed entirely of tiny dots of pure color. Over two years in the making, the painting applies the artist's systematic theory of optical color mixing, known as Pointillism. Despite its scientific method, the frozen, almost ritualistic stillness of the figures gives it a mysterious, timeless grandeur.",
     "image": "/paintings/sunday-afternoon-grande-jatte.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#4A7A3E", "name": "Dappled Lawn", "role": "dominant" },
-      { "hex": "#6BAED6", "name": "Seine Water Blue", "role": "midtone" },
-      { "hex": "#F0E8C0", "name": "Parasol Light", "role": "highlight" },
-      { "hex": "#2D4A20", "name": "Tree Shade", "role": "shadow" },
-      { "hex": "#C85028", "name": "Bustle Orange", "role": "accent" },
-      { "hex": "#E8D490", "name": "Sunday Sunlight", "role": "highlight" },
-      { "hex": "#1A1820", "name": "Top Hat Black", "role": "shadow" },
-      { "hex": "#8FAA6A", "name": "Pointillist Green", "role": "midtone" }
+      {
+        "hex": "#4A7A3E",
+        "name": "Dappled Lawn",
+        "role": "dominant"
+      },
+      {
+        "hex": "#6BAED6",
+        "name": "Seine Water Blue",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F0E8C0",
+        "name": "Parasol Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2D4A20",
+        "name": "Tree Shade",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C85028",
+        "name": "Bustle Orange",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D490",
+        "name": "Sunday Sunlight",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1A1820",
+        "name": "Top Hat Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8FAA6A",
+        "name": "Pointillist Green",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -306,19 +709,50 @@
     "medium": "Oil on canvas",
     "dimensions": "185.5 cm × 152.5 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Seurat's final and unfinished painting captures the dynamic energy of the Cirque Fernando in Montmartre, with a bareback rider, ringmaster, and tumbling clown surrounded by tiers of spectators. The upward-sweeping curves and warm yellow-orange palette embody his theory that rising lines and warm hues express gaiety and movement. Left incomplete at the artist's sudden death at age thirty-one, it remains a vibrant testament to his ambition.",
     "image": "/paintings/the-circus-seurat.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#E8C040", "name": "Circus Ring Gold", "role": "dominant" },
-      { "hex": "#D05828", "name": "Acrobat Orange", "role": "accent" },
-      { "hex": "#F0E8C8", "name": "Sawdust Light", "role": "highlight" },
-      { "hex": "#4A6A90", "name": "Audience Blue", "role": "midtone" },
-      { "hex": "#8B4020", "name": "Ring Border Sienna", "role": "shadow" },
-      { "hex": "#F8F0D8", "name": "Rider's Tutu White", "role": "highlight" },
-      { "hex": "#6B5A3A", "name": "Spectator Shadow", "role": "shadow" },
-      { "hex": "#C0A060", "name": "Warm Spotlight", "role": "midtone" }
+      {
+        "hex": "#E8C040",
+        "name": "Circus Ring Gold",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D05828",
+        "name": "Acrobat Orange",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E8C8",
+        "name": "Sawdust Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A6A90",
+        "name": "Audience Blue",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8B4020",
+        "name": "Ring Border Sienna",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F8F0D8",
+        "name": "Rider's Tutu White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B5A3A",
+        "name": "Spectator Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C0A060",
+        "name": "Warm Spotlight",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -329,19 +763,50 @@
     "medium": "Oil on canvas",
     "dimensions": "99.7 cm × 149.9 cm",
     "location": "Metropolitan Museum of Art, New York",
-    "description": "This enigmatic nocturnal scene depicts the sideshow outside a traveling circus, where musicians and a ringmaster perform under gaslight to lure passersby inside. The muted, dusky palette of blue-violet and orange-brown creates a melancholy atmosphere unusual for a circus subject. Seurat's rigorous horizontal and vertical composition gives the scene an almost Egyptian frieze-like solemnity.",
     "image": "/paintings/parade-de-cirque.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#3A3560", "name": "Gaslit Violet", "role": "dominant" },
-      { "hex": "#D4A040", "name": "Gas Flame Orange", "role": "accent" },
-      { "hex": "#5A5080", "name": "Evening Mauve", "role": "midtone" },
-      { "hex": "#1A1830", "name": "Night Curtain", "role": "shadow" },
-      { "hex": "#E8C878", "name": "Lantern Glow", "role": "highlight" },
-      { "hex": "#7A6A4A", "name": "Trombonist Brown", "role": "midtone" },
-      { "hex": "#2E2840", "name": "Crowd Darkness", "role": "shadow" },
-      { "hex": "#F0DCA0", "name": "Ticket Booth Light", "role": "highlight" }
+      {
+        "hex": "#3A3560",
+        "name": "Gaslit Violet",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4A040",
+        "name": "Gas Flame Orange",
+        "role": "accent"
+      },
+      {
+        "hex": "#5A5080",
+        "name": "Evening Mauve",
+        "role": "midtone"
+      },
+      {
+        "hex": "#1A1830",
+        "name": "Night Curtain",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8C878",
+        "name": "Lantern Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#7A6A4A",
+        "name": "Trombonist Brown",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2E2840",
+        "name": "Crowd Darkness",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0DCA0",
+        "name": "Ticket Booth Light",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -352,19 +817,50 @@
     "medium": "Oil on canvas",
     "dimensions": "123 cm × 141 cm",
     "location": "Art Institute of Chicago",
-    "description": "Toulouse-Lautrec places the viewer inside the famous Montmartre nightclub among recognizable figures including the dancer La Goulue and the artist himself in the background. The composition is radically cropped and tilted, with a ghoulish green-lit face at the right edge creating an unsettling counterpoint to the warm interior. Its bold use of artificial light, flattened space, and unflinching observation of nightlife made it a landmark of modern painting.",
     "image": "/paintings/at-the-moulin-rouge.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#2A5030", "name": "Absinthe Green", "role": "dominant" },
-      { "hex": "#D4A030", "name": "Gaslight Amber", "role": "midtone" },
-      { "hex": "#8BC45A", "name": "Ghastly Limelight", "role": "accent" },
-      { "hex": "#1A1A20", "name": "Top Hat Noir", "role": "shadow" },
-      { "hex": "#C84040", "name": "Rouge Lip", "role": "accent" },
-      { "hex": "#E8D0A8", "name": "Powder Face", "role": "highlight" },
-      { "hex": "#5A4030", "name": "Mahogany Bar", "role": "shadow" },
-      { "hex": "#F0E0C0", "name": "Electric Glow", "role": "highlight" }
+      {
+        "hex": "#2A5030",
+        "name": "Absinthe Green",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D4A030",
+        "name": "Gaslight Amber",
+        "role": "midtone"
+      },
+      {
+        "hex": "#8BC45A",
+        "name": "Ghastly Limelight",
+        "role": "accent"
+      },
+      {
+        "hex": "#1A1A20",
+        "name": "Top Hat Noir",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C84040",
+        "name": "Rouge Lip",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D0A8",
+        "name": "Powder Face",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A4030",
+        "name": "Mahogany Bar",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0E0C0",
+        "name": "Electric Glow",
+        "role": "highlight"
+      }
     ]
   },
   {
@@ -375,19 +871,50 @@
     "medium": "Color lithograph",
     "dimensions": "124 cm × 91.5 cm",
     "location": "Multiple collections",
-    "description": "This iconic poster shows the dancer Jane Avril performing a high kick on the stage of the Jardin de Paris, her slender figure framed by the neck of a double bass in the orchestra pit. Toulouse-Lautrec captures her characteristic elegance and nervous energy through sinuous, confident lines and flat areas of saturated color. It revolutionized poster art and remains one of the most recognizable images of Belle Époque Paris.",
     "image": "/paintings/jane-avril.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "post-impressionism",
     "colors": [
-      { "hex": "#D46828", "name": "Can-Can Orange", "role": "dominant" },
-      { "hex": "#1A1A1A", "name": "Ink Outline", "role": "shadow" },
-      { "hex": "#F0E0B0", "name": "Poster Paper", "role": "highlight" },
-      { "hex": "#E8C040", "name": "Stage Light Yellow", "role": "midtone" },
-      { "hex": "#3A6A40", "name": "Bass Neck Green", "role": "accent" },
-      { "hex": "#8B3A20", "name": "Stocking Russet", "role": "midtone" },
-      { "hex": "#4A4A58", "name": "Orchestra Pit Gray", "role": "shadow" },
-      { "hex": "#F8F0E0", "name": "Petticoat White", "role": "highlight" }
+      {
+        "hex": "#D46828",
+        "name": "Can-Can Orange",
+        "role": "dominant"
+      },
+      {
+        "hex": "#1A1A1A",
+        "name": "Ink Outline",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0E0B0",
+        "name": "Poster Paper",
+        "role": "highlight"
+      },
+      {
+        "hex": "#E8C040",
+        "name": "Stage Light Yellow",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A6A40",
+        "name": "Bass Neck Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#8B3A20",
+        "name": "Stocking Russet",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A4A58",
+        "name": "Orchestra Pit Gray",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F8F0E0",
+        "name": "Petticoat White",
+        "role": "highlight"
+      }
     ]
   }
 ]

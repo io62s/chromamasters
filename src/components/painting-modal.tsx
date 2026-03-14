@@ -121,10 +121,6 @@ export function PaintingModal({ painting, onClose }: PaintingModalProps) {
                   </p>
                 </div>
 
-                <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                  {painting.description}
-                </p>
-
                 {movement && (
                   <p className="mt-4 text-xs text-muted-foreground">
                     Part of the{" "}

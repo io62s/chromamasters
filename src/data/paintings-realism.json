@@ -7,19 +7,50 @@
     "medium": "Oil on canvas",
     "dimensions": "208.6 cm × 109.9 cm",
     "location": "Metropolitan Museum of Art, New York",
-    "description": "A portrait of Virginie Amélie Avegno Gautreau, a Parisian socialite, rendered in a striking pose with her pale skin set against a dark background. The painting caused a scandal at the Paris Salon due to its perceived sensuality and the subject's daring décolletage. Sargent considered it his finest work, and it remains one of the most iconic portraits in American art.",
     "image": "/paintings/madame-x.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#1A1410", "name": "Midnight Umber", "role": "dominant" },
-      { "hex": "#3D2E22", "name": "Burnished Mahogany", "role": "shadow" },
-      { "hex": "#E8D5C0", "name": "Porcelain Blush", "role": "highlight" },
-      { "hex": "#0E0B08", "name": "Obsidian Depth", "role": "shadow" },
-      { "hex": "#C4A882", "name": "Gilded Warmth", "role": "midtone" },
-      { "hex": "#6B4F3A", "name": "Tobacco Silk", "role": "midtone" },
-      { "hex": "#F2E4D4", "name": "Ivory Glow", "role": "highlight" },
-      { "hex": "#8B6B4A", "name": "Antique Bronze", "role": "accent" }
+      {
+        "hex": "#1A1410",
+        "name": "Midnight Umber",
+        "role": "dominant"
+      },
+      {
+        "hex": "#3D2E22",
+        "name": "Burnished Mahogany",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8D5C0",
+        "name": "Porcelain Blush",
+        "role": "highlight"
+      },
+      {
+        "hex": "#0E0B08",
+        "name": "Obsidian Depth",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4A882",
+        "name": "Gilded Warmth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6B4F3A",
+        "name": "Tobacco Silk",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F2E4D4",
+        "name": "Ivory Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B6B4A",
+        "name": "Antique Bronze",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -30,19 +61,50 @@
     "medium": "Oil on canvas",
     "dimensions": "174 cm × 153.7 cm",
     "location": "Tate Britain, London",
-    "description": "Two young girls light paper lanterns in an English garden at twilight, surrounded by carnations, lilies, and roses in full bloom. Sargent painted the scene en plein air over several months, capturing the fleeting moments of dusk each evening. The warm lantern glow against the cool fading daylight creates a magical, dreamlike atmosphere.",
     "image": "/paintings/carnation-lily-lily-rose.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#4A6B3A", "name": "Twilight Garden", "role": "dominant" },
-      { "hex": "#E8C87A", "name": "Lantern Flame", "role": "accent" },
-      { "hex": "#F5E6D0", "name": "Petal White", "role": "highlight" },
-      { "hex": "#2D4428", "name": "Deep Foliage", "role": "shadow" },
-      { "hex": "#D47B8A", "name": "Rose Carnation", "role": "accent" },
-      { "hex": "#7A9A62", "name": "Dusk Verdure", "role": "midtone" },
-      { "hex": "#F0D4A8", "name": "Warm Glow", "role": "highlight" },
-      { "hex": "#5C7A4E", "name": "Evening Moss", "role": "midtone" }
+      {
+        "hex": "#4A6B3A",
+        "name": "Twilight Garden",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8C87A",
+        "name": "Lantern Flame",
+        "role": "accent"
+      },
+      {
+        "hex": "#F5E6D0",
+        "name": "Petal White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2D4428",
+        "name": "Deep Foliage",
+        "role": "shadow"
+      },
+      {
+        "hex": "#D47B8A",
+        "name": "Rose Carnation",
+        "role": "accent"
+      },
+      {
+        "hex": "#7A9A62",
+        "name": "Dusk Verdure",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F0D4A8",
+        "name": "Warm Glow",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5C7A4E",
+        "name": "Evening Moss",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -53,19 +115,50 @@
     "medium": "Oil on canvas",
     "dimensions": "232 cm × 348 cm",
     "location": "Isabella Stewart Gardner Museum, Boston",
-    "description": "A dramatic depiction of a Spanish Roma dancer performing with fierce intensity, her white dress swirling as musicians play behind her in the shadows. The painting captures the raw energy and passion of flamenco, with bold contrasts between the illuminated dancer and the dark, smoky background. Sargent's masterful handling of light and movement brings the nocturnal performance to vivid life.",
     "image": "/paintings/el-jaleo.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#1C1612", "name": "Flamenco Shadow", "role": "dominant" },
-      { "hex": "#E8DCC8", "name": "Dancer's White", "role": "highlight" },
-      { "hex": "#3A2C20", "name": "Tavern Dark", "role": "shadow" },
-      { "hex": "#9C8060", "name": "Sandstone Warm", "role": "midtone" },
-      { "hex": "#0A0806", "name": "Midnight Stage", "role": "shadow" },
-      { "hex": "#C4A67A", "name": "Amber Footlight", "role": "midtone" },
-      { "hex": "#D4B890", "name": "Candlelit Skin", "role": "highlight" },
-      { "hex": "#6B5238", "name": "Spanish Earth", "role": "accent" }
+      {
+        "hex": "#1C1612",
+        "name": "Flamenco Shadow",
+        "role": "dominant"
+      },
+      {
+        "hex": "#E8DCC8",
+        "name": "Dancer's White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A2C20",
+        "name": "Tavern Dark",
+        "role": "shadow"
+      },
+      {
+        "hex": "#9C8060",
+        "name": "Sandstone Warm",
+        "role": "midtone"
+      },
+      {
+        "hex": "#0A0806",
+        "name": "Midnight Stage",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4A67A",
+        "name": "Amber Footlight",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4B890",
+        "name": "Candlelit Skin",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6B5238",
+        "name": "Spanish Earth",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -76,19 +169,50 @@
     "medium": "Oil on canvas",
     "dimensions": "221.93 cm × 222.57 cm",
     "location": "Museum of Fine Arts, Boston",
-    "description": "Four young sisters are arranged in the grand foyer of their Parisian apartment, with two enormous Japanese vases flanking the composition. The youngest girl sits on the floor with a doll while her older sisters recede into progressively deeper shadow, creating a haunting sense of psychological depth. The unconventional composition and masterful treatment of interior light owe a debt to Velázquez's Las Meninas.",
     "image": "/paintings/the-daughters-of-edward-darley-boit.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#2A2018", "name": "Parlor Shadow", "role": "dominant" },
-      { "hex": "#F0E4D6", "name": "Pinafore White", "role": "highlight" },
-      { "hex": "#8C7258", "name": "Walnut Warmth", "role": "midtone" },
-      { "hex": "#120E0A", "name": "Chamber Dark", "role": "shadow" },
-      { "hex": "#C4392E", "name": "Carpet Crimson", "role": "accent" },
-      { "hex": "#D8C4A8", "name": "Soft Lamplight", "role": "highlight" },
-      { "hex": "#5A4838", "name": "Mahogany Dusk", "role": "midtone" },
-      { "hex": "#1E3448", "name": "Porcelain Blue", "role": "accent" }
+      {
+        "hex": "#2A2018",
+        "name": "Parlor Shadow",
+        "role": "dominant"
+      },
+      {
+        "hex": "#F0E4D6",
+        "name": "Pinafore White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8C7258",
+        "name": "Walnut Warmth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#120E0A",
+        "name": "Chamber Dark",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C4392E",
+        "name": "Carpet Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#D8C4A8",
+        "name": "Soft Lamplight",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A4838",
+        "name": "Mahogany Dusk",
+        "role": "midtone"
+      },
+      {
+        "hex": "#1E3448",
+        "name": "Porcelain Blue",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -99,19 +223,50 @@
     "medium": "Oil on canvas",
     "dimensions": "127 cm × 101 cm",
     "location": "Scottish National Gallery, Edinburgh",
-    "description": "Gertrude Vernon, Lady Agnew of Lochnaw, reclines in a bergère chair with an air of confident ease, her gaze meeting the viewer directly. The painting's virtuoso brushwork captures the luminous quality of her white dress and the subtle interplay of lavender and blue in the background silk. This portrait established Sargent's reputation as the leading portraitist of his generation.",
     "image": "/paintings/lady-agnew-of-lochnaw.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#E8DED2", "name": "Silk Ivory", "role": "dominant" },
-      { "hex": "#8A7EB0", "name": "Lavender Moire", "role": "accent" },
-      { "hex": "#F4EDE4", "name": "Pearl Luminance", "role": "highlight" },
-      { "hex": "#4A3C30", "name": "Walnut Frame", "role": "shadow" },
-      { "hex": "#C8B8A0", "name": "Champagne Satin", "role": "midtone" },
-      { "hex": "#6E8A7A", "name": "Sage Damask", "role": "accent" },
-      { "hex": "#D6C0A8", "name": "Warm Complexion", "role": "midtone" },
-      { "hex": "#3A2E24", "name": "Deep Sepia", "role": "shadow" }
+      {
+        "hex": "#E8DED2",
+        "name": "Silk Ivory",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8A7EB0",
+        "name": "Lavender Moire",
+        "role": "accent"
+      },
+      {
+        "hex": "#F4EDE4",
+        "name": "Pearl Luminance",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3C30",
+        "name": "Walnut Frame",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C8B8A0",
+        "name": "Champagne Satin",
+        "role": "midtone"
+      },
+      {
+        "hex": "#6E8A7A",
+        "name": "Sage Damask",
+        "role": "accent"
+      },
+      {
+        "hex": "#D6C0A8",
+        "name": "Warm Complexion",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A2E24",
+        "name": "Deep Sepia",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -122,19 +277,50 @@
     "medium": "Oil on canvas",
     "dimensions": "140 cm × 98 cm",
     "location": "Nationalmuseum, Stockholm",
-    "description": "Couples dance around a maypole during a Swedish Midsummer celebration, their figures bathed in the soft, luminous light of the Nordic summer evening. The scene captures the joyful energy of the folk tradition with Zorn's characteristic fluid brushwork and mastery of outdoor light. The warm tones of the wooden buildings contrast with the cool greens of the surrounding landscape.",
     "image": "/paintings/midsummer-dance.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#5C8C54", "name": "Nordic Meadow", "role": "dominant" },
-      { "hex": "#C4603C", "name": "Falu Red", "role": "accent" },
-      { "hex": "#F2E8D4", "name": "Midsummer Light", "role": "highlight" },
-      { "hex": "#3A5832", "name": "Birch Shade", "role": "shadow" },
-      { "hex": "#E8D4B0", "name": "Linen White", "role": "highlight" },
-      { "hex": "#8B7A5A", "name": "Weathered Pine", "role": "midtone" },
-      { "hex": "#2A3E26", "name": "Forest Floor", "role": "shadow" },
-      { "hex": "#7A9C6A", "name": "Summer Verdant", "role": "midtone" }
+      {
+        "hex": "#5C8C54",
+        "name": "Nordic Meadow",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C4603C",
+        "name": "Falu Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#F2E8D4",
+        "name": "Midsummer Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A5832",
+        "name": "Birch Shade",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8D4B0",
+        "name": "Linen White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8B7A5A",
+        "name": "Weathered Pine",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2A3E26",
+        "name": "Forest Floor",
+        "role": "shadow"
+      },
+      {
+        "hex": "#7A9C6A",
+        "name": "Summer Verdant",
+        "role": "midtone"
+      }
     ]
   },
   {
@@ -145,19 +331,50 @@
     "medium": "Oil on canvas",
     "dimensions": "117 cm × 94 cm",
     "location": "Nationalmuseum, Stockholm",
-    "description": "Zorn depicts himself at work in his studio, palette in hand, alongside a nude model who stands behind him. The painting demonstrates his celebrated limited palette of vermilion, yellow ochre, ivory black, and lead white, achieving remarkable chromatic richness from just four pigments. The confident, bravura brushwork reveals the artist's supreme technical mastery.",
     "image": "/paintings/self-portrait-with-model.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#3A3028", "name": "Studio Umber", "role": "dominant" },
-      { "hex": "#D8B88C", "name": "Ochre Warmth", "role": "midtone" },
-      { "hex": "#E8CCA8", "name": "Flesh Luminance", "role": "highlight" },
-      { "hex": "#1A1614", "name": "Ivory Black", "role": "shadow" },
-      { "hex": "#C45A3A", "name": "Vermilion Touch", "role": "accent" },
-      { "hex": "#F0DCC4", "name": "Canvas Light", "role": "highlight" },
-      { "hex": "#6A5842", "name": "Palette Brown", "role": "midtone" },
-      { "hex": "#2C2420", "name": "Shadow Depth", "role": "shadow" }
+      {
+        "hex": "#3A3028",
+        "name": "Studio Umber",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D8B88C",
+        "name": "Ochre Warmth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8CCA8",
+        "name": "Flesh Luminance",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1A1614",
+        "name": "Ivory Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#C45A3A",
+        "name": "Vermilion Touch",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0DCC4",
+        "name": "Canvas Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6A5842",
+        "name": "Palette Brown",
+        "role": "midtone"
+      },
+      {
+        "hex": "#2C2420",
+        "name": "Shadow Depth",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -168,19 +385,50 @@
     "medium": "Oil on canvas",
     "dimensions": "118 cm × 86 cm",
     "location": "Nationalmuseum, Stockholm",
-    "description": "Passengers crowd together inside a Parisian omnibus, their faces and figures revealed by the diffuse light filtering through the windows. Zorn captures the intimacy and anonymity of modern urban life with remarkable sensitivity to reflected light and subtle tonal variations. The painting demonstrates his ability to render complex interior lighting with seemingly effortless skill.",
     "image": "/paintings/omnibus-i.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#2E2824", "name": "Carriage Interior", "role": "dominant" },
-      { "hex": "#C8B498", "name": "Window Diffusion", "role": "midtone" },
-      { "hex": "#E4D4BC", "name": "Filtered Daylight", "role": "highlight" },
-      { "hex": "#161210", "name": "Overcoat Black", "role": "shadow" },
-      { "hex": "#8A7660", "name": "Worn Leather", "role": "midtone" },
-      { "hex": "#4A6C8A", "name": "Parisian Blue", "role": "accent" },
-      { "hex": "#F0E0CA", "name": "Pale Complexion", "role": "highlight" },
-      { "hex": "#5C4A38", "name": "Chestnut Shadow", "role": "accent" }
+      {
+        "hex": "#2E2824",
+        "name": "Carriage Interior",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C8B498",
+        "name": "Window Diffusion",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E4D4BC",
+        "name": "Filtered Daylight",
+        "role": "highlight"
+      },
+      {
+        "hex": "#161210",
+        "name": "Overcoat Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8A7660",
+        "name": "Worn Leather",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4A6C8A",
+        "name": "Parisian Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#F0E0CA",
+        "name": "Pale Complexion",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5C4A38",
+        "name": "Chestnut Shadow",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -191,19 +439,50 @@
     "medium": "Oil on canvas",
     "dimensions": "45 cm × 54 cm",
     "location": "Private Collection",
-    "description": "Courbet portrays himself clutching his hair with both hands, his wide eyes staring intensely at the viewer in an expression of anguish and defiance. The dramatic self-portrait reveals the young artist's romantic temperament and bold confidence in his own talent. The tightly cropped composition and direct gaze create an unsettling psychological immediacy.",
     "image": "/paintings/the-desperate-man.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#2C2218", "name": "Anguished Dark", "role": "dominant" },
-      { "hex": "#D8B898", "name": "Flushed Skin", "role": "highlight" },
-      { "hex": "#5A3E2A", "name": "Tousled Auburn", "role": "midtone" },
-      { "hex": "#0E0C08", "name": "Abyss Black", "role": "shadow" },
-      { "hex": "#E8D0B4", "name": "Pallid Light", "role": "highlight" },
-      { "hex": "#8C6A48", "name": "Chestnut Mane", "role": "midtone" },
-      { "hex": "#F4EAE0", "name": "Linen Collar", "role": "accent" },
-      { "hex": "#3E2E20", "name": "Brooding Sepia", "role": "shadow" }
+      {
+        "hex": "#2C2218",
+        "name": "Anguished Dark",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D8B898",
+        "name": "Flushed Skin",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A3E2A",
+        "name": "Tousled Auburn",
+        "role": "midtone"
+      },
+      {
+        "hex": "#0E0C08",
+        "name": "Abyss Black",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8D0B4",
+        "name": "Pallid Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#8C6A48",
+        "name": "Chestnut Mane",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F4EAE0",
+        "name": "Linen Collar",
+        "role": "accent"
+      },
+      {
+        "hex": "#3E2E20",
+        "name": "Brooding Sepia",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -214,19 +493,50 @@
     "medium": "Oil on canvas",
     "dimensions": "315 cm × 668 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "A monumental depiction of a funeral in Courbet's hometown of Ornans, with nearly fifty life-sized figures gathered around an open grave beneath grey Jura cliffs. The painting shocked the Parisian art world by applying the grand scale of history painting to a commonplace rural event, treating ordinary villagers with the same gravity as kings and saints. It became a manifesto of the Realist movement and a turning point in the history of art.",
     "image": "/paintings/a-burial-at-ornans.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#1A1614", "name": "Mourning Black", "role": "dominant" },
-      { "hex": "#8C7E6A", "name": "Limestone Bluff", "role": "midtone" },
-      { "hex": "#D4C4A8", "name": "Surplice Cream", "role": "highlight" },
-      { "hex": "#0C0A08", "name": "Grave Darkness", "role": "shadow" },
-      { "hex": "#B44A3A", "name": "Vestment Red", "role": "accent" },
-      { "hex": "#5A5044", "name": "Earthen Clod", "role": "midtone" },
-      { "hex": "#E8DAC4", "name": "Pallbearer Pale", "role": "highlight" },
-      { "hex": "#3A322A", "name": "Churchyard Soil", "role": "shadow" }
+      {
+        "hex": "#1A1614",
+        "name": "Mourning Black",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8C7E6A",
+        "name": "Limestone Bluff",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4C4A8",
+        "name": "Surplice Cream",
+        "role": "highlight"
+      },
+      {
+        "hex": "#0C0A08",
+        "name": "Grave Darkness",
+        "role": "shadow"
+      },
+      {
+        "hex": "#B44A3A",
+        "name": "Vestment Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#5A5044",
+        "name": "Earthen Clod",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8DAC4",
+        "name": "Pallbearer Pale",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A322A",
+        "name": "Churchyard Soil",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -237,19 +547,50 @@
     "medium": "Oil on canvas",
     "dimensions": "361 cm × 598 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Subtitled 'A Real Allegory Summing Up Seven Years of My Artistic and Moral Life,' this enormous canvas places Courbet at the center of his studio, painting a landscape while surrounded by figures representing all walks of society. A nude model and a young boy watch him work, while poets, critics, collectors, and laborers populate the shadowy edges. The painting is both a bold artistic statement and a complex social allegory of mid-nineteenth-century France.",
     "image": "/paintings/the-painters-studio.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#2A2218", "name": "Atelier Gloom", "role": "dominant" },
-      { "hex": "#C4AA88", "name": "Studio Ochre", "role": "midtone" },
-      { "hex": "#E8D8C0", "name": "Model's Skin", "role": "highlight" },
-      { "hex": "#0E0C0A", "name": "Canvas Shadow", "role": "shadow" },
-      { "hex": "#6A8A5A", "name": "Landscape Green", "role": "accent" },
-      { "hex": "#8A7458", "name": "Palette Sienna", "role": "midtone" },
-      { "hex": "#F0E2CC", "name": "Draped Linen", "role": "highlight" },
-      { "hex": "#3C3028", "name": "Bohemian Dark", "role": "shadow" }
+      {
+        "hex": "#2A2218",
+        "name": "Atelier Gloom",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C4AA88",
+        "name": "Studio Ochre",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D8C0",
+        "name": "Model's Skin",
+        "role": "highlight"
+      },
+      {
+        "hex": "#0E0C0A",
+        "name": "Canvas Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#6A8A5A",
+        "name": "Landscape Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#8A7458",
+        "name": "Palette Sienna",
+        "role": "midtone"
+      },
+      {
+        "hex": "#F0E2CC",
+        "name": "Draped Linen",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3C3028",
+        "name": "Bohemian Dark",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -260,19 +601,50 @@
     "medium": "Oil on canvas",
     "dimensions": "112 cm × 144 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "A massive wave crests and curls against a stormy sky on the Normandy coast, painted with thick, tactile impasto that gives the water an almost sculptural presence. Courbet applied paint with palette knives to capture the raw, elemental force of the sea. The painting is one of a series of seascapes that profoundly influenced later artists, from Whistler to the Abstract Expressionists.",
     "image": "/paintings/the-wave.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#3A5A58", "name": "Storm Surge", "role": "dominant" },
-      { "hex": "#6A8A7E", "name": "Churning Jade", "role": "midtone" },
-      { "hex": "#E0DCD4", "name": "Spindrift Foam", "role": "highlight" },
-      { "hex": "#1E3430", "name": "Abyssal Green", "role": "shadow" },
-      { "hex": "#8CA8A0", "name": "Salt Spray", "role": "midtone" },
-      { "hex": "#4E6E6C", "name": "Deep Channel", "role": "shadow" },
-      { "hex": "#F0ECE4", "name": "Crest White", "role": "highlight" },
-      { "hex": "#2A4844", "name": "Tempest Teal", "role": "accent" }
+      {
+        "hex": "#3A5A58",
+        "name": "Storm Surge",
+        "role": "dominant"
+      },
+      {
+        "hex": "#6A8A7E",
+        "name": "Churning Jade",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E0DCD4",
+        "name": "Spindrift Foam",
+        "role": "highlight"
+      },
+      {
+        "hex": "#1E3430",
+        "name": "Abyssal Green",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8CA8A0",
+        "name": "Salt Spray",
+        "role": "midtone"
+      },
+      {
+        "hex": "#4E6E6C",
+        "name": "Deep Channel",
+        "role": "shadow"
+      },
+      {
+        "hex": "#F0ECE4",
+        "name": "Crest White",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2A4844",
+        "name": "Tempest Teal",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -283,19 +655,50 @@
     "medium": "Oil on canvas",
     "dimensions": "83.8 cm × 111.8 cm",
     "location": "Musée d'Orsay, Paris",
-    "description": "Three peasant women bend low to gather the last stalks of wheat left behind after the harvest, their stooped forms silhouetted against a golden field stretching to the horizon. Millet elevates this humble act of survival into a composition of monumental dignity, drawing on classical and biblical traditions. The painting was controversial for its sympathetic portrayal of rural poverty and remains an enduring symbol of agrarian labor.",
     "image": "/paintings/the-gleaners.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#C4A870", "name": "Harvest Gold", "role": "dominant" },
-      { "hex": "#8A6E44", "name": "Stubble Field", "role": "midtone" },
-      { "hex": "#E8D8B0", "name": "Wheat Haze", "role": "highlight" },
-      { "hex": "#4A3E2C", "name": "Peasant Brown", "role": "shadow" },
-      { "hex": "#B43A2E", "name": "Kerchief Red", "role": "accent" },
-      { "hex": "#6A8CA0", "name": "Distant Sky", "role": "accent" },
-      { "hex": "#D8C498", "name": "Barley Light", "role": "highlight" },
-      { "hex": "#5A4E38", "name": "Furrowed Earth", "role": "shadow" }
+      {
+        "hex": "#C4A870",
+        "name": "Harvest Gold",
+        "role": "dominant"
+      },
+      {
+        "hex": "#8A6E44",
+        "name": "Stubble Field",
+        "role": "midtone"
+      },
+      {
+        "hex": "#E8D8B0",
+        "name": "Wheat Haze",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3E2C",
+        "name": "Peasant Brown",
+        "role": "shadow"
+      },
+      {
+        "hex": "#B43A2E",
+        "name": "Kerchief Red",
+        "role": "accent"
+      },
+      {
+        "hex": "#6A8CA0",
+        "name": "Distant Sky",
+        "role": "accent"
+      },
+      {
+        "hex": "#D8C498",
+        "name": "Barley Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A4E38",
+        "name": "Furrowed Earth",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -306,19 +709,50 @@
     "medium": "Oil on canvas",
     "dimensions": "101.6 cm × 82.6 cm",
     "location": "Museum of Fine Arts, Boston",
-    "description": "A solitary peasant strides down a hillside at dusk, scattering seed with a powerful, sweeping gesture that fills the composition with dynamic energy. Millet transforms the humble act of sowing into a heroic image, the figure's dark silhouette dominating the twilight landscape. The painting deeply influenced Van Gogh, who made multiple copies of it throughout his career.",
     "image": "/paintings/the-sower.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#5A4E38", "name": "Tilled Earth", "role": "dominant" },
-      { "hex": "#C4AA78", "name": "Dusk Amber", "role": "highlight" },
-      { "hex": "#3A3228", "name": "Sower's Shadow", "role": "shadow" },
-      { "hex": "#8A7A5A", "name": "Hillside Ochre", "role": "midtone" },
-      { "hex": "#D8C090", "name": "Fading Horizon", "role": "highlight" },
-      { "hex": "#2A2418", "name": "Deep Loam", "role": "shadow" },
-      { "hex": "#6E6248", "name": "Seed Furrow", "role": "midtone" },
-      { "hex": "#94A488", "name": "Distant Field", "role": "accent" }
+      {
+        "hex": "#5A4E38",
+        "name": "Tilled Earth",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C4AA78",
+        "name": "Dusk Amber",
+        "role": "highlight"
+      },
+      {
+        "hex": "#3A3228",
+        "name": "Sower's Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8A7A5A",
+        "name": "Hillside Ochre",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D8C090",
+        "name": "Fading Horizon",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2A2418",
+        "name": "Deep Loam",
+        "role": "shadow"
+      },
+      {
+        "hex": "#6E6248",
+        "name": "Seed Furrow",
+        "role": "midtone"
+      },
+      {
+        "hex": "#94A488",
+        "name": "Distant Field",
+        "role": "accent"
+      }
     ]
   },
   {
@@ -329,19 +763,50 @@
     "medium": "Oil on canvas",
     "dimensions": "131.5 cm × 281 cm",
     "location": "State Russian Museum, Saint Petersburg",
-    "description": "Eleven men strain against their harnesses as they drag a barge along the sandy banks of the Volga River under a blazing summer sky. Repin individualizes each hauler with remarkable psychological depth, from the resigned elder to the defiant youth who straightens against his strap. The painting became an icon of Russian social realism and a powerful indictment of human exploitation.",
     "image": "/paintings/barge-haulers-on-the-volga.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#C4AA78", "name": "Volga Sand", "role": "dominant" },
-      { "hex": "#6A8AB0", "name": "River Blue", "role": "accent" },
-      { "hex": "#E8D8B8", "name": "Scorched Light", "role": "highlight" },
-      { "hex": "#4A3E2C", "name": "Hauler's Rag", "role": "shadow" },
-      { "hex": "#8E7E60", "name": "Sunbaked Earth", "role": "midtone" },
-      { "hex": "#A0C0D8", "name": "Summer Sky", "role": "highlight" },
-      { "hex": "#5A4A34", "name": "Weathered Skin", "role": "midtone" },
-      { "hex": "#3A3028", "name": "Harness Dark", "role": "shadow" }
+      {
+        "hex": "#C4AA78",
+        "name": "Volga Sand",
+        "role": "dominant"
+      },
+      {
+        "hex": "#6A8AB0",
+        "name": "River Blue",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D8B8",
+        "name": "Scorched Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3E2C",
+        "name": "Hauler's Rag",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8E7E60",
+        "name": "Sunbaked Earth",
+        "role": "midtone"
+      },
+      {
+        "hex": "#A0C0D8",
+        "name": "Summer Sky",
+        "role": "highlight"
+      },
+      {
+        "hex": "#5A4A34",
+        "name": "Weathered Skin",
+        "role": "midtone"
+      },
+      {
+        "hex": "#3A3028",
+        "name": "Harness Dark",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -352,19 +817,50 @@
     "medium": "Oil on canvas",
     "dimensions": "203 cm × 358 cm",
     "location": "State Russian Museum, Saint Petersburg",
-    "description": "A boisterous group of Zaporozhian Cossacks crowd around a scribe, roaring with laughter as they dictate a mocking reply to the Ottoman Sultan's demand for their surrender. Repin spent over a decade on the painting, meticulously researching costumes and gathering individual character studies. The result is a riotous celebration of defiant humor and collective camaraderie.",
     "image": "/paintings/reply-of-the-zaporozhian-cossacks.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#5A4A38", "name": "Cossack Leather", "role": "dominant" },
-      { "hex": "#C43A2A", "name": "Crimson Sash", "role": "accent" },
-      { "hex": "#E8D4B4", "name": "Parchment Light", "role": "highlight" },
-      { "hex": "#2A2218", "name": "Smoke Shadow", "role": "shadow" },
-      { "hex": "#8A7254", "name": "Sheepskin Tan", "role": "midtone" },
-      { "hex": "#D4B890", "name": "Steppe Gold", "role": "highlight" },
-      { "hex": "#4A6A4A", "name": "Campaign Green", "role": "accent" },
-      { "hex": "#3E3428", "name": "Musket Dark", "role": "shadow" }
+      {
+        "hex": "#5A4A38",
+        "name": "Cossack Leather",
+        "role": "dominant"
+      },
+      {
+        "hex": "#C43A2A",
+        "name": "Crimson Sash",
+        "role": "accent"
+      },
+      {
+        "hex": "#E8D4B4",
+        "name": "Parchment Light",
+        "role": "highlight"
+      },
+      {
+        "hex": "#2A2218",
+        "name": "Smoke Shadow",
+        "role": "shadow"
+      },
+      {
+        "hex": "#8A7254",
+        "name": "Sheepskin Tan",
+        "role": "midtone"
+      },
+      {
+        "hex": "#D4B890",
+        "name": "Steppe Gold",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A6A4A",
+        "name": "Campaign Green",
+        "role": "accent"
+      },
+      {
+        "hex": "#3E3428",
+        "name": "Musket Dark",
+        "role": "shadow"
+      }
     ]
   },
   {
@@ -375,19 +871,50 @@
     "medium": "Oil on canvas",
     "dimensions": "199.5 cm × 254 cm",
     "location": "Tretyakov Gallery, Moscow",
-    "description": "Tsar Ivan IV clutches his dying son in horror, blood seeping through his fingers as he realizes the fatal blow he has struck in a fit of rage. The painting captures the precise moment of agonized recognition, Ivan's wide, terrified eyes contrasting with his son's fading gaze of forgiveness. Repin's masterwork is one of the most psychologically devastating paintings in all of Russian art.",
     "image": "/paintings/ivan-the-terrible-and-his-son-ivan.jpg",
     "imageCredit": "Wikimedia Commons, Public Domain",
     "movementId": "realism",
     "colors": [
-      { "hex": "#8A2A1E", "name": "Blood Crimson", "role": "accent" },
-      { "hex": "#2A1E18", "name": "Terrible Dark", "role": "dominant" },
-      { "hex": "#D8A880", "name": "Anguished Flesh", "role": "highlight" },
-      { "hex": "#6A3A28", "name": "Dried Blood", "role": "midtone" },
-      { "hex": "#C47040", "name": "Brocade Orange", "role": "accent" },
-      { "hex": "#120E0A", "name": "Chamber Abyss", "role": "shadow" },
-      { "hex": "#E8C4A0", "name": "Pallid Skin", "role": "highlight" },
-      { "hex": "#4A3228", "name": "Carpet Umber", "role": "shadow" }
+      {
+        "hex": "#8A2A1E",
+        "name": "Blood Crimson",
+        "role": "accent"
+      },
+      {
+        "hex": "#2A1E18",
+        "name": "Terrible Dark",
+        "role": "dominant"
+      },
+      {
+        "hex": "#D8A880",
+        "name": "Anguished Flesh",
+        "role": "highlight"
+      },
+      {
+        "hex": "#6A3A28",
+        "name": "Dried Blood",
+        "role": "midtone"
+      },
+      {
+        "hex": "#C47040",
+        "name": "Brocade Orange",
+        "role": "accent"
+      },
+      {
+        "hex": "#120E0A",
+        "name": "Chamber Abyss",
+        "role": "shadow"
+      },
+      {
+        "hex": "#E8C4A0",
+        "name": "Pallid Skin",
+        "role": "highlight"
+      },
+      {
+        "hex": "#4A3228",
+        "name": "Carpet Umber",
+        "role": "shadow"
+      }
     ]
   }
 ]
