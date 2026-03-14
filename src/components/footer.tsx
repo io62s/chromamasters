@@ -13,7 +13,7 @@ export function Footer() {
             <span className="font-serif text-sm font-semibold text-muted-foreground">
               ChromaMasters
             </span>
-            <span className="ml-4">&copy; 2026 ChromaMasters</span>
+            <span className="ml-4 text-xs text-muted-foreground">&copy; 2026 ChromaMasters</span>
           </div>
           <div className="text-center text-xs text-muted-foreground">
             <p>
