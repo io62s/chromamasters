@@ -43,8 +43,8 @@ export function Sidebar() {
                       <Link
                         href={`/movement/${movement.slug}`}
                         className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${isActive
-                            ? "bg-accent text-accent-foreground font-medium"
-                            : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
+                          ? "bg-accent text-accent-foreground font-medium"
+                          : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
                           }`}
                       >
                         {movement.name}

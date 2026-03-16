@@ -53,9 +53,9 @@ export default async function MovementPage({
               <p className="mt-1 text-sm text-muted-foreground">
                 {movement.yearStart}–{movement.yearEnd}
               </p>
-              <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">
+              {/* <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">
                 {movement.description}
-              </p>
+              </p> */}
             </div>
 
             {/* Paintings grid */}
