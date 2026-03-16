@@ -6,6 +6,7 @@
     "period": "Renaissance",
     "yearStart": 1400,
     "yearEnd": 1600,
+    "summary": "Rich earth tones, luminous blues, and warm glazes from Europe's great cultural rebirth.",
     "description": "The Renaissance marked a profound cultural rebirth across Europe, reviving classical ideals of beauty, proportion, and humanism. Artists mastered perspective, chiaroscuro, and anatomical precision, creating works of extraordinary depth and realism. The palette favored rich earth tones, luminous blues from costly lapis lazuli, and warm flesh tones achieved through layered glazes."
   },
   {
@@ -15,6 +16,7 @@
     "period": "Baroque",
     "yearStart": 1600,
     "yearEnd": 1750,
+    "summary": "Deep shadows, golden highlights, and jewel-toned drama defined by theatrical contrasts of light.",
     "description": "Baroque art embraced dramatic intensity, rich color, and deep contrasts of light and shadow known as chiaroscuro. Artists sought to evoke emotional states through dynamic compositions, theatrical lighting, and a heightened sense of movement. The palette was characterized by deep blacks, luminous highlights, warm golden tones, and rich jewel colors that gave paintings an almost three-dimensional presence."
   },
   {
@@ -24,6 +26,7 @@
     "period": "19th Century",
     "yearStart": 1770,
     "yearEnd": 1850,
+    "summary": "Turbulent skies and vivid, emotionally charged palettes celebrating nature's sublime power.",
     "description": "Romanticism emerged as a reaction against the rationalism of the Enlightenment, championing emotion, individualism, and the sublime power of nature. Romantic painters employed dramatic contrasts of light and shadow, turbulent skies, and vivid, emotionally charged color palettes to evoke awe, terror, and transcendence in the viewer."
   },
   {
@@ -33,6 +36,7 @@
     "period": "19th Century",
     "yearStart": 1848,
     "yearEnd": 1900,
+    "summary": "Jewel-like colors and meticulous detail inspired by medieval and early Renaissance sincerity.",
     "description": "The Pre-Raphaelite Brotherhood rejected the mechanistic conventions of post-Raphael academic art, seeking instead the vivid color, intricate detail, and emotional sincerity of medieval and early Renaissance painting. Their works featured jewel-like colors applied over a wet white ground for luminosity, meticulous botanical and textile detail, and subjects drawn from literature, mythology, and the Bible."
   },
   {
@@ -42,6 +46,7 @@
     "period": "19th Century",
     "yearStart": 1840,
     "yearEnd": 1900,
+    "summary": "Muted earth tones and honest observation capturing everyday life without idealization.",
     "description": "Realism rejected the idealization and drama of Romanticism in favor of depicting ordinary life with unflinching honesty. Realist painters portrayed peasants, laborers, and everyday scenes with the same gravity previously reserved for history painting. As the movement matured, its scope broadened to include social portraiture — artists like Sargent and Zorn brought Realist observation to the drawing rooms and stages of the upper classes, documenting society with the same directness Courbet brought to stone breakers. Their palettes ranged from muted earth tones to the luminous flesh tones of portraiture, always grounded in the actual colors of the world they observed."
   },
   {
@@ -51,6 +56,7 @@
     "period": "19th Century",
     "yearStart": 1860,
     "yearEnd": 1890,
+    "summary": "Luminous, high-keyed palettes capturing fleeting light through broken brushwork and pure pigments.",
     "description": "Impressionism revolutionized painting by prioritizing the direct observation of light, color, and atmosphere over academic precision. Working en plein air, the Impressionists used broken brushwork and pure, unmixed pigments to capture fleeting moments — the shimmer of water, the glow of a sunset, the dappled light filtering through leaves. Their palettes were characteristically luminous and high-keyed."
   },
   {
@@ -60,6 +66,7 @@
     "period": "19th Century",
     "yearStart": 1886,
     "yearEnd": 1905,
+    "summary": "Saturated, emotionally charged colors pushing beyond Impressionism toward structure and expression.",
     "description": "Post-Impressionism encompassed diverse artists who extended Impressionism while rejecting its limitations. Where the Impressionists sought to capture fleeting appearances, Post-Impressionists pursued deeper structural order, symbolic meaning, and emotional expression. Their palettes ranged from Van Gogh's intensely saturated, emotionally charged colors to Cézanne's carefully modulated planes of warm and cool tones."
   },
   {
@@ -69,6 +76,7 @@
     "period": "Modern",
     "yearStart": 1890,
     "yearEnd": 1910,
+    "summary": "Sinuous lines, flat saturated color, and ornamental beauty blurring fine and decorative art.",
     "description": "Art Nouveau dissolved the boundary between fine and decorative art, creating a total aesthetic characterized by sinuous organic lines, floral motifs, and an embrace of new materials and techniques. Its painters and illustrators used flowing contours, flat areas of saturated color, and ornamental patterns inspired by Japanese prints, Celtic art, and the natural world to create images of dreamlike beauty."
   },
   {
@@ -78,6 +86,7 @@
     "period": "19th Century",
     "yearStart": 1880,
     "yearEnd": 1910,
+    "summary": "Mysterious jewel tones and shadowy half-lights evoking myth, dreams, and inner vision.",
     "description": "Symbolism arose as a revolt against Naturalism and Realism, seeking to express the inner life of the mind through myth, dreams, and allegory. Symbolist painters rejected the visible world in favor of visions conjured from imagination and literature, using rich, often mysterious palettes — deep jewel tones, iridescent lusters, and shadowy half-lights — to evoke states of ecstasy, melancholy, and spiritual longing."
   },
   {
@@ -87,6 +96,7 @@
     "period": "Modern",
     "yearStart": 1905,
     "yearEnd": 1930,
+    "summary": "Anti-naturalistic clashing hues - acid greens, livid reds - externalizing raw emotion.",
     "description": "Expressionism prioritized raw emotional intensity over faithful representation, distorting form and color to externalize inner psychological states. Artists used jagged lines, flattened perspectives, and violently clashing hues to convey anxiety, alienation, and ecstatic experience. Their palettes were deliberately anti-naturalistic — acid greens, livid reds, and searing yellows deployed not to describe what things looked like, but how they felt."
   },
   {
@@ -96,6 +106,7 @@
     "period": "Modern",
     "yearStart": 1904,
     "yearEnd": 1908,
+    "summary": "Explosively saturated pure pigments - color freed entirely from describing the real world.",
     "description": "Fauvism, named after critics called its practitioners 'les fauves' (wild beasts), was the first major avant-garde movement of the twentieth century. The Fauves liberated color entirely from its descriptive function, painting trees in orange, skies in green, and faces in vermilion. Their palettes were explosively saturated, using pure pigments straight from the tube in bold, flat patches that prioritized chromatic harmony and emotional impact over naturalistic accuracy."
   }
 ]

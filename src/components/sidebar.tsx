@@ -48,9 +48,9 @@ export function Sidebar() {
                           }`}
                       >
                         {movement.name}
-                        <span className="ml-1 text-xs text-muted-foreground/50">
+                        {/* <span className="ml-1 text-xs text-muted-foreground/50">
                           {movement.yearStart}–{movement.yearEnd}
-                        </span>
+                        </span> */}
                       </Link>
                     </li>
                   );

@@ -26,6 +26,7 @@ export interface Movement {
   yearStart: number;
   yearEnd: number;
   description: string;
+  summary: string;
 }
 
 export type Period = "Renaissance" | "Baroque" | "19th Century" | "Modern";

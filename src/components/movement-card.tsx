@@ -15,7 +15,7 @@ export function MovementCard({ movement }: { movement: Movement }) {
       className="group block rounded-xl border border-border bg-card p-5 transition-all hover:border-foreground/20 hover:shadow-lg hover:shadow-black/5"
     >
       {/* Color preview strip */}
-      <div className="mb-4 flex h-3 overflow-hidden rounded-full">
+      <div className="mb-4 flex h-2 overflow-hidden rounded-full">
         {previewColors.map((color, i) => (
           <div
             key={i}
@@ -25,12 +25,12 @@ export function MovementCard({ movement }: { movement: Movement }) {
         ))}
       </div>
 
-      <h3 className="font-serif text-lg font-semibold">{movement.name}</h3>
+      <h3 className="font-serif text-xl font-semibold">{movement.name}</h3>
       <p className="mt-0.5 text-xs text-muted-foreground">
-        {movement.period} &middot; {movement.yearStart}–{movement.yearEnd}
+        {/*{movement.period} &middot;*/}{movement.yearStart}–{movement.yearEnd}
       </p>
-      <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-muted-foreground">
-        {movement.description}
+      <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+        {movement.summary}
       </p>
       <p className="mt-3 text-xs font-medium text-muted-foreground">
         {paintings.length} painting{paintings.length !== 1 ? "s" : ""}
