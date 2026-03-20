@@ -3,7 +3,7 @@ import type { Color } from "./types";
 export function exportAsCSS(colors: Color[], paintingTitle: string): string {
   const lines = colors.map(
     (c, i) =>
-      `  --color-${i + 1}: ${c.hex.toUpperCase()}; /* ${c.name} (${c.role}) */`
+      `  --color-${i + 1}: ${c.hex.toUpperCase()}; /* ${c.name} */`
   );
   return `/* ${paintingTitle} — ChromaMasters Palette */\n:root {\n${lines.join("\n")}\n}`;
 }
@@ -15,7 +15,7 @@ export function exportAsTailwind(
   const entries = colors
     .map(
       (c, i) =>
-        `        '${c.role}-${i + 1}': '${c.hex.toUpperCase()}', // ${c.name}`
+        `        'color-${i + 1}': '${c.hex.toUpperCase()}', // ${c.name}`
     )
     .join("\n");
   return `// ${paintingTitle} — ChromaMasters Palette\nmodule.exports = {\n  theme: {\n    extend: {\n      colors: {\n        palette: {\n${entries}\n        },\n      },\n    },\n  },\n};`;

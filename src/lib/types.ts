@@ -1,7 +1,6 @@
 export interface Color {
   hex: string;
   name: string;
-  role: "dominant" | "accent" | "shadow" | "highlight" | "midtone";
 }
 
 export interface Painting {

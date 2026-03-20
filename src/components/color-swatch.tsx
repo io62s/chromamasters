@@ -38,7 +38,7 @@ export function ColorSwatch({ color, isSelected, onClick }: ColorSwatchProps) {
           className="text-[9px] opacity-0 transition-opacity group-hover/swatch:opacity-70"
           style={{ color: textColor }}
         >
-          {color.role}
+          {color.name}
         </span>
       </TooltipTrigger>
       <TooltipContent side="bottom" className="text-center">

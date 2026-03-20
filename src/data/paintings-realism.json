@@ -13,43 +13,35 @@
     "colors": [
       {
         "hex": "#1A1410",
-        "name": "Midnight Umber",
-        "role": "dominant"
+        "name": "Midnight Umber"
       },
       {
         "hex": "#3D2E22",
-        "name": "Burnished Mahogany",
-        "role": "shadow"
+        "name": "Burnished Mahogany"
       },
       {
         "hex": "#E8D5C0",
-        "name": "Porcelain Blush",
-        "role": "highlight"
+        "name": "Porcelain Blush"
       },
       {
         "hex": "#0E0B08",
-        "name": "Obsidian Depth",
-        "role": "shadow"
+        "name": "Obsidian Depth"
       },
       {
         "hex": "#C4A882",
-        "name": "Gilded Warmth",
-        "role": "midtone"
+        "name": "Gilded Warmth"
       },
       {
         "hex": "#6B4F3A",
-        "name": "Tobacco Silk",
-        "role": "midtone"
+        "name": "Tobacco Silk"
       },
       {
         "hex": "#F2E4D4",
-        "name": "Ivory Glow",
-        "role": "highlight"
+        "name": "Ivory Glow"
       },
       {
         "hex": "#8B6B4A",
-        "name": "Antique Bronze",
-        "role": "accent"
+        "name": "Antique Bronze"
       }
     ]
   },
@@ -67,43 +59,35 @@
     "colors": [
       {
         "hex": "#4A6B3A",
-        "name": "Twilight Garden",
-        "role": "dominant"
+        "name": "Twilight Garden"
       },
       {
         "hex": "#E8C87A",
-        "name": "Lantern Flame",
-        "role": "accent"
+        "name": "Lantern Flame"
       },
       {
         "hex": "#F5E6D0",
-        "name": "Petal White",
-        "role": "highlight"
+        "name": "Petal White"
       },
       {
         "hex": "#2D4428",
-        "name": "Deep Foliage",
-        "role": "shadow"
+        "name": "Deep Foliage"
       },
       {
         "hex": "#D47B8A",
-        "name": "Rose Carnation",
-        "role": "accent"
+        "name": "Rose Carnation"
       },
       {
         "hex": "#7A9A62",
-        "name": "Dusk Verdure",
-        "role": "midtone"
+        "name": "Dusk Verdure"
       },
       {
         "hex": "#F0D4A8",
-        "name": "Warm Glow",
-        "role": "highlight"
+        "name": "Warm Glow"
       },
       {
         "hex": "#5C7A4E",
-        "name": "Evening Moss",
-        "role": "midtone"
+        "name": "Evening Moss"
       }
     ]
   },
@@ -121,43 +105,35 @@
     "colors": [
       {
         "hex": "#1C1612",
-        "name": "Flamenco Shadow",
-        "role": "dominant"
+        "name": "Flamenco Shadow"
       },
       {
         "hex": "#E8DCC8",
-        "name": "Dancer's White",
-        "role": "highlight"
+        "name": "Dancer's White"
       },
       {
         "hex": "#3A2C20",
-        "name": "Tavern Dark",
-        "role": "shadow"
+        "name": "Tavern Dark"
       },
       {
         "hex": "#9C8060",
-        "name": "Sandstone Warm",
-        "role": "midtone"
+        "name": "Sandstone Warm"
       },
       {
         "hex": "#0A0806",
-        "name": "Midnight Stage",
-        "role": "shadow"
+        "name": "Midnight Stage"
       },
       {
         "hex": "#C4A67A",
-        "name": "Amber Footlight",
-        "role": "midtone"
+        "name": "Amber Footlight"
       },
       {
         "hex": "#D4B890",
-        "name": "Candlelit Skin",
-        "role": "highlight"
+        "name": "Candlelit Skin"
       },
       {
         "hex": "#6B5238",
-        "name": "Spanish Earth",
-        "role": "accent"
+        "name": "Spanish Earth"
       }
     ]
   },
@@ -175,43 +151,35 @@
     "colors": [
       {
         "hex": "#2A2018",
-        "name": "Parlor Shadow",
-        "role": "dominant"
+        "name": "Parlor Shadow"
       },
       {
         "hex": "#F0E4D6",
-        "name": "Pinafore White",
-        "role": "highlight"
+        "name": "Pinafore White"
       },
       {
         "hex": "#8C7258",
-        "name": "Walnut Warmth",
-        "role": "midtone"
+        "name": "Walnut Warmth"
       },
       {
         "hex": "#120E0A",
-        "name": "Chamber Dark",
-        "role": "shadow"
+        "name": "Chamber Dark"
       },
       {
         "hex": "#C4392E",
-        "name": "Carpet Crimson",
-        "role": "accent"
+        "name": "Carpet Crimson"
       },
       {
         "hex": "#D8C4A8",
-        "name": "Soft Lamplight",
-        "role": "highlight"
+        "name": "Soft Lamplight"
       },
       {
         "hex": "#5A4838",
-        "name": "Mahogany Dusk",
-        "role": "midtone"
+        "name": "Mahogany Dusk"
       },
       {
         "hex": "#1E3448",
-        "name": "Porcelain Blue",
-        "role": "accent"
+        "name": "Porcelain Blue"
       }
     ]
   },
@@ -229,43 +197,35 @@
     "colors": [
       {
         "hex": "#E8DED2",
-        "name": "Silk Ivory",
-        "role": "dominant"
+        "name": "Silk Ivory"
       },
       {
         "hex": "#8A7EB0",
-        "name": "Lavender Moire",
-        "role": "accent"
+        "name": "Lavender Moire"
       },
       {
         "hex": "#F4EDE4",
-        "name": "Pearl Luminance",
-        "role": "highlight"
+        "name": "Pearl Luminance"
       },
       {
         "hex": "#4A3C30",
-        "name": "Walnut Frame",
-        "role": "shadow"
+        "name": "Walnut Frame"
       },
       {
         "hex": "#C8B8A0",
-        "name": "Champagne Satin",
-        "role": "midtone"
+        "name": "Champagne Satin"
       },
       {
         "hex": "#6E8A7A",
-        "name": "Sage Damask",
-        "role": "accent"
+        "name": "Sage Damask"
       },
       {
         "hex": "#D6C0A8",
-        "name": "Warm Complexion",
-        "role": "midtone"
+        "name": "Warm Complexion"
       },
       {
         "hex": "#3A2E24",
-        "name": "Deep Sepia",
-        "role": "shadow"
+        "name": "Deep Sepia"
       }
     ]
   },
@@ -283,43 +243,35 @@
     "colors": [
       {
         "hex": "#5C8C54",
-        "name": "Nordic Meadow",
-        "role": "dominant"
+        "name": "Nordic Meadow"
       },
       {
         "hex": "#C4603C",
-        "name": "Falu Red",
-        "role": "accent"
+        "name": "Falu Red"
       },
       {
         "hex": "#F2E8D4",
-        "name": "Midsummer Light",
-        "role": "highlight"
+        "name": "Midsummer Light"
       },
       {
         "hex": "#3A5832",
-        "name": "Birch Shade",
-        "role": "shadow"
+        "name": "Birch Shade"
       },
       {
         "hex": "#E8D4B0",
-        "name": "Linen White",
-        "role": "highlight"
+        "name": "Linen White"
       },
       {
         "hex": "#8B7A5A",
-        "name": "Weathered Pine",
-        "role": "midtone"
+        "name": "Weathered Pine"
       },
       {
         "hex": "#2A3E26",
-        "name": "Forest Floor",
-        "role": "shadow"
+        "name": "Forest Floor"
       },
       {
         "hex": "#7A9C6A",
-        "name": "Summer Verdant",
-        "role": "midtone"
+        "name": "Summer Verdant"
       }
     ]
   },
@@ -337,43 +289,35 @@
     "colors": [
       {
         "hex": "#3A3028",
-        "name": "Studio Umber",
-        "role": "dominant"
+        "name": "Studio Umber"
       },
       {
         "hex": "#D8B88C",
-        "name": "Ochre Warmth",
-        "role": "midtone"
+        "name": "Ochre Warmth"
       },
       {
         "hex": "#E8CCA8",
-        "name": "Flesh Luminance",
-        "role": "highlight"
+        "name": "Flesh Luminance"
       },
       {
         "hex": "#1A1614",
-        "name": "Ivory Black",
-        "role": "shadow"
+        "name": "Ivory Black"
       },
       {
         "hex": "#C45A3A",
-        "name": "Vermilion Touch",
-        "role": "accent"
+        "name": "Vermilion Touch"
       },
       {
         "hex": "#F0DCC4",
-        "name": "Canvas Light",
-        "role": "highlight"
+        "name": "Canvas Light"
       },
       {
         "hex": "#6A5842",
-        "name": "Palette Brown",
-        "role": "midtone"
+        "name": "Palette Brown"
       },
       {
         "hex": "#2C2420",
-        "name": "Shadow Depth",
-        "role": "shadow"
+        "name": "Shadow Depth"
       }
     ]
   },
@@ -391,43 +335,35 @@
     "colors": [
       {
         "hex": "#2E2824",
-        "name": "Carriage Interior",
-        "role": "dominant"
+        "name": "Carriage Interior"
       },
       {
         "hex": "#C8B498",
-        "name": "Window Diffusion",
-        "role": "midtone"
+        "name": "Window Diffusion"
       },
       {
         "hex": "#E4D4BC",
-        "name": "Filtered Daylight",
-        "role": "highlight"
+        "name": "Filtered Daylight"
       },
       {
         "hex": "#161210",
-        "name": "Overcoat Black",
-        "role": "shadow"
+        "name": "Overcoat Black"
       },
       {
         "hex": "#8A7660",
-        "name": "Worn Leather",
-        "role": "midtone"
+        "name": "Worn Leather"
       },
       {
         "hex": "#4A6C8A",
-        "name": "Parisian Blue",
-        "role": "accent"
+        "name": "Parisian Blue"
       },
       {
         "hex": "#F0E0CA",
-        "name": "Pale Complexion",
-        "role": "highlight"
+        "name": "Pale Complexion"
       },
       {
         "hex": "#5C4A38",
-        "name": "Chestnut Shadow",
-        "role": "accent"
+        "name": "Chestnut Shadow"
       }
     ]
   },
@@ -445,43 +381,35 @@
     "colors": [
       {
         "hex": "#2C2218",
-        "name": "Anguished Dark",
-        "role": "dominant"
+        "name": "Anguished Dark"
       },
       {
         "hex": "#D8B898",
-        "name": "Flushed Skin",
-        "role": "highlight"
+        "name": "Flushed Skin"
       },
       {
         "hex": "#5A3E2A",
-        "name": "Tousled Auburn",
-        "role": "midtone"
+        "name": "Tousled Auburn"
       },
       {
         "hex": "#0E0C08",
-        "name": "Abyss Black",
-        "role": "shadow"
+        "name": "Abyss Black"
       },
       {
         "hex": "#E8D0B4",
-        "name": "Pallid Light",
-        "role": "highlight"
+        "name": "Pallid Light"
       },
       {
         "hex": "#8C6A48",
-        "name": "Chestnut Mane",
-        "role": "midtone"
+        "name": "Chestnut Mane"
       },
       {
         "hex": "#F4EAE0",
-        "name": "Linen Collar",
-        "role": "accent"
+        "name": "Linen Collar"
       },
       {
         "hex": "#3E2E20",
-        "name": "Brooding Sepia",
-        "role": "shadow"
+        "name": "Brooding Sepia"
       }
     ]
   },
@@ -499,43 +427,35 @@
     "colors": [
       {
         "hex": "#1A1614",
-        "name": "Mourning Black",
-        "role": "dominant"
+        "name": "Mourning Black"
       },
       {
         "hex": "#8C7E6A",
-        "name": "Limestone Bluff",
-        "role": "midtone"
+        "name": "Limestone Bluff"
       },
       {
         "hex": "#D4C4A8",
-        "name": "Surplice Cream",
-        "role": "highlight"
+        "name": "Surplice Cream"
       },
       {
         "hex": "#0C0A08",
-        "name": "Grave Darkness",
-        "role": "shadow"
+        "name": "Grave Darkness"
       },
       {
         "hex": "#B44A3A",
-        "name": "Vestment Red",
-        "role": "accent"
+        "name": "Vestment Red"
       },
       {
         "hex": "#5A5044",
-        "name": "Earthen Clod",
-        "role": "midtone"
+        "name": "Earthen Clod"
       },
       {
         "hex": "#E8DAC4",
-        "name": "Pallbearer Pale",
-        "role": "highlight"
+        "name": "Pallbearer Pale"
       },
       {
         "hex": "#3A322A",
-        "name": "Churchyard Soil",
-        "role": "shadow"
+        "name": "Churchyard Soil"
       }
     ]
   },
@@ -553,43 +473,35 @@
     "colors": [
       {
         "hex": "#2A2218",
-        "name": "Atelier Gloom",
-        "role": "dominant"
+        "name": "Atelier Gloom"
       },
       {
         "hex": "#C4AA88",
-        "name": "Studio Ochre",
-        "role": "midtone"
+        "name": "Studio Ochre"
       },
       {
         "hex": "#E8D8C0",
-        "name": "Model's Skin",
-        "role": "highlight"
+        "name": "Model's Skin"
       },
       {
         "hex": "#0E0C0A",
-        "name": "Canvas Shadow",
-        "role": "shadow"
+        "name": "Canvas Shadow"
       },
       {
         "hex": "#6A8A5A",
-        "name": "Landscape Green",
-        "role": "accent"
+        "name": "Landscape Green"
       },
       {
         "hex": "#8A7458",
-        "name": "Palette Sienna",
-        "role": "midtone"
+        "name": "Palette Sienna"
       },
       {
         "hex": "#F0E2CC",
-        "name": "Draped Linen",
-        "role": "highlight"
+        "name": "Draped Linen"
       },
       {
         "hex": "#3C3028",
-        "name": "Bohemian Dark",
-        "role": "shadow"
+        "name": "Bohemian Dark"
       }
     ]
   },
@@ -607,43 +519,35 @@
     "colors": [
       {
         "hex": "#3A5A58",
-        "name": "Storm Surge",
-        "role": "dominant"
+        "name": "Storm Surge"
       },
       {
         "hex": "#6A8A7E",
-        "name": "Churning Jade",
-        "role": "midtone"
+        "name": "Churning Jade"
       },
       {
         "hex": "#E0DCD4",
-        "name": "Spindrift Foam",
-        "role": "highlight"
+        "name": "Spindrift Foam"
       },
       {
         "hex": "#1E3430",
-        "name": "Abyssal Green",
-        "role": "shadow"
+        "name": "Abyssal Green"
       },
       {
         "hex": "#8CA8A0",
-        "name": "Salt Spray",
-        "role": "midtone"
+        "name": "Salt Spray"
       },
       {
         "hex": "#4E6E6C",
-        "name": "Deep Channel",
-        "role": "shadow"
+        "name": "Deep Channel"
       },
       {
         "hex": "#F0ECE4",
-        "name": "Crest White",
-        "role": "highlight"
+        "name": "Crest White"
       },
       {
         "hex": "#2A4844",
-        "name": "Tempest Teal",
-        "role": "accent"
+        "name": "Tempest Teal"
       }
     ]
   },
@@ -661,43 +565,35 @@
     "colors": [
       {
         "hex": "#C4A870",
-        "name": "Harvest Gold",
-        "role": "dominant"
+        "name": "Harvest Gold"
       },
       {
         "hex": "#8A6E44",
-        "name": "Stubble Field",
-        "role": "midtone"
+        "name": "Stubble Field"
       },
       {
         "hex": "#E8D8B0",
-        "name": "Wheat Haze",
-        "role": "highlight"
+        "name": "Wheat Haze"
       },
       {
         "hex": "#4A3E2C",
-        "name": "Peasant Brown",
-        "role": "shadow"
+        "name": "Peasant Brown"
       },
       {
         "hex": "#B43A2E",
-        "name": "Kerchief Red",
-        "role": "accent"
+        "name": "Kerchief Red"
       },
       {
         "hex": "#6A8CA0",
-        "name": "Distant Sky",
-        "role": "accent"
+        "name": "Distant Sky"
       },
       {
         "hex": "#D8C498",
-        "name": "Barley Light",
-        "role": "highlight"
+        "name": "Barley Light"
       },
       {
         "hex": "#5A4E38",
-        "name": "Furrowed Earth",
-        "role": "shadow"
+        "name": "Furrowed Earth"
       }
     ]
   },
@@ -715,43 +611,35 @@
     "colors": [
       {
         "hex": "#5A4E38",
-        "name": "Tilled Earth",
-        "role": "dominant"
+        "name": "Tilled Earth"
       },
       {
         "hex": "#C4AA78",
-        "name": "Dusk Amber",
-        "role": "highlight"
+        "name": "Dusk Amber"
       },
       {
         "hex": "#3A3228",
-        "name": "Sower's Shadow",
-        "role": "shadow"
+        "name": "Sower's Shadow"
       },
       {
         "hex": "#8A7A5A",
-        "name": "Hillside Ochre",
-        "role": "midtone"
+        "name": "Hillside Ochre"
       },
       {
         "hex": "#D8C090",
-        "name": "Fading Horizon",
-        "role": "highlight"
+        "name": "Fading Horizon"
       },
       {
         "hex": "#2A2418",
-        "name": "Deep Loam",
-        "role": "shadow"
+        "name": "Deep Loam"
       },
       {
         "hex": "#6E6248",
-        "name": "Seed Furrow",
-        "role": "midtone"
+        "name": "Seed Furrow"
       },
       {
         "hex": "#94A488",
-        "name": "Distant Field",
-        "role": "accent"
+        "name": "Distant Field"
       }
     ]
   },
@@ -769,43 +657,35 @@
     "colors": [
       {
         "hex": "#C4AA78",
-        "name": "Volga Sand",
-        "role": "dominant"
+        "name": "Volga Sand"
       },
       {
         "hex": "#6A8AB0",
-        "name": "River Blue",
-        "role": "accent"
+        "name": "River Blue"
       },
       {
         "hex": "#E8D8B8",
-        "name": "Scorched Light",
-        "role": "highlight"
+        "name": "Scorched Light"
       },
       {
         "hex": "#4A3E2C",
-        "name": "Hauler's Rag",
-        "role": "shadow"
+        "name": "Hauler's Rag"
       },
       {
         "hex": "#8E7E60",
-        "name": "Sunbaked Earth",
-        "role": "midtone"
+        "name": "Sunbaked Earth"
       },
       {
         "hex": "#A0C0D8",
-        "name": "Summer Sky",
-        "role": "highlight"
+        "name": "Summer Sky"
       },
       {
         "hex": "#5A4A34",
-        "name": "Weathered Skin",
-        "role": "midtone"
+        "name": "Weathered Skin"
       },
       {
         "hex": "#3A3028",
-        "name": "Harness Dark",
-        "role": "shadow"
+        "name": "Harness Dark"
       }
     ]
   },
@@ -823,43 +703,35 @@
     "colors": [
       {
         "hex": "#5A4A38",
-        "name": "Cossack Leather",
-        "role": "dominant"
+        "name": "Cossack Leather"
       },
       {
         "hex": "#C43A2A",
-        "name": "Crimson Sash",
-        "role": "accent"
+        "name": "Crimson Sash"
       },
       {
         "hex": "#E8D4B4",
-        "name": "Parchment Light",
-        "role": "highlight"
+        "name": "Parchment Light"
       },
       {
         "hex": "#2A2218",
-        "name": "Smoke Shadow",
-        "role": "shadow"
+        "name": "Smoke Shadow"
       },
       {
         "hex": "#8A7254",
-        "name": "Sheepskin Tan",
-        "role": "midtone"
+        "name": "Sheepskin Tan"
       },
       {
         "hex": "#D4B890",
-        "name": "Steppe Gold",
-        "role": "highlight"
+        "name": "Steppe Gold"
       },
       {
         "hex": "#4A6A4A",
-        "name": "Campaign Green",
-        "role": "accent"
+        "name": "Campaign Green"
       },
       {
         "hex": "#3E3428",
-        "name": "Musket Dark",
-        "role": "shadow"
+        "name": "Musket Dark"
       }
     ]
   },
@@ -877,43 +749,35 @@
     "colors": [
       {
         "hex": "#8A2A1E",
-        "name": "Blood Crimson",
-        "role": "accent"
+        "name": "Blood Crimson"
       },
       {
         "hex": "#2A1E18",
-        "name": "Terrible Dark",
-        "role": "dominant"
+        "name": "Terrible Dark"
       },
       {
         "hex": "#D8A880",
-        "name": "Anguished Flesh",
-        "role": "highlight"
+        "name": "Anguished Flesh"
       },
       {
         "hex": "#6A3A28",
-        "name": "Dried Blood",
-        "role": "midtone"
+        "name": "Dried Blood"
       },
       {
         "hex": "#C47040",
-        "name": "Brocade Orange",
-        "role": "accent"
+        "name": "Brocade Orange"
       },
       {
         "hex": "#120E0A",
-        "name": "Chamber Abyss",
-        "role": "shadow"
+        "name": "Chamber Abyss"
       },
       {
         "hex": "#E8C4A0",
-        "name": "Pallid Skin",
-        "role": "highlight"
+        "name": "Pallid Skin"
       },
       {
         "hex": "#4A3228",
-        "name": "Carpet Umber",
-        "role": "shadow"
+        "name": "Carpet Umber"
       }
     ]
   }

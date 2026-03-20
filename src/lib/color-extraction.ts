@@ -188,14 +188,6 @@ function assignColorName(hex: string): string {
   return baseName;
 }
 
-function assignRole(index: number, total: number): Color["role"] {
-  if (index === 0) return "dominant";
-  if (index === total - 1) return "shadow";
-  if (index === total - 2) return "highlight";
-  if (index % 2 === 1) return "accent";
-  return "midtone";
-}
-
 // ── Main extraction function ──────────────────────────────────────────
 
 export function extractPalette(
@@ -205,8 +197,8 @@ export function extractPalette(
   const pixels = samplePixels(imageData);
   if (pixels.length === 0) return [];
 
-  // Run k-means with extra clusters to allow dedup
-  const extraK = Math.min(numColors + 4, pixels.length);
+  // Run k-means with extra clusters to allow dedup headroom
+  const extraK = Math.min(numColors * 2, pixels.length);
   const centroids = kMeans(pixels, extraK);
 
   // Convert to hex
@@ -217,8 +209,18 @@ export function extractPalette(
   // Sort by luminance (darkest first) for consistent ordering before dedup
   hexColors.sort((a, b) => chroma(a).luminance() - chroma(b).luminance());
 
-  // Deduplicate similar colors
-  hexColors = deduplicateColors(hexColors);
+  // Deduplicate, progressively lowering threshold until we have enough colors
+  let deduped = deduplicateColors(hexColors, 10);
+  if (deduped.length < numColors) {
+    deduped = deduplicateColors(hexColors, 5);
+  }
+  if (deduped.length < numColors) {
+    deduped = deduplicateColors(hexColors, 2);
+  }
+  if (deduped.length < numColors) {
+    deduped = hexColors; // skip dedup entirely
+  }
+  hexColors = deduped;
 
   // Take requested number
   hexColors = hexColors.slice(0, numColors);
@@ -227,10 +229,9 @@ export function extractPalette(
   hexColors = sortByHue(hexColors);
 
   // Map to Color objects
-  return hexColors.map((hex, i) => ({
+  return hexColors.map((hex) => ({
     hex,
     name: assignColorName(hex),
-    role: assignRole(i, hexColors.length),
   }));
 }
 

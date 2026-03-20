@@ -27,8 +27,8 @@ export function ColorDetail({ color, className = "" }: ColorDetailProps) {
         />
         <div>
           <p className="text-sm font-semibold">{color.name}</p>
-          <p className="text-xs capitalize text-muted-foreground">
-            {color.role}
+          <p className="text-xs text-muted-foreground">
+            {color.hex.toUpperCase()}
           </p>
         </div>
       </div>

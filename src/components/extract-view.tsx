@@ -419,9 +419,8 @@ export function ExtractView() {
         <div>
           <div
             ref={imageContainerRef}
-            className={`relative overflow-hidden rounded-xl bg-muted ${
-              refineState === "selecting" ? "cursor-crosshair" : ""
-            }`}
+            className={`relative overflow-hidden rounded-xl bg-muted ${refineState === "selecting" ? "cursor-crosshair" : ""
+              }`}
             onMouseDown={handleImageMouseDown}
             onMouseMove={handleImageMouseMove}
             onMouseUp={handleImageMouseUp}
@@ -537,18 +536,6 @@ export function ExtractView() {
                       />
                       <div className="absolute right-0 top-full z-50 mt-1 w-52 rounded-md border border-border bg-popover p-1 shadow-lg">
                         <button
-                          onClick={() => handleExport("css")}
-                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
-                        >
-                          CSS Variables
-                        </button>
-                        <button
-                          onClick={() => handleExport("tailwind")}
-                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
-                        >
-                          Tailwind Config
-                        </button>
-                        <button
                           onClick={() => handleExport("png")}
                           className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
                         >
@@ -559,6 +546,18 @@ export function ExtractView() {
                           className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
                         >
                           Adobe Swatch (.ase)
+                        </button>
+                        <button
+                          onClick={() => handleExport("css")}
+                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+                        >
+                          CSS Variables
+                        </button>
+                        <button
+                          onClick={() => handleExport("tailwind")}
+                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+                        >
+                          Tailwind Config
                         </button>
                         <hr className="my-1 border-border" />
                         <button
@@ -573,7 +572,7 @@ export function ExtractView() {
                 </div>
               </div>
 
-              {/* Color count slider */}
+              {/* Color count slider + shuffle */}
               <div className="mb-4 flex items-center gap-3">
                 <label className="text-xs text-muted-foreground">Colors:</label>
                 <input
@@ -587,6 +586,29 @@ export function ExtractView() {
                 <span className="w-5 text-center text-xs font-medium">
                   {numColors}
                 </span>
+                <button
+                  onClick={() => reExtract(numColors)}
+                  title="Shuffle — extract a different set of colors"
+                  className="cursor-pointer rounded-md border border-border p-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <polyline points="16 3 21 3 21 8" />
+                    <line x1="4" y1="20" x2="21" y2="3" />
+                    <polyline points="21 16 21 21 16 21" />
+                    <line x1="15" y1="15" x2="21" y2="21" />
+                    <line x1="4" y1="4" x2="9" y2="9" />
+                  </svg>
+                </button>
               </div>
 
               {/* Palette grid */}
