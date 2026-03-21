@@ -25,6 +25,7 @@ import { paintings } from "@/lib/data";
 import type { Color, Painting } from "@/lib/types";
 
 type RefineState = "off" | "selecting" | "done";
+type DragMode = "draw" | "move" | "resize-nw" | "resize-ne" | "resize-sw" | "resize-se" | null;
 
 const SK_IMAGE = "chromamasters-extract-image";
 const SK_PALETTE = "chromamasters-extract-palette";
@@ -89,6 +90,8 @@ export function ExtractView() {
     width: number;
     height: number;
   } | null>(null);
+  const [dragMode, setDragMode] = useState<DragMode>(null);
+  const dragStartRef = useRef<{ x: number; y: number; rect: { x: number; y: number; width: number; height: number } } | null>(null);
   const imageContainerRef = useRef<HTMLDivElement>(null);
 
   // Similar paintings
@@ -229,45 +232,151 @@ export function ExtractView() {
     };
   }
 
-  function handleImageMouseDown(e: React.MouseEvent) {
-    if (refineState !== "selecting") return;
-    e.preventDefault();
-    setRegionStart(getScaledCoords(e));
-    setRegionRect(null);
-  }
+  function hitTest(coords: { x: number; y: number }): DragMode {
+    if (!regionRect) return "draw";
+    const { x, y, width, height } = regionRect;
+    const handleSize = 15; // px in canvas space
 
-  function handleImageMouseMove(e: React.MouseEvent) {
-    if (refineState !== "selecting" || !regionStart) return;
-    const curr = getScaledCoords(e);
-    setRegionRect({
-      x: Math.min(regionStart.x, curr.x),
-      y: Math.min(regionStart.y, curr.y),
-      width: Math.abs(curr.x - regionStart.x),
-      height: Math.abs(curr.y - regionStart.y),
-    });
-  }
+    const nearLeft = Math.abs(coords.x - x) < handleSize;
+    const nearRight = Math.abs(coords.x - (x + width)) < handleSize;
+    const nearTop = Math.abs(coords.y - y) < handleSize;
+    const nearBottom = Math.abs(coords.y - (y + height)) < handleSize;
 
-  function handleImageMouseUp() {
-    if (refineState !== "selecting" || !regionRect) return;
-    if (regionRect.width < 10 || regionRect.height < 10) {
-      setRegionRect(null);
-      setRegionStart(null);
-      return;
+    // Corner handles
+    if (nearTop && nearLeft) return "resize-nw";
+    if (nearTop && nearRight) return "resize-ne";
+    if (nearBottom && nearLeft) return "resize-sw";
+    if (nearBottom && nearRight) return "resize-se";
+
+    // Inside region = move
+    if (coords.x > x && coords.x < x + width && coords.y > y && coords.y < y + height) {
+      return "move";
     }
-    setRegionStart(null);
-    setRefineState("done");
 
-    // Extract from region
+    // Outside = draw new
+    return "draw";
+  }
+
+  function clampRect(r: { x: number; y: number; width: number; height: number }) {
+    const canvas = canvasRef.current;
+    if (!canvas) return r;
+    const maxW = canvas.width;
+    const maxH = canvas.height;
+    let { x, y, width, height } = r;
+    if (x < 0) { x = 0; }
+    if (y < 0) { y = 0; }
+    if (x + width > maxW) { x = maxW - width; }
+    if (y + height > maxH) { y = maxH - height; }
+    return { x: Math.max(0, x), y: Math.max(0, y), width, height };
+  }
+
+  function extractFromRegion(rect: { x: number; y: number; width: number; height: number }) {
     const canvas = canvasRef.current!;
     setProcessing(true);
     requestAnimationFrame(() => {
-      const regionData = getRegionImageData(canvas, regionRect!);
+      const regionData = getRegionImageData(canvas, rect);
       const colors = extractPalette(regionData, numColors);
       setExtractedColors(colors);
       const matches = findSimilarPalettes(colors, paintings, 5);
       setSimilarPaintings(matches);
       setProcessing(false);
     });
+  }
+
+  function handleImageMouseDown(e: React.MouseEvent) {
+    if (refineState !== "selecting" && refineState !== "done") return;
+    e.preventDefault();
+    const coords = getScaledCoords(e);
+    const mode = refineState === "done" ? hitTest(coords) : "draw";
+
+    setDragMode(mode);
+    if (mode === "draw") {
+      setRegionStart(coords);
+      setRegionRect(null);
+    } else {
+      dragStartRef.current = { x: coords.x, y: coords.y, rect: { ...regionRect! } };
+    }
+  }
+
+  function handleImageMouseMove(e: React.MouseEvent) {
+    if (!dragMode) return;
+    const curr = getScaledCoords(e);
+
+    if (dragMode === "draw") {
+      if (!regionStart) return;
+      setRegionRect({
+        x: Math.min(regionStart.x, curr.x),
+        y: Math.min(regionStart.y, curr.y),
+        width: Math.abs(curr.x - regionStart.x),
+        height: Math.abs(curr.y - regionStart.y),
+      });
+      return;
+    }
+
+    const ds = dragStartRef.current;
+    if (!ds) return;
+    const dx = curr.x - ds.x;
+    const dy = curr.y - ds.y;
+    const orig = ds.rect;
+
+    if (dragMode === "move") {
+      setRegionRect(clampRect({
+        x: orig.x + dx,
+        y: orig.y + dy,
+        width: orig.width,
+        height: orig.height,
+      }));
+    } else if (dragMode === "resize-se") {
+      setRegionRect({
+        x: orig.x,
+        y: orig.y,
+        width: Math.max(20, orig.width + dx),
+        height: Math.max(20, orig.height + dy),
+      });
+    } else if (dragMode === "resize-nw") {
+      setRegionRect({
+        x: orig.x + dx,
+        y: orig.y + dy,
+        width: Math.max(20, orig.width - dx),
+        height: Math.max(20, orig.height - dy),
+      });
+    } else if (dragMode === "resize-ne") {
+      setRegionRect({
+        x: orig.x,
+        y: orig.y + dy,
+        width: Math.max(20, orig.width + dx),
+        height: Math.max(20, orig.height - dy),
+      });
+    } else if (dragMode === "resize-sw") {
+      setRegionRect({
+        x: orig.x + dx,
+        y: orig.y,
+        width: Math.max(20, orig.width - dx),
+        height: Math.max(20, orig.height + dy),
+      });
+    }
+  }
+
+  function handleImageMouseUp() {
+    if (!dragMode) return;
+
+    if (dragMode === "draw") {
+      if (!regionRect || regionRect.width < 10 || regionRect.height < 10) {
+        setRegionRect(null);
+        setRegionStart(null);
+        setDragMode(null);
+        return;
+      }
+      setRegionStart(null);
+    }
+
+    setDragMode(null);
+    dragStartRef.current = null;
+    setRefineState("done");
+
+    if (regionRect && regionRect.width >= 10 && regionRect.height >= 10) {
+      extractFromRegion(regionRect);
+    }
   }
 
   function resetRegion() {
@@ -347,24 +456,66 @@ export function ExtractView() {
 
   // ── Region overlay style ──────────────────────────────────────────
 
-  function getRegionOverlayStyle(): React.CSSProperties | undefined {
-    if (!regionRect || !canvasRef.current || !imageContainerRef.current)
-      return undefined;
+  function getRegionScale() {
+    if (!canvasRef.current || !imageContainerRef.current) return null;
     const container = imageContainerRef.current;
     const canvas = canvasRef.current;
     const rect = container.getBoundingClientRect();
-    const scaleX = rect.width / canvas.width;
-    const scaleY = rect.height / canvas.height;
+    return { scaleX: rect.width / canvas.width, scaleY: rect.height / canvas.height };
+  }
+
+  function getRegionOverlayStyle(): React.CSSProperties | undefined {
+    if (!regionRect) return undefined;
+    const scale = getRegionScale();
+    if (!scale) return undefined;
     return {
       position: "absolute",
-      left: regionRect.x * scaleX,
-      top: regionRect.y * scaleY,
-      width: regionRect.width * scaleX,
-      height: regionRect.height * scaleY,
+      left: regionRect.x * scale.scaleX,
+      top: regionRect.y * scale.scaleY,
+      width: regionRect.width * scale.scaleX,
+      height: regionRect.height * scale.scaleY,
       border: "2px dashed rgba(255,255,255,0.8)",
       backgroundColor: "rgba(255,255,255,0.1)",
+      cursor: refineState === "done" ? "move" : undefined,
       pointerEvents: "none",
     };
+  }
+
+  function renderResizeHandles() {
+    if (!regionRect || refineState !== "done") return null;
+    const scale = getRegionScale();
+    if (!scale) return null;
+    const { scaleX, scaleY } = scale;
+    const l = regionRect.x * scaleX;
+    const t = regionRect.y * scaleY;
+    const w = regionRect.width * scaleX;
+    const h = regionRect.height * scaleY;
+    const size = 8;
+    const half = size / 2;
+
+    const handles: { x: number; y: number; cursor: string }[] = [
+      { x: l - half, y: t - half, cursor: "nw-resize" },
+      { x: l + w - half, y: t - half, cursor: "ne-resize" },
+      { x: l - half, y: t + h - half, cursor: "sw-resize" },
+      { x: l + w - half, y: t + h - half, cursor: "se-resize" },
+    ];
+
+    return handles.map((handle, i) => (
+      <div
+        key={i}
+        style={{
+          position: "absolute",
+          left: handle.x,
+          top: handle.y,
+          width: size,
+          height: size,
+          backgroundColor: "white",
+          border: "1px solid rgba(0,0,0,0.4)",
+          cursor: handle.cursor,
+          pointerEvents: "none",
+        }}
+      />
+    ));
   }
 
   // ── Render ────────────────────────────────────────────────────────
@@ -424,11 +575,14 @@ export function ExtractView() {
         <div>
           <div
             ref={imageContainerRef}
-            className={`relative overflow-hidden rounded-xl bg-muted ${refineState === "selecting" ? "cursor-crosshair" : ""
-              }`}
+            className={`relative overflow-hidden rounded-xl bg-muted ${
+              refineState === "selecting" ? "cursor-crosshair" :
+              refineState === "done" ? "cursor-crosshair" : ""
+            }`}
             onMouseDown={handleImageMouseDown}
             onMouseMove={handleImageMouseMove}
             onMouseUp={handleImageMouseUp}
+            onMouseLeave={handleImageMouseUp}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -437,7 +591,12 @@ export function ExtractView() {
               className="block w-full"
               draggable={false}
             />
-            {regionRect && <div style={getRegionOverlayStyle()} />}
+            {regionRect && (
+              <>
+                <div style={getRegionOverlayStyle()} />
+                {renderResizeHandles()}
+              </>
+            )}
           </div>
 
           {/* Controls row under image */}

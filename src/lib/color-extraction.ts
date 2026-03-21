@@ -16,9 +16,53 @@ interface Cluster {
 
 // ── K-Means Clustering ────────────────────────────────────────────────
 
-function randomCentroids(pixels: RGB[], k: number): RGB[] {
-  const shuffled = [...pixels].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, k);
+/** K-means++ initialization — picks spread-out centroids, biased toward vivid pixels */
+function kMeansPlusPlusCentroids(pixels: RGB[], k: number): RGB[] {
+  const centroids: RGB[] = [];
+
+  // First centroid: pick the most saturated pixel to anchor on color
+  let bestFirst = 0;
+  let bestSat = 0;
+  for (let i = 0; i < pixels.length; i++) {
+    const s = pixelSaturation(pixels[i]);
+    if (s > bestSat) {
+      bestSat = s;
+      bestFirst = i;
+    }
+  }
+  centroids.push(pixels[bestFirst]);
+
+  // Remaining centroids: weighted by distance squared to nearest centroid
+  const dist = new Float64Array(pixels.length).fill(Infinity);
+  for (let c = 1; c < k; c++) {
+    const lastC = centroids[c - 1];
+    let totalWeight = 0;
+    for (let i = 0; i < pixels.length; i++) {
+      const d = distance(pixels[i], lastC);
+      if (d < dist[i]) dist[i] = d;
+      totalWeight += dist[i];
+    }
+    // Weighted random selection
+    let r = Math.random() * totalWeight;
+    let chosen = 0;
+    for (let i = 0; i < pixels.length; i++) {
+      r -= dist[i];
+      if (r <= 0) {
+        chosen = i;
+        break;
+      }
+    }
+    centroids.push(pixels[chosen]);
+  }
+
+  return centroids;
+}
+
+function pixelSaturation(p: RGB): number {
+  const max = Math.max(p.r, p.g, p.b);
+  const min = Math.min(p.r, p.g, p.b);
+  if (max === 0) return 0;
+  return (max - min) / max;
 }
 
 function distance(a: RGB, b: RGB): number {
@@ -63,11 +107,12 @@ function recalcCentroids(clusters: Cluster[]): RGB[] {
   });
 }
 
-function kMeans(pixels: RGB[], k: number, maxIter = 20): RGB[] {
-  let centroids = randomCentroids(pixels, k);
+function kMeans(pixels: RGB[], k: number, maxIter = 20): Cluster[] {
+  let centroids = kMeansPlusPlusCentroids(pixels, k);
+  let clusters: Cluster[] = [];
 
   for (let i = 0; i < maxIter; i++) {
-    const clusters = assignClusters(pixels, centroids);
+    clusters = assignClusters(pixels, centroids);
     const newCentroids = recalcCentroids(clusters);
 
     // Check convergence
@@ -78,7 +123,32 @@ function kMeans(pixels: RGB[], k: number, maxIter = 20): RGB[] {
     if (!moved) break;
   }
 
-  return centroids;
+  return clusters;
+}
+
+/** Saturation-weighted average: biases toward vivid pixels without picking outliers */
+function vividRepresentatives(clusters: Cluster[]): RGB[] {
+  return clusters.map((cluster) => {
+    if (cluster.pixels.length === 0) return cluster.centroid;
+
+    let totalW = 0;
+    let sumR = 0, sumG = 0, sumB = 0;
+
+    for (const px of cluster.pixels) {
+      // Weight: 1 for muted pixels, up to 3 for fully saturated
+      const w = 1 + pixelSaturation(px) * 2;
+      sumR += px.r * w;
+      sumG += px.g * w;
+      sumB += px.b * w;
+      totalW += w;
+    }
+
+    return {
+      r: Math.round(sumR / totalW),
+      g: Math.round(sumG / totalW),
+      b: Math.round(sumB / totalW),
+    };
+  });
 }
 
 // ── Post-processing ───────────────────────────────────────────────────
@@ -121,11 +191,12 @@ function samplePixels(imageData: ImageData, maxSamples = 10000): RGB[] {
     const a = data[offset + 3];
     // Skip transparent pixels
     if (a < 128) continue;
-    pixels.push({
+    const px: RGB = {
       r: data[offset],
       g: data[offset + 1],
       b: data[offset + 2],
-    });
+    };
+    pixels.push(px);
   }
 
   return pixels;
@@ -198,11 +269,14 @@ export function extractPalette(
   if (pixels.length === 0) return [];
 
   // Run k-means with extra clusters to allow dedup headroom
-  const extraK = Math.min(numColors * 2, pixels.length);
-  const centroids = kMeans(pixels, extraK);
+  const extraK = Math.min(numColors * 4, pixels.length);
+  const clusters = kMeans(pixels, extraK);
+
+  // Pick the most vivid pixel from each cluster instead of the average
+  const representatives = vividRepresentatives(clusters);
 
   // Convert to hex
-  let hexColors = centroids.map((c) =>
+  let hexColors = representatives.map((c) =>
     chroma(c.r, c.g, c.b).hex()
   );
 
@@ -224,6 +298,36 @@ export function extractPalette(
 
   // Take requested number
   hexColors = hexColors.slice(0, numColors);
+
+  // Guarantee the most saturated color from the image is represented.
+  // K-means averaging tends to wash out small vivid regions.
+  let peakSatHex: string | null = null;
+  let peakSat = 0;
+  for (const px of pixels) {
+    const s = chroma(px.r, px.g, px.b).hsl()[1] || 0;
+    if (s > peakSat) {
+      peakSat = s;
+      peakSatHex = chroma(px.r, px.g, px.b).hex();
+    }
+  }
+  if (peakSatHex && peakSat > 0.3) {
+    const alreadyPresent = hexColors.some(
+      (h) => chroma.deltaE(h, peakSatHex!) < 15
+    );
+    if (!alreadyPresent) {
+      // Replace the least saturated color in the palette
+      let minIdx = 0;
+      let minSat = Infinity;
+      for (let i = 0; i < hexColors.length; i++) {
+        const s = chroma(hexColors[i]).hsl()[1] || 0;
+        if (s < minSat) {
+          minSat = s;
+          minIdx = i;
+        }
+      }
+      hexColors[minIdx] = peakSatHex;
+    }
+  }
 
   // Sort by hue for the final palette
   hexColors = sortByHue(hexColors);
