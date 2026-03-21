@@ -448,7 +448,7 @@ export function ExtractView() {
                 setRegionRect(null);
                 clearSession();
               }}
-              className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+              className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground cursor-pointer"
             >
               Upload new image
             </button>
@@ -459,7 +459,7 @@ export function ExtractView() {
                 {refineState === "off" && (
                   <button
                     onClick={() => setRefineState("selecting")}
-                    className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                    className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground cursor-pointer"
                   >
                     Refine region
                   </button>
