@@ -147,8 +147,12 @@ export function ExtractView() {
         const { canvas, imageData } = await loadImageToCanvas(file);
         canvasRef.current = canvas;
 
-        // Display preview
-        const dataUrl = canvas.toDataURL("image/jpeg", 0.8);
+        // Display preview using original file (full quality)
+        const dataUrl = await new Promise<string>((resolve) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result as string);
+          reader.readAsDataURL(file);
+        });
         setImageUrl(dataUrl);
 
         // Run extraction (defer to next frame so loading indicator shows)
@@ -160,8 +164,9 @@ export function ExtractView() {
         const matches = findSimilarPalettes(colors, paintings, 5);
         setSimilarPaintings(matches);
 
-        // Persist to sessionStorage
-        saveToSession(dataUrl, colors, numColors);
+        // Persist to sessionStorage (compressed for size)
+        const storageUrl = canvas.toDataURL("image/jpeg", 0.8);
+        saveToSession(storageUrl, colors, numColors);
       } catch {
         toast.error("Failed to process image. Please try another file.");
       } finally {
