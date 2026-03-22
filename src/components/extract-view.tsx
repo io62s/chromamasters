@@ -87,6 +87,7 @@ export function ExtractView() {
   // Eyedropper state
   const [eyedropperActive, setEyedropperActive] = useState(false);
   const [eyedropperTargetIndex, setEyedropperTargetIndex] = useState<number | null>(null);
+  const [eyedropperPreview, setEyedropperPreview] = useState<{ color: string; x: number; y: number } | null>(null);
 
   // Refine region state
   const [refineState, setRefineState] = useState<RefineState>("off");
@@ -133,6 +134,11 @@ export function ExtractView() {
       document.removeEventListener("keydown", handleKeyDown);
     };
   }, [selectedColor, eyedropperActive]);
+
+  // Clear eyedropper preview when deactivated
+  useEffect(() => {
+    if (!eyedropperActive) setEyedropperPreview(null);
+  }, [eyedropperActive]);
 
   // ── Restore from sessionStorage on mount ────────────────────────
 
@@ -420,6 +426,38 @@ export function ExtractView() {
   }
 
   function handleImageMouseMove(e: React.MouseEvent) {
+    // Eyedropper preview on hover
+    if (eyedropperActive) {
+      const canvas = canvasRef.current;
+      if (canvas) {
+        const coords = getScaledCoords(e);
+        const ctx = canvas.getContext("2d")!;
+        const size = 3;
+        const half = Math.floor(size / 2);
+        const sx = Math.max(0, Math.min(coords.x - half, canvas.width - size));
+        const sy = Math.max(0, Math.min(coords.y - half, canvas.height - size));
+        const sampleData = ctx.getImageData(sx, sy, size, size);
+        let rSum = 0, gSum = 0, bSum = 0, count = 0;
+        for (let i = 0; i < sampleData.data.length; i += 4) {
+          rSum += sampleData.data[i];
+          gSum += sampleData.data[i + 1];
+          bSum += sampleData.data[i + 2];
+          count++;
+        }
+        const hex = chroma(Math.round(rSum / count), Math.round(gSum / count), Math.round(bSum / count)).hex();
+        const container = imageContainerRef.current;
+        if (container) {
+          const rect = container.getBoundingClientRect();
+          setEyedropperPreview({
+            color: hex,
+            x: e.clientX - rect.left,
+            y: e.clientY - rect.top,
+          });
+        }
+      }
+      return;
+    }
+
     if (!dragMode) return;
     const curr = getScaledCoords(e);
 
@@ -521,15 +559,6 @@ export function ExtractView() {
   }
 
   // ── Color copy ────────────────────────────────────────────────────
-
-  function handleCopyColor(color: Color) {
-    navigator.clipboard.writeText(color.hex.toUpperCase()).then(() => {
-      toast(`Copied ${color.hex.toUpperCase()}`, {
-        description: color.name,
-        duration: 2000,
-      });
-    });
-  }
 
   // ── Export handlers ───────────────────────────────────────────────
 
@@ -692,7 +721,7 @@ export function ExtractView() {
   return (
     <div>
       {/* ── Image + Palette Grid ──────────────────────────────────── */}
-      <div className="grid gap-8 lg:grid-cols-[1fr_320px]">
+      <div className="grid gap-8 lg:grid-cols-[1fr_380px]">
         {/* Left: Image */}
         <div>
           <div
@@ -705,7 +734,10 @@ export function ExtractView() {
             onMouseDown={handleImageMouseDown}
             onMouseMove={handleImageMouseMove}
             onMouseUp={handleImageMouseUp}
-            onMouseLeave={handleImageMouseUp}
+            onMouseLeave={() => {
+              handleImageMouseUp();
+              setEyedropperPreview(null);
+            }}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -719,6 +751,22 @@ export function ExtractView() {
                 <div style={getRegionOverlayStyle()} />
                 {renderResizeHandles()}
               </>
+            )}
+            {eyedropperPreview && (
+              <div
+                style={{
+                  position: "absolute",
+                  left: eyedropperPreview.x + 16,
+                  top: eyedropperPreview.y - 16,
+                  width: 28,
+                  height: 28,
+                  borderRadius: "50%",
+                  backgroundColor: eyedropperPreview.color,
+                  border: "2px solid white",
+                  boxShadow: "0 0 0 1px rgba(0,0,0,0.3), 0 2px 8px rgba(0,0,0,0.3)",
+                  pointerEvents: "none",
+                }}
+              />
             )}
           </div>
 
@@ -915,8 +963,9 @@ export function ExtractView() {
                     isSelected={selectedColor?.hex === color.hex}
                     isPinned={pinnedIndices.has(i)}
                     onClick={() => {
-                      setSelectedColor(color);
-                      handleCopyColor(color);
+                      setSelectedColor(
+                        selectedColor?.hex === color.hex ? null : color
+                      );
                     }}
                     onTogglePin={() => {
                       setPinnedIndices(prev => {

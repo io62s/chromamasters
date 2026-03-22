@@ -1,6 +1,7 @@
 "use client";
 
 import chroma from "chroma-js";
+import { toast } from "sonner";
 import type { Color } from "@/lib/types";
 
 interface ColorDetailProps {
@@ -8,6 +9,41 @@ interface ColorDetailProps {
   className?: string;
   onEyedropper?: () => void;
   eyedropperActive?: boolean;
+}
+
+function CopyRow({ label, value }: { label: string; value: string }) {
+  return (
+    <button
+      onClick={() => {
+        navigator.clipboard.writeText(value).then(() => {
+          toast(`Copied ${label}`, {
+            description: value,
+            duration: 2000,
+          });
+        });
+      }}
+      className="group/copy flex w-full cursor-pointer items-center gap-1.5 rounded px-1.5 py-0.5 text-left transition-colors hover:bg-accent"
+      title={`Copy ${label}: ${value}`}
+    >
+      <span className="font-medium text-foreground">{label}</span>
+      <span className="flex-1">{value}</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="12"
+        height="12"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="shrink-0 text-foreground/50 transition-opacity group-hover/copy:text-foreground"
+      >
+        <rect width="14" height="14" x="8" y="8" rx="2" />
+        <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+      </svg>
+    </button>
+  );
 }
 
 export function ColorDetail({ color, className = "", onEyedropper, eyedropperActive }: ColorDetailProps) {
@@ -62,21 +98,10 @@ export function ColorDetail({ color, className = "", onEyedropper, eyedropperAct
         )}
       </div>
       <div className="mt-3 grid grid-cols-2 gap-x-4 gap-y-1 text-xs text-muted-foreground">
-        <p>
-          <span className="font-medium text-foreground">HEX</span>{" "}
-          {color.hex.toUpperCase()}
-        </p>
-        <p>
-          <span className="font-medium text-foreground">RGB</span> {r}, {g}, {b}
-        </p>
-        <p>
-          <span className="font-medium text-foreground">HSL</span> {h}°, {s}%,{" "}
-          {l}%
-        </p>
-        <p>
-          <span className="font-medium text-foreground">CMYK</span> {cVal}, {m},{" "}
-          {y}, {k}
-        </p>
+        <CopyRow label="HEX" value={color.hex.toUpperCase()} />
+        <CopyRow label="RGB" value={`${r}, ${g}, ${b}`} />
+        <CopyRow label="HSL" value={`${h}°, ${s}%, ${l}%`} />
+        <CopyRow label="CMYK" value={`${cVal}, ${m}, ${y}, ${k}`} />
       </div>
     </div>
   );

@@ -32,10 +32,19 @@ export function ColorSwatch({ color, isSelected, isPinned, onClick, onTogglePin 
       >
         {/* Pin toggle button */}
         {onTogglePin && (
-          <button
+          <div
+            role="button"
+            tabIndex={0}
             onClick={(e) => {
               e.stopPropagation();
               onTogglePin();
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.stopPropagation();
+                e.preventDefault();
+                onTogglePin();
+              }
             }}
             className={`absolute top-1 right-1 flex h-5 w-5 items-center justify-center rounded-full transition-opacity cursor-pointer ${
               isPinned
@@ -64,26 +73,14 @@ export function ColorSwatch({ color, isSelected, isPinned, onClick, onTogglePin 
               <path d="M12 17v5" />
               <path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1z" />
             </svg>
-          </button>
+          </div>
         )}
 
-        <span
-          className="text-[10px] font-medium opacity-0 transition-opacity group-hover/swatch:opacity-100"
-          style={{ color: textColor }}
-        >
-          {color.hex.toUpperCase()}
-        </span>
-        <span
-          className="text-[9px] opacity-0 transition-opacity group-hover/swatch:opacity-70"
-          style={{ color: textColor }}
-        >
-          {color.name}
-        </span>
       </TooltipTrigger>
       <TooltipContent side="bottom" className="text-center">
         <p className="font-medium">{color.name}</p>
         <p className="text-xs text-muted-foreground">
-          {color.hex.toUpperCase()} &middot; Click to copy
+          {color.hex.toUpperCase()}
         </p>
       </TooltipContent>
     </Tooltip>

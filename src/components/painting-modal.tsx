@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { toast } from "sonner";
 import {
   Dialog,
   DialogContent,
@@ -28,14 +27,6 @@ export function PaintingModal({ painting, onClose }: PaintingModalProps) {
 
   const movement = getMovement(painting.movementId);
 
-  function handleCopyColor(color: Color) {
-    navigator.clipboard.writeText(color.hex.toUpperCase()).then(() => {
-      toast(`Copied ${color.hex.toUpperCase()}`, {
-        description: color.name,
-        duration: 2000,
-      });
-    });
-  }
 
   return (
     <Dialog
@@ -80,8 +71,9 @@ export function PaintingModal({ painting, onClose }: PaintingModalProps) {
                       color={color}
                       isSelected={selectedColor?.hex === color.hex}
                       onClick={() => {
-                        setSelectedColor(color);
-                        handleCopyColor(color);
+                        setSelectedColor(
+                          selectedColor?.hex === color.hex ? null : color
+                        );
                       }}
                     />
                   ))}
