@@ -3,6 +3,7 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { toast } from "sonner";
+import chroma from "chroma-js";
 import { ColorSwatch } from "@/components/color-swatch";
 import { ColorDetail } from "@/components/color-detail";
 import { PaintingModal } from "@/components/painting-modal";
@@ -10,6 +11,7 @@ import {
   extractPalette,
   loadImageToCanvas,
   getRegionImageData,
+  assignColorName,
 } from "@/lib/color-extraction";
 import { findSimilarPalettes } from "@/lib/palette-matching";
 import {
@@ -80,6 +82,11 @@ export function ExtractView() {
   const [selectedColor, setSelectedColor] = useState<Color | null>(null);
   const [processing, setProcessing] = useState(false);
   const [numColors, setNumColors] = useState(8);
+  const [pinnedIndices, setPinnedIndices] = useState<Set<number>>(new Set());
+
+  // Eyedropper state
+  const [eyedropperActive, setEyedropperActive] = useState(false);
+  const [eyedropperTargetIndex, setEyedropperTargetIndex] = useState<number | null>(null);
 
   // Refine region state
   const [refineState, setRefineState] = useState<RefineState>("off");
@@ -102,6 +109,30 @@ export function ExtractView() {
 
   // Export dropdown
   const [exportOpen, setExportOpen] = useState(false);
+  const paletteRef = useRef<HTMLDivElement>(null);
+
+  // ── Click outside palette clears selected color ─────────────────
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (selectedColor && paletteRef.current && !paletteRef.current.contains(e.target as Node)) {
+        setSelectedColor(null);
+        setEyedropperActive(false);
+        setEyedropperTargetIndex(null);
+      }
+    }
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape" && eyedropperActive) {
+        setEyedropperActive(false);
+        setEyedropperTargetIndex(null);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [selectedColor, eyedropperActive]);
 
   // ── Restore from sessionStorage on mount ────────────────────────
 
@@ -193,8 +224,18 @@ export function ExtractView() {
   // ── Re-extract with different color count ─────────────────────────
 
   function reExtract(count: number) {
+    // If color count changed via slider, reset pins (indices shift)
+    const currentPins = count !== numColors ? new Set<number>() : pinnedIndices;
+    if (count !== numColors) setPinnedIndices(new Set());
     setNumColors(count);
     if (!canvasRef.current) return;
+
+    // If all colors are pinned, nothing to shuffle
+    if (currentPins.size >= count) {
+      toast("All colors are pinned. Unpin some to shuffle.");
+      return;
+    }
+
     setProcessing(true);
     setSelectedColor(null);
 
@@ -205,14 +246,40 @@ export function ExtractView() {
           ? getRegionImageData(canvas, regionRect)
           : canvas.getContext("2d")!.getImageData(0, 0, canvas.width, canvas.height);
 
-      const colors = extractPalette(sourceData, count);
-      setExtractedColors(colors);
-      const matches = findSimilarPalettes(colors, paintings, 5);
+      const freshColors = extractPalette(sourceData, count);
+
+      let finalColors: typeof freshColors;
+      if (currentPins.size === 0) {
+        finalColors = freshColors;
+      } else {
+        // Filter fresh colors that are too similar to any pinned color
+        const pinned = [...currentPins].map(i => extractedColors[i]);
+        const filtered = freshColors.filter(fc =>
+          !pinned.some(pc => chroma.deltaE(fc.hex, pc.hex) < 10)
+        );
+
+        // Merge: pinned stay at their indices, fresh fill the rest
+        const merged: typeof freshColors = [];
+        let freshIdx = 0;
+        for (let i = 0; i < count; i++) {
+          if (currentPins.has(i)) {
+            merged.push(extractedColors[i]);
+          } else if (freshIdx < filtered.length) {
+            merged.push(filtered[freshIdx++]);
+          } else if (freshIdx < freshColors.length) {
+            merged.push(freshColors[freshIdx++]);
+          }
+        }
+        finalColors = merged;
+      }
+
+      setExtractedColors(finalColors);
+      const matches = findSimilarPalettes(finalColors, paintings, 5);
       setSimilarPaintings(matches);
       setProcessing(false);
 
       // Update sessionStorage with new palette/count
-      if (imageUrl) saveToSession(imageUrl, colors, count);
+      if (imageUrl) saveToSession(imageUrl, finalColors, count);
     });
   }
 
@@ -272,6 +339,7 @@ export function ExtractView() {
 
   function extractFromRegion(rect: { x: number; y: number; width: number; height: number }) {
     const canvas = canvasRef.current!;
+    setPinnedIndices(new Set());
     setProcessing(true);
     requestAnimationFrame(() => {
       const regionData = getRegionImageData(canvas, rect);
@@ -283,7 +351,60 @@ export function ExtractView() {
     });
   }
 
+  function handleEyedropperClick(e: React.MouseEvent) {
+    if (!eyedropperActive || eyedropperTargetIndex === null) return;
+    e.preventDefault();
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const coords = getScaledCoords(e);
+    const ctx = canvas.getContext("2d")!;
+    // Sample 3x3 area and average for noise reduction
+    const size = 3;
+    const half = Math.floor(size / 2);
+    const sx = Math.max(0, coords.x - half);
+    const sy = Math.max(0, coords.y - half);
+    const sampleData = ctx.getImageData(sx, sy, size, size);
+    let rSum = 0, gSum = 0, bSum = 0, count = 0;
+    for (let i = 0; i < sampleData.data.length; i += 4) {
+      rSum += sampleData.data[i];
+      gSum += sampleData.data[i + 1];
+      bSum += sampleData.data[i + 2];
+      count++;
+    }
+    const hex = chroma(Math.round(rSum / count), Math.round(gSum / count), Math.round(bSum / count)).hex();
+    const name = assignColorName(hex);
+    const newColor = { hex, name };
+
+    // Replace the target color in the palette
+    const updated = [...extractedColors];
+    updated[eyedropperTargetIndex] = newColor;
+    setExtractedColors(updated);
+    setSelectedColor(newColor);
+
+    // Auto-pin the manually picked color
+    setPinnedIndices(prev => {
+      const next = new Set(prev);
+      next.add(eyedropperTargetIndex);
+      return next;
+    });
+
+    // Recalculate matches
+    const matches = findSimilarPalettes(updated, paintings, 5);
+    setSimilarPaintings(matches);
+    if (imageUrl) saveToSession(imageUrl, updated, numColors);
+
+    // Deactivate eyedropper
+    setEyedropperActive(false);
+    setEyedropperTargetIndex(null);
+    toast(`Picked ${name} (${hex.toUpperCase()})`);
+  }
+
   function handleImageMouseDown(e: React.MouseEvent) {
+    if (eyedropperActive) {
+      handleEyedropperClick(e);
+      return;
+    }
     if (refineState !== "selecting" && refineState !== "done") return;
     e.preventDefault();
     const coords = getScaledCoords(e);
@@ -383,6 +504,7 @@ export function ExtractView() {
     setRefineState("off");
     setRegionRect(null);
     setRegionStart(null);
+    setPinnedIndices(new Set());
     if (!canvasRef.current) return;
     const canvas = canvasRef.current;
     setProcessing(true);
@@ -575,9 +697,11 @@ export function ExtractView() {
         <div>
           <div
             ref={imageContainerRef}
-            className={`relative overflow-hidden rounded-xl bg-muted ${refineState === "selecting" ? "cursor-crosshair" :
-                refineState === "done" ? "cursor-crosshair" : ""
-              }`}
+            className={`relative overflow-hidden rounded-xl bg-muted ${
+              eyedropperActive ? "cursor-crosshair" :
+              refineState === "selecting" ? "cursor-crosshair" :
+              refineState === "done" ? "cursor-crosshair" : ""
+            }`}
             onMouseDown={handleImageMouseDown}
             onMouseMove={handleImageMouseMove}
             onMouseUp={handleImageMouseUp}
@@ -606,6 +730,9 @@ export function ExtractView() {
                 setExtractedColors([]);
                 setSelectedColor(null);
                 setSimilarPaintings([]);
+                setPinnedIndices(new Set());
+                setEyedropperActive(false);
+                setEyedropperTargetIndex(null);
                 canvasRef.current = null;
                 setRefineState("off");
                 setRegionRect(null);
@@ -642,6 +769,11 @@ export function ExtractView() {
                 )}
               </>
             )}
+            {eyedropperActive && (
+              <span className="text-xs text-muted-foreground">
+                Click on the image to pick a color... (Esc to cancel)
+              </span>
+            )}
           </div>
 
           <p className="mt-3 text-xs text-muted-foreground/50">
@@ -662,7 +794,7 @@ export function ExtractView() {
           )}
 
           {!processing && extractedColors.length > 0 && (
-            <div>
+            <div ref={paletteRef}>
               {/* Header + export */}
               <div className="mb-3 flex items-center justify-between">
                 <h3 className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
@@ -781,9 +913,18 @@ export function ExtractView() {
                     key={`${color.hex}-${i}`}
                     color={color}
                     isSelected={selectedColor?.hex === color.hex}
+                    isPinned={pinnedIndices.has(i)}
                     onClick={() => {
                       setSelectedColor(color);
                       handleCopyColor(color);
+                    }}
+                    onTogglePin={() => {
+                      setPinnedIndices(prev => {
+                        const next = new Set(prev);
+                        if (next.has(i)) next.delete(i);
+                        else next.add(i);
+                        return next;
+                      });
                     }}
                   />
                 ))}
@@ -791,7 +932,27 @@ export function ExtractView() {
 
               {/* Selected color detail */}
               {selectedColor && (
-                <ColorDetail color={selectedColor} className="mt-4" />
+                <ColorDetail
+                  color={selectedColor}
+                  className="mt-4"
+                  eyedropperActive={eyedropperActive}
+                  onEyedropper={() => {
+                    if (eyedropperActive) {
+                      setEyedropperActive(false);
+                      setEyedropperTargetIndex(null);
+                    } else {
+                      const idx = extractedColors.findIndex(c => c.hex === selectedColor.hex);
+                      if (idx === -1) return;
+                      setEyedropperTargetIndex(idx);
+                      setEyedropperActive(true);
+                      if (refineState !== "off") {
+                        setRefineState("off");
+                        setRegionRect(null);
+                        setRegionStart(null);
+                      }
+                    }
+                  }}
+                />
               )}
             </div>
           )}

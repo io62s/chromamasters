@@ -214,7 +214,7 @@ export function getRegionImageData(
 
 // ── Name assignment ───────────────────────────────────────────────────
 
-function assignColorName(hex: string): string {
+export function assignColorName(hex: string): string {
   const c = chroma(hex);
   const [h, s, l] = c.hsl();
   const hue = h || 0;

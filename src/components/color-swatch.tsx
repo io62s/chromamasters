@@ -11,10 +11,12 @@ import type { Color } from "@/lib/types";
 interface ColorSwatchProps {
   color: Color;
   isSelected: boolean;
+  isPinned?: boolean;
   onClick: () => void;
+  onTogglePin?: () => void;
 }
 
-export function ColorSwatch({ color, isSelected, onClick }: ColorSwatchProps) {
+export function ColorSwatch({ color, isSelected, isPinned, onClick, onTogglePin }: ColorSwatchProps) {
   const textColor = chroma(color.hex).luminance() > 0.4 ? "#1a1a1a" : "#f5f5f5";
 
   return (
@@ -28,6 +30,43 @@ export function ColorSwatch({ color, isSelected, onClick }: ColorSwatchProps) {
         }`}
         style={{ backgroundColor: color.hex }}
       >
+        {/* Pin toggle button */}
+        {onTogglePin && (
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onTogglePin();
+            }}
+            className={`absolute top-1 right-1 flex h-5 w-5 items-center justify-center rounded-full transition-opacity cursor-pointer ${
+              isPinned
+                ? "opacity-100"
+                : "opacity-0 group-hover/swatch:opacity-60"
+            }`}
+            style={{
+              backgroundColor: isPinned
+                ? chroma(color.hex).luminance() > 0.4 ? "rgba(0,0,0,0.25)" : "rgba(255,255,255,0.25)"
+                : "transparent",
+            }}
+            title={isPinned ? "Unpin color" : "Pin color (keeps it during shuffle)"}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="11"
+              height="11"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              style={{ color: textColor }}
+            >
+              <path d="M12 17v5" />
+              <path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1z" />
+            </svg>
+          </button>
+        )}
+
         <span
           className="text-[10px] font-medium opacity-0 transition-opacity group-hover/swatch:opacity-100"
           style={{ color: textColor }}
