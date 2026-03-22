@@ -18,16 +18,16 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "ChromaMasters - Fine Art Color Palettes",
+  title: "ChromaMasters - Extract & Explore Color Palettes",
   description:
-    "Explore curated color palettes extracted from masterpiece paintings across art history. Browse by movement, copy hex codes, and export palettes for your creative projects.",
+    "Upload any image to extract its dominant color palette. Discover which master painters share your color world. Browse curated palettes from art history.",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "ChromaMasters - Fine Art Color Palettes",
+    title: "ChromaMasters - Extract & Explore Color Palettes",
     description:
-      "Explore curated color palettes extracted from masterpiece paintings across art history.",
+      "Upload any image to extract its dominant color palette. Discover which master painters share your color world.",
     type: "website",
   },
 };

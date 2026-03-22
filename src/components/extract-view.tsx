@@ -575,10 +575,9 @@ export function ExtractView() {
         <div>
           <div
             ref={imageContainerRef}
-            className={`relative overflow-hidden rounded-xl bg-muted ${
-              refineState === "selecting" ? "cursor-crosshair" :
-              refineState === "done" ? "cursor-crosshair" : ""
-            }`}
+            className={`relative overflow-hidden rounded-xl bg-muted ${refineState === "selecting" ? "cursor-crosshair" :
+                refineState === "done" ? "cursor-crosshair" : ""
+              }`}
             onMouseDown={handleImageMouseDown}
             onMouseMove={handleImageMouseMove}
             onMouseUp={handleImageMouseUp}

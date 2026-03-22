@@ -39,20 +39,20 @@ export function Header() {
             Home
           </Link>
           <Link
+            href="/movements"
+            className={`text-sm transition-colors hover:text-foreground ${
+              pathname === "/movements" || pathname.startsWith("/movement/") ? "text-foreground font-medium" : "text-muted-foreground"
+            }`}
+          >
+            Movements
+          </Link>
+          <Link
             href="/paintings"
             className={`text-sm transition-colors hover:text-foreground ${
               pathname === "/paintings" ? "text-foreground font-medium" : "text-muted-foreground"
             }`}
           >
             All Paintings
-          </Link>
-          <Link
-            href="/extract"
-            className={`text-sm transition-colors hover:text-foreground ${
-              pathname === "/extract" ? "text-foreground font-medium" : "text-muted-foreground"
-            }`}
-          >
-            MyPalette
           </Link>
           <ThemeToggle />
         </nav>
@@ -90,18 +90,18 @@ export function Header() {
               Home
             </Link>
             <Link
+              href="/movements"
+              onClick={() => setMobileOpen(false)}
+              className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
+            >
+              Movements
+            </Link>
+            <Link
               href="/paintings"
               onClick={() => setMobileOpen(false)}
               className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
             >
               All Paintings
-            </Link>
-            <Link
-              href="/extract"
-              onClick={() => setMobileOpen(false)}
-              className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
-            >
-              MyPalette
             </Link>
             <hr className="my-2 border-border" />
             {grouped.map(({ period, movements: periodMovements }) => (
