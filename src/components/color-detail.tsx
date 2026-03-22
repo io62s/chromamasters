@@ -56,7 +56,7 @@ export function ColorDetail({ color, className = "", onEyedropper, eyedropperAct
 
   return (
     <div
-      className={`rounded-lg border border-border bg-accent/30 p-3 ${className}`}
+      className={`rounded-lg border border-border bg-card p-3 ${className}`}
     >
       <div className="flex items-center gap-3">
         <div

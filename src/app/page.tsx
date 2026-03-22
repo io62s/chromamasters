@@ -56,7 +56,7 @@ export default function Home() {
                 <Link
                   key={movement.id}
                   href={`/movement/${movement.slug}`}
-                  className="group block overflow-hidden rounded-lg border border-border transition-all hover:border-foreground/20 hover:bg-accent/50 p-3"
+                  className="group block overflow-hidden rounded-lg border border-border bg-card transition-all hover:border-foreground/20 hover:bg-accent/50 p-3"
                 >
                   <div className="flex h-[5px]">
                     {previewColors.map((color, i) => (
