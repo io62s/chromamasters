@@ -48,3 +48,4 @@ export function getMovementsByPeriod(period: string): Movement[] {
 export function getAllPaintings(): Painting[] {
   return paintings;
 }
+
