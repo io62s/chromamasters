@@ -25,7 +25,7 @@ export default function MovementsPage() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
-        <section className="border-b border-border bg-gradient-to-b from-background to-accent/20 py-[40px]">
+        <section className="border-b border-border py-[40px]">
           <div className="mx-auto max-w-7xl px-8">
             <h1 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl">
               Art Movements
