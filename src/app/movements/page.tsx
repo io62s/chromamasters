@@ -25,12 +25,12 @@ export default function MovementsPage() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
-        <section className="border-b border-border bg-gradient-to-b from-background to-accent/20 py-16 sm:py-24">
+        <section className="border-b border-border bg-gradient-to-b from-background to-accent/20 py-[40px]">
           <div className="mx-auto max-w-7xl px-8">
-            <h1 className="font-serif text-4xl font-bold tracking-tight sm:text-5xl">
+            <h1 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl">
               Art Movements
             </h1>
-            <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
+            <p className="mt-2 max-w-2xl leading-relaxed text-muted-foreground">
               Explore curated color palettes from masterpiece paintings across
               art history. Click any movement to browse its paintings and
               palettes.
