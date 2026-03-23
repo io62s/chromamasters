@@ -18,7 +18,7 @@ export default function PaintingsPage() {
       <Header />
       <div className="flex flex-1">
         <Sidebar />
-        <main className="flex-1 px-4 py-8 sm:px-6 lg:px-8">
+        <main className="flex-1 px-4 py-[40px] sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <h1 className="font-serif text-3xl font-bold sm:text-4xl">
               All Paintings
