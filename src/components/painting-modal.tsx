@@ -57,23 +57,23 @@ export function PaintingModal({ painting, onClose }: PaintingModalProps) {
     const canvas = canvasRef.current;
     if (!container || !canvas) return { x: 0, y: 0 };
     const rect = container.getBoundingClientRect();
-    // Account for object-cover: image fills container, may be cropped
     const containerAspect = rect.width / rect.height;
     const canvasAspect = canvas.width / canvas.height;
     let offsetX = 0, offsetY = 0, displayW = rect.width, displayH = rect.height;
+    // object-contain: image fits inside container, may be letterboxed
     if (canvasAspect > containerAspect) {
-      // Image wider than container — cropped left/right
-      displayH = rect.height;
-      displayW = rect.height * canvasAspect;
-      offsetX = (displayW - rect.width) / 2;
-    } else {
-      // Image taller — cropped top/bottom
+      // Image wider — fills width, letterboxed vertically
       displayW = rect.width;
       displayH = rect.width / canvasAspect;
-      offsetY = (displayH - rect.height) / 2;
+      offsetY = (rect.height - displayH) / 2;
+    } else {
+      // Image taller — fills height, pillarboxed horizontally
+      displayH = rect.height;
+      displayW = rect.height * canvasAspect;
+      offsetX = (rect.width - displayW) / 2;
     }
-    const x = Math.round(((e.clientX - rect.left + offsetX) / displayW) * canvas.width);
-    const y = Math.round(((e.clientY - rect.top + offsetY) / displayH) * canvas.height);
+    const x = Math.round(((e.clientX - rect.left - offsetX) / displayW) * canvas.width);
+    const y = Math.round(((e.clientY - rect.top - offsetY) / displayH) * canvas.height);
     return {
       x: Math.max(0, Math.min(x, canvas.width - 1)),
       y: Math.max(0, Math.min(y, canvas.height - 1)),
@@ -142,15 +142,19 @@ export function PaintingModal({ painting, onClose }: PaintingModalProps) {
         }
       }}
     >
-      <DialogContent className="max-h-[90vh] min-w-[40%] max-w-4xl gap-0 overflow-hidden p-0">
+      <DialogContent className={`max-h-[90vh] gap-0 overflow-hidden p-0 ${
+        eyedropperActive ? "min-w-[50%] max-w-5xl" : "min-w-[40%] max-w-4xl"
+      }`}>
         <DialogTitle className="sr-only">{painting.title} by {painting.artist}</DialogTitle>
         <ScrollArea className="max-h-[90vh]">
-          <div className="grid md:grid-cols-2">
+          <div className={`grid ${eyedropperActive ? "md:grid-cols-1" : "md:grid-cols-2"}`}>
             {/* Left: Painting image */}
             <div
               ref={imageContainerRef}
-              className={`relative aspect-[4/3] w-full overflow-hidden bg-muted md:aspect-auto md:min-h-[500px] ${
-                eyedropperActive ? "cursor-crosshair" : ""
+              className={`relative w-full overflow-hidden bg-muted ${
+                eyedropperActive
+                  ? "aspect-auto min-h-[60vh] cursor-crosshair"
+                  : "aspect-[4/3] md:aspect-auto md:min-h-[500px]"
               }`}
               onMouseMove={handleEyedropperMove}
               onMouseDown={handleEyedropperClick}
@@ -160,7 +164,7 @@ export function PaintingModal({ painting, onClose }: PaintingModalProps) {
                 src={painting.image}
                 alt={`${painting.title} by ${painting.artist}`}
                 fill
-                className="object-cover"
+                className={eyedropperActive ? "object-contain" : "object-cover"}
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
                 onLoad={handleImageLoad}
