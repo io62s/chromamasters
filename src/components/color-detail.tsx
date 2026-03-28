@@ -56,11 +56,11 @@ export function ColorDetail({ color, className = "", onEyedropper, eyedropperAct
 
   return (
     <div
-      className={`rounded-lg border border-border bg-card p-3 ${className}`}
+      className={` border border-border bg-card p-3 ${className}`}
     >
       <div className="flex items-center gap-3">
         <div
-          className="h-8 w-8 shrink-0 rounded-md"
+          className="h-8 w-8 shrink-0 "
           style={{ backgroundColor: color.hex }}
         />
         <div className="flex-1">
@@ -73,11 +73,10 @@ export function ColorDetail({ color, className = "", onEyedropper, eyedropperAct
           <button
             onClick={onEyedropper}
             title={eyedropperActive ? "Cancel eyedropper" : "Pick color from image"}
-            className={`cursor-pointer rounded-md border p-1.5 text-xs transition-colors ${
-              eyedropperActive
+            className={`cursor-pointer  border p-1.5 text-xs transition-colors ${eyedropperActive
                 ? "border-foreground bg-foreground text-background"
                 : "border-border text-muted-foreground hover:bg-accent hover:text-foreground"
-            }`}
+              }`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

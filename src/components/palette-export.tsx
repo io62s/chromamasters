@@ -55,7 +55,7 @@ export function PaletteExport({ painting }: PaletteExportProps) {
     <div className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="flex cursor-pointer items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+        className="flex cursor-pointer items-center gap-1.5 border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -81,28 +81,28 @@ export function PaletteExport({ painting }: PaletteExportProps) {
             className="fixed inset-0 z-40"
             onClick={() => setOpen(false)}
           />
-          <div className="absolute right-0 top-full z-50 mt-1 w-48 rounded-md border border-border bg-popover p-1 shadow-lg">
+          <div className="absolute right-0 top-full z-50 mt-1 w-48 border border-border bg-popover p-1 shadow-lg">
             <button
               onClick={() => handleExport("png")}
-              className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+              className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
             >
               PNG Image
             </button>
             <button
               onClick={() => handleExport("ase")}
-              className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+              className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
             >
               Adobe Swatch (.ase)
             </button>
             <button
               onClick={() => handleExport("css")}
-              className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+              className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
             >
               CSS Variables
             </button>
             <button
               onClick={() => handleExport("tailwind")}
-              className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+              className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
             >
               Tailwind Config
             </button>

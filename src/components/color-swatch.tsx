@@ -23,11 +23,10 @@ export function ColorSwatch({ color, isSelected, isPinned, onClick, onTogglePin 
     <Tooltip>
       <TooltipTrigger
         onClick={onClick}
-        className={`group/swatch relative flex aspect-square w-full cursor-pointer flex-col items-center justify-center rounded-lg transition-all hover:scale-105 ${
-          isSelected
+        className={`group/swatch relative flex aspect-square w-full cursor-pointer flex-col items-center justify-center transition-all hover:scale-105 ${isSelected
             ? "ring-2 ring-foreground ring-offset-2 ring-offset-background"
             : ""
-        }`}
+          }`}
         style={{ backgroundColor: color.hex }}
       >
         {/* Pin toggle button */}
@@ -46,11 +45,10 @@ export function ColorSwatch({ color, isSelected, isPinned, onClick, onTogglePin 
                 onTogglePin();
               }
             }}
-            className={`absolute top-1 right-1 flex h-5 w-5 items-center justify-center rounded-full transition-opacity cursor-pointer ${
-              isPinned
+            className={`absolute top-1 right-1 flex h-5 w-5 items-center justify-center transition-opacity cursor-pointer ${isPinned
                 ? "opacity-100"
                 : "opacity-0 group-hover/swatch:opacity-60"
-            }`}
+              }`}
             style={{
               backgroundColor: isPinned
                 ? chroma(color.hex).luminance() > 0.4 ? "rgba(0,0,0,0.25)" : "rgba(255,255,255,0.25)"

@@ -13,12 +13,12 @@ export function CompareView() {
 
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/60 backdrop-blur-sm">
-      <div className="mx-4 max-h-[90vh] w-full max-w-6xl overflow-y-auto rounded-xl border border-border bg-background p-6">
+      <div className="mx-4 max-h-[90vh] w-full max-w-6xl overflow-y-auto border border-border bg-background p-6">
         <div className="mb-6 flex items-center justify-between">
           <h2 className="font-serif text-2xl font-bold">Compare Palettes</h2>
           <button
             onClick={() => setShowCompare(false)}
-            className="rounded-md border border-border px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-accent"
+            className=" border border-border px-3 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-accent"
           >
             Close
           </button>
@@ -38,7 +38,7 @@ function CompareColumn({ painting }: { painting: Painting }) {
   return (
     <div className="space-y-4">
       {/* Thumbnail */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg bg-muted">
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">
         <Image
           src={painting.image}
           alt={painting.title}
@@ -64,7 +64,7 @@ function CompareColumn({ painting }: { painting: Painting }) {
           return (
             <button
               key={i}
-              className="flex w-full cursor-pointer items-center justify-between rounded-md px-3 py-1.5 transition-opacity hover:opacity-80"
+              className="flex w-full cursor-pointer items-center justify-between px-3 py-1.5 transition-opacity hover:opacity-80"
               style={{ backgroundColor: color.hex }}
               onClick={() => {
                 navigator.clipboard.writeText(color.hex.toUpperCase()).then(() => {

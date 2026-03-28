@@ -14,7 +14,7 @@ export function PaintingCard({ painting, onClick }: PaintingCardProps) {
   const pinActive = isPinned(painting.id);
 
   return (
-    <div className="group relative overflow-hidden rounded-lg border border-border bg-card transition-all hover:border-foreground/20 hover:shadow-lg hover:shadow-black/10">
+    <div className="group relative overflow-hidden border border-border bg-card transition-all hover:border-foreground/20 hover:shadow-lg hover:shadow-black/10">
       {/* Pin button */}
       <button
         onClick={(e) => {
@@ -22,11 +22,10 @@ export function PaintingCard({ painting, onClick }: PaintingCardProps) {
           togglePin(painting);
         }}
         disabled={!pinActive && pinned.length >= 3}
-        className={`absolute right-2 top-2 z-10 rounded-md p-1.5 text-xs font-medium transition-all ${
-          pinActive
+        className={`absolute right-2 top-2 z-10 p-1.5 text-xs font-medium transition-all ${pinActive
             ? "bg-primary text-primary-foreground"
             : "bg-black/50 text-white opacity-0 group-hover:opacity-100 disabled:cursor-not-allowed disabled:opacity-0"
-        }`}
+          }`}
         title={pinActive ? "Unpin from compare" : "Pin to compare"}
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill={pinActive ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -56,7 +55,7 @@ export function PaintingCard({ painting, onClick }: PaintingCardProps) {
             {painting.artist}, {painting.year}
           </p>
           {/* Palette preview strip */}
-          <div className="mt-2 flex h-1.5 overflow-hidden rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <div className="mt-2 flex h-1.5 overflow-hidden opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             {painting.colors.map((color, i) => (
               <div
                 key={i}

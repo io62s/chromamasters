@@ -17,13 +17,13 @@ export function CompareBar() {
           {pinned.map((painting) => (
             <div
               key={painting.id}
-              className="flex shrink-0 items-center gap-1.5 rounded-md border border-border bg-card px-2 py-1"
+              className="flex shrink-0 items-center gap-1.5  border border-border bg-card px-2 py-1"
             >
               <div className="flex gap-0.5">
                 {painting.colors.slice(0, 4).map((c, i) => (
                   <div
                     key={i}
-                    className="h-3 w-3 rounded-sm"
+                    className="h-3 w-3"
                     style={{ backgroundColor: c.hex }}
                   />
                 ))}
@@ -47,14 +47,14 @@ export function CompareBar() {
           {pinned.length >= 2 && (
             <button
               onClick={() => setShowCompare(true)}
-              className="rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+              className=" bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-colors hover:bg-primary/90"
             >
               Compare
             </button>
           )}
           <button
             onClick={clearPinned}
-            className="rounded-md border border-border px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:bg-accent"
+            className=" border border-border px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:bg-accent"
           >
             Clear
           </button>

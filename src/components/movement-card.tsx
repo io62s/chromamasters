@@ -12,10 +12,10 @@ export function MovementCard({ movement }: { movement: Movement }) {
   return (
     <Link
       href={`/movement/${movement.slug}`}
-      className="group block rounded-xl border border-border bg-card p-5 transition-all hover:border-foreground/20 hover:shadow-lg hover:shadow-black/5"
+      className="group block border border-border bg-card p-5 transition-all hover:border-foreground/20 hover:shadow-lg hover:shadow-black/5"
     >
       {/* Color preview strip */}
-      <div className="mb-4 flex h-2 overflow-hidden rounded-full">
+      <div className="mb-4 flex h-2 overflow-hidden">
         {previewColors.map((color, i) => (
           <div
             key={i}

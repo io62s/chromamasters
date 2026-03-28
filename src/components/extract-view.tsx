@@ -677,7 +677,7 @@ export function ExtractView() {
       <div
         onDrop={handleDrop}
         onDragOver={(e) => e.preventDefault()}
-        className="flex min-h-[400px] cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed border-border transition-colors hover:border-muted-foreground/50"
+        className="flex min-h-[400px] cursor-pointer flex-col items-center justify-center border-2 border-dashed border-border transition-colors hover:border-muted-foreground/50"
         onClick={() => document.getElementById("file-input")?.click()}
       >
         <input
@@ -710,7 +710,7 @@ export function ExtractView() {
         <p className="mt-1 text-sm text-muted-foreground/60">
           JPG, PNG, or WebP
         </p>
-        <p className="mt-6 rounded-full border border-border px-4 py-1.5 text-xs text-muted-foreground/50">
+        <p className="mt-6 border border-border px-4 py-1.5 text-xs text-muted-foreground/50">
           Your image never leaves your device — all processing happens in your
           browser.
         </p>
@@ -726,11 +726,10 @@ export function ExtractView() {
         <div>
           <div
             ref={imageContainerRef}
-            className={`relative overflow-hidden rounded-xl bg-muted ${
-              eyedropperActive ? "cursor-crosshair" :
-              refineState === "selecting" ? "cursor-crosshair" :
-              refineState === "done" ? "cursor-crosshair" : ""
-            }`}
+            className={`relative overflow-hidden bg-muted ${eyedropperActive ? "cursor-crosshair" :
+                refineState === "selecting" ? "cursor-crosshair" :
+                  refineState === "done" ? "cursor-crosshair" : ""
+              }`}
             onMouseDown={handleImageMouseDown}
             onMouseMove={handleImageMouseMove}
             onMouseUp={handleImageMouseUp}
@@ -786,7 +785,7 @@ export function ExtractView() {
                 setRegionRect(null);
                 clearSession();
               }}
-              className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground cursor-pointer"
+              className=" border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground cursor-pointer"
             >
               Upload new image
             </button>
@@ -797,7 +796,7 @@ export function ExtractView() {
                 {refineState === "off" && (
                   <button
                     onClick={() => setRefineState("selecting")}
-                    className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground cursor-pointer"
+                    className=" border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground cursor-pointer"
                   >
                     Refine region
                   </button>
@@ -810,7 +809,7 @@ export function ExtractView() {
                 {refineState === "done" && (
                   <button
                     onClick={resetRegion}
-                    className="rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                    className=" border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
                   >
                     Reset to full image
                   </button>
@@ -834,7 +833,7 @@ export function ExtractView() {
         <div>
           {processing && (
             <div className="flex flex-col items-center justify-center py-20">
-              <div className="h-8 w-8 animate-spin rounded-full border-2 border-muted-foreground/30 border-t-foreground" />
+              <div className="h-8 w-8 animate-spin  border-2 border-muted-foreground/30 border-t-foreground" />
               <p className="mt-3 text-sm text-muted-foreground">
                 Extracting colors...
               </p>
@@ -852,7 +851,7 @@ export function ExtractView() {
                 <div className="relative">
                   <button
                     onClick={() => setExportOpen(!exportOpen)}
-                    className="flex cursor-pointer items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                    className="flex cursor-pointer items-center gap-1.5  border border-border px-3 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -877,35 +876,35 @@ export function ExtractView() {
                         className="fixed inset-0 z-40"
                         onClick={() => setExportOpen(false)}
                       />
-                      <div className="absolute right-0 top-full z-50 mt-1 w-52 rounded-md border border-border bg-popover p-1 shadow-lg">
+                      <div className="absolute right-0 top-full z-50 mt-1 w-52 border border-border bg-popover p-1 shadow-lg">
                         <button
                           onClick={() => handleExport("png")}
-                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+                          className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
                         >
                           PNG Strip
                         </button>
                         <button
                           onClick={() => handleExport("ase")}
-                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+                          className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
                         >
                           Adobe Swatch (.ase)
                         </button>
                         <button
                           onClick={() => handleExport("css")}
-                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+                          className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
                         >
                           CSS Variables
                         </button>
                         <button
                           onClick={() => handleExport("tailwind")}
-                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+                          className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
                         >
                           Tailwind Config
                         </button>
                         <hr className="my-1 border-border" />
                         <button
                           onClick={() => handleExport("sidebyside")}
-                          className="flex w-full items-center gap-2 rounded-sm px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
+                          className="flex w-full items-center gap-2 px-2 py-1.5 text-left text-sm text-popover-foreground hover:bg-accent"
                         >
                           Side-by-Side PNG
                         </button>
@@ -924,7 +923,7 @@ export function ExtractView() {
                   max={10}
                   value={numColors}
                   onChange={(e) => reExtract(parseInt(e.target.value))}
-                  className="h-1.5 flex-1 cursor-pointer appearance-none rounded-full bg-accent [&::-webkit-slider-thumb]:h-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-foreground"
+                  className="h-1.5 flex-1 cursor-pointer appearance-nonel bg-accent [&::-webkit-slider-thumb]:h-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:bg-foreground"
                 />
                 <span className="w-5 text-center text-xs font-medium">
                   {numColors}
@@ -932,7 +931,7 @@ export function ExtractView() {
                 <button
                   onClick={() => reExtract(numColors)}
                   title="Shuffle — extract a different set of colors"
-                  className="cursor-pointer rounded-md border border-border p-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                  className="cursor-pointer border border-border p-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -1023,10 +1022,10 @@ export function ExtractView() {
               <button
                 key={painting.id}
                 onClick={() => setModalPainting(painting)}
-                className="group flex cursor-pointer flex-col justify-start rounded-xl border border-border bg-card p-3 text-left transition-colors hover:border-muted-foreground/30"
+                className="group flex cursor-pointer flex-col justify-start border border-border bg-card p-3 text-left transition-colors hover:border-muted-foreground/30"
               >
                 {/* Thumbnail */}
-                <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-muted">
+                <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                   <Image
                     src={painting.image}
                     alt={painting.title}

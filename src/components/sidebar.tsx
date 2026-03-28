@@ -42,7 +42,7 @@ export function Sidebar() {
                     <li key={movement.id}>
                       <Link
                         href={`/movement/${movement.slug}`}
-                        className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${isActive
+                        className={`block px-3 py-1.5 text-sm transition-colors ${isActive
                           ? "bg-accent text-accent-foreground font-medium"
                           : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
                           }`}
@@ -73,7 +73,7 @@ export function MobileNav() {
     <div className="lg:hidden">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 rounded-md border border-border px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-accent"
+        className="flex items-center gap-2 border border-border px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-accent"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ export function MobileNav() {
                         <Link
                           href={`/movement/${movement.slug}`}
                           onClick={() => setOpen(false)}
-                          className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${isActive
+                          className={`block px-3 py-1.5 text-sm transition-colors ${isActive
                             ? "bg-accent text-accent-foreground font-medium"
                             : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
                             }`}

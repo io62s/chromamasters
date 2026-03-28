@@ -32,25 +32,22 @@ export function Header() {
         <nav className="hidden items-center gap-6 md:flex">
           <Link
             href="/"
-            className={`text-sm transition-colors hover:text-foreground ${
-              pathname === "/" ? "text-foreground font-medium" : "text-muted-foreground"
-            }`}
+            className={`text-sm transition-colors hover:text-foreground ${pathname === "/" ? "text-foreground font-medium" : "text-muted-foreground"
+              }`}
           >
             Home
           </Link>
           <Link
             href="/movements"
-            className={`text-sm transition-colors hover:text-foreground ${
-              pathname === "/movements" || pathname.startsWith("/movement/") ? "text-foreground font-medium" : "text-muted-foreground"
-            }`}
+            className={`text-sm transition-colors hover:text-foreground ${pathname === "/movements" || pathname.startsWith("/movement/") ? "text-foreground font-medium" : "text-muted-foreground"
+              }`}
           >
             Movements
           </Link>
           <Link
             href="/paintings"
-            className={`text-sm transition-colors hover:text-foreground ${
-              pathname === "/paintings" ? "text-foreground font-medium" : "text-muted-foreground"
-            }`}
+            className={`text-sm transition-colors hover:text-foreground ${pathname === "/paintings" ? "text-foreground font-medium" : "text-muted-foreground"
+              }`}
           >
             All Paintings
           </Link>
@@ -62,18 +59,18 @@ export function Header() {
           <ThemeToggle />
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-accent"
+            className=" p-2 text-muted-foreground transition-colors hover:bg-accent"
             aria-label="Toggle menu"
           >
-          {mobileOpen ? (
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-          ) : (
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
-            </svg>
-          )}
+            {mobileOpen ? (
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            )}
           </button>
         </div>
       </div>
@@ -85,21 +82,21 @@ export function Header() {
             <Link
               href="/"
               onClick={() => setMobileOpen(false)}
-              className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
+              className="block px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
             >
               Home
             </Link>
             <Link
               href="/movements"
               onClick={() => setMobileOpen(false)}
-              className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
+              className="block px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
             >
               Movements
             </Link>
             <Link
               href="/paintings"
               onClick={() => setMobileOpen(false)}
-              className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
+              className="block px-3 py-2 text-sm text-muted-foreground hover:bg-accent hover:text-foreground"
             >
               All Paintings
             </Link>
@@ -114,11 +111,10 @@ export function Header() {
                     key={movement.id}
                     href={`/movement/${movement.slug}`}
                     onClick={() => setMobileOpen(false)}
-                    className={`block rounded-md px-3 py-1.5 text-sm transition-colors ${
-                      pathname === `/movement/${movement.slug}`
+                    className={`block px-3 py-1.5 text-sm transition-colors ${pathname === `/movement/${movement.slug}`
                         ? "bg-accent text-accent-foreground font-medium"
                         : "text-muted-foreground hover:bg-accent/50 hover:text-foreground"
-                    }`}
+                      }`}
                   >
                     {movement.name}
                   </Link>

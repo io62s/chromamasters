@@ -95,7 +95,7 @@ export function AllPaintingsView({
         <select
           value={periodFilter}
           onChange={(e) => updateParam("period", e.target.value)}
-          className="rounded-md border border-border bg-background px-3 py-1.5 text-sm text-foreground"
+          className=" border border-border bg-background px-3 py-1.5 text-sm text-foreground"
         >
           <option value="all">All Periods</option>
           {periods.map((p) => (
@@ -108,7 +108,7 @@ export function AllPaintingsView({
         <select
           value={movementFilter}
           onChange={(e) => updateParam("movement", e.target.value)}
-          className="rounded-md border border-border bg-background px-3 py-1.5 text-sm text-foreground"
+          className=" border border-border bg-background px-3 py-1.5 text-sm text-foreground"
         >
           <option value="all">All Movements</option>
           {filteredMovements.map((m) => (
@@ -121,7 +121,7 @@ export function AllPaintingsView({
         <select
           value={sortBy}
           onChange={(e) => updateParam("sort", e.target.value)}
-          className="rounded-md border border-border bg-background px-3 py-1.5 text-sm text-foreground"
+          className=" border border-border bg-background px-3 py-1.5 text-sm text-foreground"
         >
           <option value="year-asc">Year (Oldest)</option>
           <option value="year-desc">Year (Newest)</option>
