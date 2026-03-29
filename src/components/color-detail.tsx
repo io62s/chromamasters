@@ -22,7 +22,7 @@ function CopyRow({ label, value }: { label: string; value: string }) {
           });
         });
       }}
-      className="group/copy flex w-full cursor-pointer items-center gap-1.5 rounded px-1.5 py-0.5 text-left transition-colors hover:bg-accent"
+      className="group/copy flex w-full cursor-pointer items-center gap-1.5 px-1.5 py-0.5 text-left transition-colors hover:bg-accent"
       title={`Copy ${label}: ${value}`}
     >
       <span className="font-medium text-foreground">{label}</span>
@@ -74,8 +74,8 @@ export function ColorDetail({ color, className = "", onEyedropper, eyedropperAct
             onClick={onEyedropper}
             title={eyedropperActive ? "Cancel eyedropper" : "Pick color from image"}
             className={`cursor-pointer  border p-1.5 text-xs transition-colors ${eyedropperActive
-                ? "border-foreground bg-foreground text-background"
-                : "border-border text-muted-foreground hover:bg-accent hover:text-foreground"
+              ? "border-foreground bg-foreground text-background"
+              : "border-border text-muted-foreground hover:bg-accent hover:text-foreground"
               }`}
           >
             <svg

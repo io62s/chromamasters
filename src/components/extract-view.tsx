@@ -727,8 +727,8 @@ export function ExtractView() {
           <div
             ref={imageContainerRef}
             className={`relative overflow-hidden bg-muted ${eyedropperActive ? "cursor-crosshair" :
-                refineState === "selecting" ? "cursor-crosshair" :
-                  refineState === "done" ? "cursor-crosshair" : ""
+              refineState === "selecting" ? "cursor-crosshair" :
+                refineState === "done" ? "cursor-crosshair" : ""
               }`}
             onMouseDown={handleImageMouseDown}
             onMouseMove={handleImageMouseMove}
@@ -1044,7 +1044,7 @@ export function ExtractView() {
                 </p>
 
                 {/* Painting palette strip */}
-                <div className="mt-2 flex overflow-hidden rounded">
+                <div className="mt-2 flex overflow-hidden">
                   {painting.colors.map((c, i) => (
                     <div
                       key={i}
@@ -1055,7 +1055,7 @@ export function ExtractView() {
                 </div>
 
                 {/* Your palette strip for comparison */}
-                <div className="mt-0.5 flex overflow-hidden rounded">
+                <div className="mt-0.5 flex overflow-hidden">
                   {extractedColors.map((c, i) => (
                     <div
                       key={i}
