@@ -677,7 +677,7 @@ export function ExtractView() {
       <div
         onDrop={handleDrop}
         onDragOver={(e) => e.preventDefault()}
-        className="flex min-h-[400px] cursor-pointer flex-col items-center justify-center border-2 border-dashed border-border transition-colors hover:border-muted-foreground/50"
+        className="flex min-h-[400px] cursor-pointer flex-col items-center justify-center border-2 border-dashed border-border transition-colors hover:border-muted-foreground/50 bg-card"
         onClick={() => document.getElementById("file-input")?.click()}
       >
         <input
