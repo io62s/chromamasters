@@ -27,7 +27,7 @@ export function ThemeToggle() {
       className="cursor-pointer p-2 text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
       aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
     >
-      {dark ? (
+      {!dark ? (
         // Sun icon
         <svg
           xmlns="http://www.w3.org/2000/svg"
